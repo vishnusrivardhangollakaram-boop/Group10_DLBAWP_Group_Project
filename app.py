@@ -56,7 +56,7 @@ COMPANY_URL = "https://karavadi.in/"
 # Fine-tuned in Notebook 1 and uploaded to Hugging Face (change here if the repository name changes).
 CLASSIFIER_MODEL_NAME = "VishnuGollakaram/legalcheck-india-validity"
 # Selected in Notebook 2 (best pass rate for its runtime on the drafting test cases).
-DRAFT_MODEL_NAME = "Qwen/Qwen2.5-0.5B-Instruct"
+DRAFT_MODEL_NAME = "Qwen/Qwen3-0.6B"
 DEFAULT_CPU_THREADS = 2                      # Streamlit Community Cloud gives each app about 2 CPU cores
 STREAM_TIMEOUT_SECONDS = 240
 LOGGER = logging.getLogger(APP_NAME)
@@ -72,8 +72,8 @@ EXAMPLE_NARRATIVES = {
                                      "left the flat in good condition."),
     "Friend's wedding (not valid)": ("My college friend did not invite me to his wedding last month and I feel "
                                      "insulted. I want to take action against him."),
-    "Lost cricket bet (not valid)": ("I lost a bet of Rs 10,000 with my roommate on the IPL final. I want the court "
-                                     "to make him return my money."),
+    "Haircut joke (not valid)": ("My friend did not like my new haircut and laughed at it in front of our classmates. "
+                                 "I feel embarrassed and want to take action."),
 }
 
 PAGE_CSS = """
@@ -153,7 +153,7 @@ def load_generator(model_name):
     """Load Pipeline 2 (pre-trained text-generation) once per server, on first VALID case."""
     torch.set_num_threads(DEFAULT_CPU_THREADS)
     start_time = time.perf_counter()
-    generator = pipeline(task="text-generation", model=model_name, device=-1, torch_dtype=torch.float32)
+    generator = pipeline(task="text-generation", model=model_name, device=-1, torch_dtype=torch.bfloat16)  # half the memory of float32
     LOGGER.info(f"Generator loaded in {time.perf_counter() - start_time:.2f} s")
     return generator
 

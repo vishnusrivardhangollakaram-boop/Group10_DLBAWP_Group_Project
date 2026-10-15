@@ -99,6 +99,7 @@ def clean_generated_body(raw_text):
     """Remove empty thinking blocks, markdown symbols and extra blank lines from the generated body."""
     text = re.sub(pattern=r"<think>.*?</think>", repl="", string=raw_text or "", flags=re.DOTALL)
     text = text.replace("**", "").replace("##", "").replace("```", "")
+    text = re.sub(pattern=r"^\s*preliminary complaint\s*\n", repl="", string=text.strip(), flags=re.IGNORECASE)  # template adds its own title
     text = re.sub(pattern=r"\n{3,}", repl="\n\n", string=text)
     return text.strip()
 
