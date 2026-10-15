@@ -1,0 +1,1009 @@
+sample_id,text,label,label_name,family
+test_0000,"Madam, Divya ended our relationship in January and blocked me on Facebook. Can I sue her for hurting my feelings? What can I do?",0,NOT_VALID,breakup
+test_0001,"Good morning. Two of my friends, both foreign nationals, argued over a parking spot in Tokyo last Monday. Nothing happened in India. Please guide me.",0,NOT_VALID,foreign_matter
+test_0002,"Good morning. Rekha won Rs 8,000 from me in a bet on the elections. Now I want to recover it legally. Please guide me.",0,NOT_VALID,lost_bet
+test_0003,"Madam, I vacated my rented flat in Bhopal on 14 August 2025. The landlord is refusing to return my security deposit of Rs 8,000 though I left the flat in good condition. I want justice.",1,VALID,deposit_not_returned
+test_0004,"Please help. I lost a bet of Rs 75,000 with Karthik on a cricket match. I want the court to force him to return my bet money. Is this a case?",0,NOT_VALID,lost_bet
+test_0005,"Sir, I paid Rs 75,000 to an online seller on Instagram for a phone last Monday. He blocked me and never delivered anything. Can I take legal action?",1,VALID,online_shopping_fraud
+test_0006,Good morning. The auto driver in Bengaluru charged the meter fare in January. I wanted him to reduce it but he refused. Is there any remedy?,0,NOT_VALID,discount_refused
+test_0007,Good morning. The auto driver in Pune charged the meter fare last Monday. I wanted him to reduce it but he refused. Is there any remedy?,0,NOT_VALID,discount_refused
+test_0008,My husband left me and our two children in December last year and refuses to give any money for food and school fees. He earns well in Visakhapatnam. Please guide me.,1,VALID,maintenance_refused
+test_0009,My classmate Gopal painted his own house bright pink in January. I do not like the colour. Can I stop him? Is this a case?,0,NOT_VALID,paint_colour
+test_0010,"I need advice. I paid Rs 8,000 to an online seller on Facebook for a phone two weeks ago. He blocked me and never delivered anything. What can I do?",1,VALID,online_shopping_fraud
+test_0011,I need advice. My neighbour Arjun painted his own house bright pink last Monday. I do not like the colour. Can I stop him? Please guide me.,0,NOT_VALID,paint_colour
+test_0012,Good morning. A shop in Mumbai refused to give me a discount on a shirt in December last year. The price was clearly marked and I chose to pay it. Is this a case?,0,NOT_VALID,discount_refused
+test_0013,"Good morning. A seller on Telegram took Rs 25,000 as advance for furniture three days ago and stopped responding. No product came to my house in Kochi. I want justice.",1,VALID,online_shopping_fraud
+test_0014,"Please help. I paid Rs 60,000 to an online seller on WhatsApp for a phone three days ago. He blocked me and never delivered anything. What can I do?",1,VALID,online_shopping_fraud
+test_0015,Please help. I am a British citizen living in Dubai. My British neighbour there played loud music three days ago. Can an Indian court act? Is this a case?,0,NOT_VALID,foreign_matter
+test_0016,"I need advice. I paid Rs 1,20,000 to an online seller on WhatsApp for a phone in December last year. He blocked me and never delivered anything. Please guide me.",1,VALID,online_shopping_fraud
+test_0017,"Hello, Can you suggest a good laptop under Rs 5,000 for college? Please guide me.",0,NOT_VALID,general_question
+test_0018,"Please help. Some people entered my farm near Chennai two weeks ago, cut my mango trees and took the wood. What can I do?",1,VALID,trespass_damage
+test_0019,"Please help. I vacated my rented flat in Chennai on 9 September 2025. The landlord is refusing to return my security deposit of Rs 8,000 though I left the flat in good condition. I want justice.",1,VALID,deposit_not_returned
+test_0020,Please help. My neighbour Imran entered my house in Chennai without permission three days ago and broke my furniture.,1,VALID,trespass_damage
+test_0021,Please help. My husband left me and our two children three days ago and refuses to give any money for food and school fees. He earns well in Guntur. I want justice.,1,VALID,maintenance_refused
+test_0022,"Hello, My classmate Mohammed entered my house in Visakhapatnam without permission three days ago and broke my furniture. Can I take legal action?",1,VALID,trespass_damage
+test_0023,I need advice. I am a British citizen living in Dubai. My British neighbour there played loud music on 22 June 2025. Can an Indian court act? Should I go to court?,0,NOT_VALID,foreign_matter
+test_0024,"Hello, I lent Rs 2,50,000 to Deepa in Visakhapatnam. The cheque he issued to repay me was dishonoured by the bank three days ago. I want justice.",1,VALID,cheque_bounce
+test_0025,I need advice. The neighbour in Lucknow planted flowers in his own garden that I find ugly. What can I do?,0,NOT_VALID,paint_colour
+test_0026,"Madam, I lost a bet of Rs 75,000 with Vikram on a cricket match. I want the court to force him to return my bet money. Please guide me.",0,NOT_VALID,lost_bet
+test_0027,"Hello, A shop in Indore refused to give me a discount on a shirt on 3 March 2025. The price was clearly marked and I chose to pay it. Is this a case?",0,NOT_VALID,discount_refused
+test_0028,Please help. My girlfriend broke up with me three days ago because she likes someone else. I want to take action against her. I want justice.,0,NOT_VALID,breakup
+test_0029,I need advice. A shop in Delhi refused to give me a discount on a shirt three days ago. The price was clearly marked and I chose to pay it. Is this a case?,0,NOT_VALID,discount_refused
+test_0030,"I need advice. A seller on Facebook took Rs 3,00,000 as advance for furniture three days ago and stopped responding. No product came to my house in Kochi. Is there any remedy?",1,VALID,online_shopping_fraud
+test_0031,Please help. My husband left me and our two children two weeks ago and refuses to give any money for food and school fees. He earns well in Vijayawada. Please guide me.,1,VALID,maintenance_refused
+test_0032,"Please help. Harish won Rs 5,000 from me in a bet on the elections. Now I want to recover it legally. Please guide me.",0,NOT_VALID,lost_bet
+test_0033,"Sir, My girlfriend broke up with me in December last year because she likes someone else. I want to take action against her. Is there any remedy?",0,NOT_VALID,breakup
+test_0034,"Madam, I paid Rs 8,000 to an online seller on Telegram for a phone two weeks ago. He blocked me and never delivered anything. Should I go to court?",1,VALID,online_shopping_fraud
+test_0035,"Madam, Anjali ended our relationship on 3 March 2025 and blocked me on WhatsApp. Can I sue her for hurting my feelings? Please guide me.",0,NOT_VALID,breakup
+test_0036,"Some people entered my farm near Delhi on 14 August 2025, cut my mango trees and took the wood. Is there any remedy?",1,VALID,trespass_damage
+test_0037,My girlfriend broke up with me on 14 August 2025 because she likes someone else. I want to take action against her. Should I go to court?,0,NOT_VALID,breakup
+test_0038,"Hello, Can you suggest a good laptop under Rs 60,000 for college? Is this a case?",0,NOT_VALID,general_question
+test_0039,"Madam, I am a British citizen living in Dubai. My British neighbour there played loud music on 3 March 2025. Can an Indian court act?",0,NOT_VALID,foreign_matter
+test_0040,"Madam, How do I cook a good biryani at home for guests?",0,NOT_VALID,general_question
+test_0041,"Madam, How do I cook a good biryani at home for guests? Is this a case?",0,NOT_VALID,general_question
+test_0042,"I need advice. Naveen won Rs 25,000 from me in a bet on the elections. Now I want to recover it legally. Is this a case?",0,NOT_VALID,lost_bet
+test_0043,"Madam, My landlord Rekha kept my Rs 2,50,000 rental deposit after I moved out last month and gives no reason. Is this a case?",1,VALID,deposit_not_returned
+test_0044,"Some people entered my farm near Jaipur on 9 September 2025, cut my mango trees and took the wood. Please guide me.",1,VALID,trespass_damage
+test_0045,"Sir, Some people entered my farm near Hyderabad in December last year, cut my mango trees and took the wood. What can I do?",1,VALID,trespass_damage
+test_0046,"Madam, Some people entered my farm near Indore on 22 June 2025, cut my mango trees and took the wood. What can I do?",1,VALID,trespass_damage
+test_0047,"Good morning. A seller on Instagram took Rs 2,50,000 as advance for furniture in January and stopped responding. No product came to my house in Hyderabad. Should I go to court?",1,VALID,online_shopping_fraud
+test_0048,"Sir, My colleague Gopal gave me a cheque of Rs 40,000 to repay a loan and it bounced last Monday for insufficient funds. He refuses to pay.",1,VALID,cheque_bounce
+test_0049,"Hello, Sneha won Rs 60,000 from me in a bet on the elections. Now I want to recover it legally. Is there any remedy?",0,NOT_VALID,lost_bet
+test_0050,"Good morning. My brother-in-law Arjun gave me a cheque of Rs 40,000 to repay a loan and it bounced on 22 June 2025 for insufficient funds. He refuses to pay.",1,VALID,cheque_bounce
+test_0051,"Madam, My landlord Fatima kept my Rs 1,20,000 rental deposit after I moved out in December last year and gives no reason. Is there any remedy?",1,VALID,deposit_not_returned
+test_0052,"Hello, A shop in Bhopal refused to give me a discount on a shirt three days ago. The price was clearly marked and I chose to pay it. Can I take legal action?",0,NOT_VALID,discount_refused
+test_0053,"Madam, Lakshmi won Rs 60,000 from me in a bet on the elections. Now I want to recover it legally. Is there any remedy?",0,NOT_VALID,lost_bet
+test_0054,"Hello, My husband left me and our two children on 3 March 2025 and refuses to give any money for food and school fees. He earns well in Lucknow. Is this a case?",1,VALID,maintenance_refused
+test_0055,"Hello, My classmate Rekha painted his own house bright pink in December last year. I do not like the colour. Can I stop him? Is this a case?",0,NOT_VALID,paint_colour
+test_0056,"Madam, My landlord Sanjay kept my Rs 8,000 rental deposit after I moved out in January and gives no reason. What can I do?",1,VALID,deposit_not_returned
+test_0057,After separation my husband stopped supporting our child. He has a good job in Ahmedabad but gives nothing. Can I take legal action?,1,VALID,maintenance_refused
+test_0058,"Hello, I lost a bet of Rs 60,000 with Pooja on a cricket match. I want the court to force him to return my bet money. What can I do?",0,NOT_VALID,lost_bet
+test_0059,"Hello, The neighbour in Indore planted flowers in his own garden that I find ugly. Should I go to court?",0,NOT_VALID,paint_colour
+test_0060,"Sir, I am a British citizen living in Sydney. My British neighbour there played loud music in January. Can an Indian court act? Can I take legal action?",0,NOT_VALID,foreign_matter
+test_0061,"Hello, A rash bus driver hit my son on the road in Vijayawada on 14 August 2025. He was badly hurt. Is there any remedy?",1,VALID,road_accident
+test_0062,My girlfriend broke up with me three days ago because she likes someone else. I want to take action against her. I want justice.,0,NOT_VALID,breakup
+test_0063,"Sir, A rash bus driver hit my son on the road in Guntur three days ago. He was badly hurt. I want justice.",1,VALID,road_accident
+test_0064,Please help. Which is the best tourist place to visit in Delhi in winter? Please guide me.,0,NOT_VALID,general_question
+test_0065,"Sir, My friend Deepa entered my house in Kolkata without permission two weeks ago and broke my furniture.",1,VALID,trespass_damage
+test_0066,"Hello, I am a British citizen living in New York. My British neighbour there played loud music three days ago. Can an Indian court act? I want justice.",0,NOT_VALID,foreign_matter
+test_0067,"Madam, My husband left me and our two children in December last year and refuses to give any money for food and school fees. He earns well in Kolkata. Please guide me.",1,VALID,maintenance_refused
+test_0068,Please help. My colleague Harish painted his own house bright pink on 9 September 2025. I do not like the colour. Can I stop him? What can I do?,0,NOT_VALID,paint_colour
+test_0069,"Sir, Some people entered my farm near Lucknow three days ago, cut my mango trees and took the wood.",1,VALID,trespass_damage
+test_0070,"Can you suggest a good laptop under Rs 40,000 for college? Can I take legal action?",0,NOT_VALID,general_question
+test_0071,I need advice. How do I cook a good biryani at home for guests? Can I take legal action?,0,NOT_VALID,general_question
+test_0072,"Please help. I vacated my rented flat in Guntur on 22 June 2025. The landlord is refusing to return my security deposit of Rs 75,000 though I left the flat in good condition. What can I do?",1,VALID,deposit_not_returned
+test_0073,"Hello, Kavya ended our relationship on 22 June 2025 and blocked me on WhatsApp. Can I sue her for hurting my feelings? I want justice.",0,NOT_VALID,breakup
+test_0074,"Sir, I lent Rs 12,500 to Asha in Kochi. The cheque he issued to repay me was dishonoured by the bank on 9 September 2025. Please guide me.",1,VALID,cheque_bounce
+test_0075,"Hello, My husband left me and our two children on 22 June 2025 and refuses to give any money for food and school fees. He earns well in Visakhapatnam. I want justice.",1,VALID,maintenance_refused
+test_0076,"Sir, A seller on Instagram took Rs 5,000 as advance for furniture two weeks ago and stopped responding. No product came to my house in Delhi. Can I take legal action?",1,VALID,online_shopping_fraud
+test_0077,"Hello, I paid Rs 1,20,000 to an online seller on Telegram for a phone two weeks ago. He blocked me and never delivered anything. Can I take legal action?",1,VALID,online_shopping_fraud
+test_0078,"Sir, My landlord Anil kept my Rs 40,000 rental deposit after I moved out two weeks ago and gives no reason. I want justice.",1,VALID,deposit_not_returned
+test_0079,I need advice. How do I cook a good biryani at home for guests? Should I go to court?,0,NOT_VALID,general_question
+test_0080,My brother-in-law Ramesh entered my house in Patna without permission two weeks ago and broke my furniture. Should I go to court?,1,VALID,trespass_damage
+test_0081,"Good morning. A seller on Facebook took Rs 60,000 as advance for furniture on 22 June 2025 and stopped responding. No product came to my house in Vijayawada. Should I go to court?",1,VALID,online_shopping_fraud
+test_0082,"I need advice. A seller on Instagram took Rs 5,000 as advance for furniture on 14 August 2025 and stopped responding. No product came to my house in Pune. Please guide me.",1,VALID,online_shopping_fraud
+test_0083,My colleague Harish painted his own house bright pink on 14 August 2025. I do not like the colour. Can I stop him? Is this a case?,0,NOT_VALID,paint_colour
+test_0084,"Hello, My husband left me and our two children last month and refuses to give any money for food and school fees. He earns well in Nagpur. Should I go to court?",1,VALID,maintenance_refused
+test_0085,I need advice. A car hit my scooter from behind in Chennai on 9 September 2025 and the driver ran away. I fractured my leg. I noted the number plate. Please guide me.,1,VALID,road_accident
+test_0086,"Hello, How do I cook a good biryani at home for guests? Is there any remedy?",0,NOT_VALID,general_question
+test_0087,A rash bus driver hit my son on the road in Mumbai in December last year. He was badly hurt. What can I do?,1,VALID,road_accident
+test_0088,"Sir, A rash bus driver hit my son on the road in Chennai last month. He was badly hurt. Is this a case?",1,VALID,road_accident
+test_0089,"Hello, I lost a bet of Rs 40,000 with Naveen on a cricket match. I want the court to force him to return my bet money. What can I do?",0,NOT_VALID,lost_bet
+test_0090,"Madam, Can you suggest a good laptop under Rs 8,000 for college? Please guide me.",0,NOT_VALID,general_question
+test_0091,"Madam, My husband left me and our two children on 9 September 2025 and refuses to give any money for food and school fees. He earns well in Ahmedabad. Please guide me.",1,VALID,maintenance_refused
+test_0092,"I paid Rs 25,000 to an online seller on Facebook for a phone last Monday. He blocked me and never delivered anything. What can I do?",1,VALID,online_shopping_fraud
+test_0093,Please help. My girlfriend broke up with me last Monday because she likes someone else. I want to take action against her. Please guide me.,0,NOT_VALID,breakup
+test_0094,"Sir, I paid Rs 1,20,000 to an online seller on Facebook for a phone on 14 August 2025. He blocked me and never delivered anything. I want justice.",1,VALID,online_shopping_fraud
+test_0095,"Sir, Arjun won Rs 2,50,000 from me in a bet on the elections. Now I want to recover it legally. Should I go to court?",0,NOT_VALID,lost_bet
+test_0096,"Good morning. I vacated my rented flat in Lucknow last month. The landlord is refusing to return my security deposit of Rs 75,000 though I left the flat in good condition. Is there any remedy?",1,VALID,deposit_not_returned
+test_0097,"Hello, The neighbour in Indore planted flowers in his own garden that I find ugly. What can I do?",0,NOT_VALID,paint_colour
+test_0098,"Please help. Two of my friends, both foreign nationals, argued over a parking spot in London on 14 August 2025. Nothing happened in India.",0,NOT_VALID,foreign_matter
+test_0099,"Good morning. My flatmate Fatima gave me a cheque of Rs 3,00,000 to repay a loan and it bounced on 22 June 2025 for insufficient funds. He refuses to pay. What can I do?",1,VALID,cheque_bounce
+test_0100,"Hello, Sanjay ended our relationship in December last year and blocked me on Facebook. Can I sue her for hurting my feelings? What can I do?",0,NOT_VALID,breakup
+test_0101,"Please help. Can you suggest a good laptop under Rs 2,50,000 for college? I want justice.",0,NOT_VALID,general_question
+test_0102,After separation my husband stopped supporting our child. He has a good job in Chennai but gives nothing. Can I take legal action?,1,VALID,maintenance_refused
+test_0103,"Sir, My landlord Farah kept my Rs 1,20,000 rental deposit after I moved out in January and gives no reason.",1,VALID,deposit_not_returned
+test_0104,I need advice. After separation my husband stopped supporting our child. He has a good job in Bhopal but gives nothing. Please guide me.,1,VALID,maintenance_refused
+test_0105,"Sir, A seller on Telegram took Rs 12,500 as advance for furniture on 22 June 2025 and stopped responding. No product came to my house in Bhopal.",1,VALID,online_shopping_fraud
+test_0106,Please help. A shop in Vijayawada refused to give me a discount on a shirt on 3 March 2025. The price was clearly marked and I chose to pay it. Please guide me.,0,NOT_VALID,discount_refused
+test_0107,"Madam, My neighbour Anil painted his own house bright pink last month. I do not like the colour. Can I stop him? Please guide me.",0,NOT_VALID,paint_colour
+test_0108,"Madam, My friend Gopal entered my house in Nagpur without permission in December last year and broke my furniture. Is there any remedy?",1,VALID,trespass_damage
+test_0109,"My colleague Ravi gave me a cheque of Rs 2,50,000 to repay a loan and it bounced on 9 September 2025 for insufficient funds. He refuses to pay. I want justice.",1,VALID,cheque_bounce
+test_0110,A car hit my scooter from behind in Hyderabad on 22 June 2025 and the driver ran away. I fractured my leg. I noted the number plate. Can I take legal action?,1,VALID,road_accident
+test_0111,"My colleague Karthik gave me a cheque of Rs 8,000 to repay a loan and it bounced two weeks ago for insufficient funds. He refuses to pay. What can I do?",1,VALID,cheque_bounce
+test_0112,Please help. My classmate Neha entered my house in Pune without permission in December last year and broke my furniture. What can I do?,1,VALID,trespass_damage
+test_0113,"Please help. Some people entered my farm near Mumbai two weeks ago, cut my mango trees and took the wood. Can I take legal action?",1,VALID,trespass_damage
+test_0114,"I need advice. I lent Rs 3,00,000 to Asha in Visakhapatnam. The cheque he issued to repay me was dishonoured by the bank two weeks ago. I want justice.",1,VALID,cheque_bounce
+test_0115,"Please help. A seller on Telegram took Rs 12,500 as advance for furniture in January and stopped responding. No product came to my house in Indore.",1,VALID,online_shopping_fraud
+test_0116,Please help. A shop in Kolkata refused to give me a discount on a shirt three days ago. The price was clearly marked and I chose to pay it. What can I do?,0,NOT_VALID,discount_refused
+test_0117,"Madam, Two of my friends, both foreign nationals, argued over a parking spot in Berlin last month. Nothing happened in India. What can I do?",0,NOT_VALID,foreign_matter
+test_0118,"Hello, My landlord Suresh kept my Rs 25,000 rental deposit after I moved out last Monday and gives no reason. Please guide me.",1,VALID,deposit_not_returned
+test_0119,"Madam, My neighbour Arjun gave me a cheque of Rs 75,000 to repay a loan and it bounced on 3 March 2025 for insufficient funds. He refuses to pay. Is this a case?",1,VALID,cheque_bounce
+test_0120,"Madam, I lost a bet of Rs 25,000 with Lakshmi on a cricket match. I want the court to force him to return my bet money.",0,NOT_VALID,lost_bet
+test_0121,"Sir, My brother-in-law Kavya entered my house in Guntur without permission last Monday and broke my furniture.",1,VALID,trespass_damage
+test_0122,"I lost a bet of Rs 12,500 with Sunita on a cricket match. I want the court to force him to return my bet money. Is this a case?",0,NOT_VALID,lost_bet
+test_0123,"Hello, After separation my husband stopped supporting our child. He has a good job in Bhopal but gives nothing. Should I go to court?",1,VALID,maintenance_refused
+test_0124,"Good morning. I vacated my rented flat in Bhopal two weeks ago. The landlord is refusing to return my security deposit of Rs 12,500 though I left the flat in good condition. Can I take legal action?",1,VALID,deposit_not_returned
+test_0125,"Hello, Kavya won Rs 5,000 from me in a bet on the elections. Now I want to recover it legally. I want justice.",0,NOT_VALID,lost_bet
+test_0126,Please help. My colleague Rahul painted his own house bright pink in December last year. I do not like the colour. Can I stop him?,0,NOT_VALID,paint_colour
+test_0127,I am a British citizen living in Toronto. My British neighbour there played loud music on 14 August 2025. Can an Indian court act? Should I go to court?,0,NOT_VALID,foreign_matter
+test_0128,"Hello, Some people entered my farm near Indore last Monday, cut my mango trees and took the wood. Should I go to court?",1,VALID,trespass_damage
+test_0129,A shop in Indore refused to give me a discount on a shirt in January. The price was clearly marked and I chose to pay it. Is there any remedy?,0,NOT_VALID,discount_refused
+test_0130,Please help. My flatmate Vikram entered my house in Guntur without permission three days ago and broke my furniture. Please guide me.,1,VALID,trespass_damage
+test_0131,"Hello, My landlord Rekha kept my Rs 12,500 rental deposit after I moved out in January and gives no reason. Should I go to court?",1,VALID,deposit_not_returned
+test_0132,"Sir, The auto driver in Guntur charged the meter fare last month. I wanted him to reduce it but he refused. What can I do?",0,NOT_VALID,discount_refused
+test_0133,"Hello, My colleague Farah painted his own house bright pink in December last year. I do not like the colour. Can I stop him? Is there any remedy?",0,NOT_VALID,paint_colour
+test_0134,"Hello, Some people entered my farm near Patna on 14 August 2025, cut my mango trees and took the wood. Should I go to court?",1,VALID,trespass_damage
+test_0135,"Hello, A seller on Facebook took Rs 3,00,000 as advance for furniture two weeks ago and stopped responding. No product came to my house in Ahmedabad. Can I take legal action?",1,VALID,online_shopping_fraud
+test_0136,"Madam, The neighbour in Kolkata planted flowers in his own garden that I find ugly. Can I take legal action?",0,NOT_VALID,paint_colour
+test_0137,"Hello, A shop in Guntur refused to give me a discount on a shirt three days ago. The price was clearly marked and I chose to pay it. What can I do?",0,NOT_VALID,discount_refused
+test_0138,Please help. A rash bus driver hit my son on the road in Mumbai on 9 September 2025. He was badly hurt. Is there any remedy?,1,VALID,road_accident
+test_0139,"Madam, Joseph ended our relationship in December last year and blocked me on Facebook. Can I sue her for hurting my feelings?",0,NOT_VALID,breakup
+test_0140,I need advice. I am a British citizen living in New York. My British neighbour there played loud music two weeks ago. Can an Indian court act? Can I take legal action?,0,NOT_VALID,foreign_matter
+test_0141,Please help. A shop in Nagpur refused to give me a discount on a shirt last month. The price was clearly marked and I chose to pay it. What can I do?,0,NOT_VALID,discount_refused
+test_0142,I need advice. Vikram ended our relationship last month and blocked me on Telegram. Can I sue her for hurting my feelings?,0,NOT_VALID,breakup
+test_0143,"Sir, A car hit my scooter from behind in Jaipur on 22 June 2025 and the driver ran away. I fractured my leg. I noted the number plate. Is there any remedy?",1,VALID,road_accident
+test_0144,Good morning. A shop in Jaipur refused to give me a discount on a shirt on 3 March 2025. The price was clearly marked and I chose to pay it. Should I go to court?,0,NOT_VALID,discount_refused
+test_0145,I need advice. My classmate Karthik painted his own house bright pink last month. I do not like the colour. Can I stop him? Should I go to court?,0,NOT_VALID,paint_colour
+test_0146,"Please help. Anil won Rs 5,000 from me in a bet on the elections. Now I want to recover it legally. I want justice.",0,NOT_VALID,lost_bet
+test_0147,"Hello, My husband left me and our two children two weeks ago and refuses to give any money for food and school fees. He earns well in Kochi. What can I do?",1,VALID,maintenance_refused
+test_0148,"Madam, I vacated my rented flat in Lucknow last Monday. The landlord is refusing to return my security deposit of Rs 25,000 though I left the flat in good condition. Is there any remedy?",1,VALID,deposit_not_returned
+test_0149,"Sir, Kavya won Rs 60,000 from me in a bet on the elections. Now I want to recover it legally. Can I take legal action?",0,NOT_VALID,lost_bet
+test_0150,"My landlord Sunita kept my Rs 12,500 rental deposit after I moved out last Monday and gives no reason. Is there any remedy?",1,VALID,deposit_not_returned
+test_0151,"Madam, Can you suggest a good laptop under Rs 2,50,000 for college? What can I do?",0,NOT_VALID,general_question
+test_0152,"Sir, Some people entered my farm near Chennai on 14 August 2025, cut my mango trees and took the wood. Is there any remedy?",1,VALID,trespass_damage
+test_0153,"Please help. Two of my friends, both foreign nationals, argued over a parking spot in Tokyo three days ago. Nothing happened in India. I want justice.",0,NOT_VALID,foreign_matter
+test_0154,"I need advice. I paid Rs 25,000 to an online seller on Facebook for a phone on 3 March 2025. He blocked me and never delivered anything. Should I go to court?",1,VALID,online_shopping_fraud
+test_0155,Good morning. My girlfriend broke up with me last month because she likes someone else. I want to take action against her. I want justice.,0,NOT_VALID,breakup
+test_0156,"Sir, Which is the best tourist place to visit in Vijayawada in winter? Please guide me.",0,NOT_VALID,general_question
+test_0157,Good morning. Which is the best tourist place to visit in Ahmedabad in winter? Is this a case?,0,NOT_VALID,general_question
+test_0158,"Please help. I lost a bet of Rs 1,20,000 with Gopal on a cricket match. I want the court to force him to return my bet money. Can I take legal action?",0,NOT_VALID,lost_bet
+test_0159,"I need advice. I lent Rs 12,500 to Rahul in Pune. The cheque he issued to repay me was dishonoured by the bank in December last year. What can I do?",1,VALID,cheque_bounce
+test_0160,Please help. A shop in Hyderabad refused to give me a discount on a shirt three days ago. The price was clearly marked and I chose to pay it. I want justice.,0,NOT_VALID,discount_refused
+test_0161,Good morning. After separation my husband stopped supporting our child. He has a good job in Patna but gives nothing. Please guide me.,1,VALID,maintenance_refused
+test_0162,"Sir, I paid Rs 2,50,000 to an online seller on WhatsApp for a phone on 9 September 2025. He blocked me and never delivered anything. Can I take legal action?",1,VALID,online_shopping_fraud
+test_0163,Good morning. A car hit my scooter from behind in Kochi in January and the driver ran away. I fractured my leg. I noted the number plate. Is this a case?,1,VALID,road_accident
+test_0164,Good morning. My classmate Mohammed painted his own house bright pink last month. I do not like the colour. Can I stop him? I want justice.,0,NOT_VALID,paint_colour
+test_0165,Please help. I am a British citizen living in Singapore. My British neighbour there played loud music three days ago. Can an Indian court act? Is there any remedy?,0,NOT_VALID,foreign_matter
+test_0166,Please help. A car hit my scooter from behind in Nagpur on 22 June 2025 and the driver ran away. I fractured my leg. I noted the number plate.,1,VALID,road_accident
+test_0167,"Please help. I paid Rs 8,000 to an online seller on X (Twitter) for a phone three days ago. He blocked me and never delivered anything. Can I take legal action?",1,VALID,online_shopping_fraud
+test_0168,Good morning. My husband left me and our two children last month and refuses to give any money for food and school fees. He earns well in Lucknow. What can I do?,1,VALID,maintenance_refused
+test_0169,I need advice. A rash bus driver hit my son on the road in Indore last month. He was badly hurt. I want justice.,1,VALID,road_accident
+test_0170,Which is the best tourist place to visit in Ahmedabad in winter? Please guide me.,0,NOT_VALID,general_question
+test_0171,A car hit my scooter from behind in Kolkata last month and the driver ran away. I fractured my leg. I noted the number plate.,1,VALID,road_accident
+test_0172,After separation my husband stopped supporting our child. He has a good job in Patna but gives nothing. Is this a case?,1,VALID,maintenance_refused
+test_0173,After separation my husband stopped supporting our child. He has a good job in Delhi but gives nothing.,1,VALID,maintenance_refused
+test_0174,I need advice. Farah ended our relationship in December last year and blocked me on Facebook. Can I sue her for hurting my feelings? What can I do?,0,NOT_VALID,breakup
+test_0175,Good morning. Which is the best tourist place to visit in Hyderabad in winter? What can I do?,0,NOT_VALID,general_question
+test_0176,"I need advice. Some people entered my farm near Lucknow three days ago, cut my mango trees and took the wood.",1,VALID,trespass_damage
+test_0177,Please help. Which is the best tourist place to visit in Nagpur in winter? I want justice.,0,NOT_VALID,general_question
+test_0178,A rash bus driver hit my son on the road in Indore three days ago. He was badly hurt. What can I do?,1,VALID,road_accident
+test_0179,How do I cook a good biryani at home for guests? Is this a case?,0,NOT_VALID,general_question
+test_0180,I need advice. My girlfriend broke up with me on 22 June 2025 because she likes someone else. I want to take action against her.,0,NOT_VALID,breakup
+test_0181,"Good morning. Ramesh won Rs 25,000 from me in a bet on the elections. Now I want to recover it legally. Please guide me.",0,NOT_VALID,lost_bet
+test_0182,"Please help. Two of my friends, both foreign nationals, argued over a parking spot in New York in December last year. Nothing happened in India. Is there any remedy?",0,NOT_VALID,foreign_matter
+test_0183,Good morning. I am a British citizen living in London. My British neighbour there played loud music on 22 June 2025. Can an Indian court act? Can I take legal action?,0,NOT_VALID,foreign_matter
+test_0184,Good morning. After separation my husband stopped supporting our child. He has a good job in Delhi but gives nothing. What can I do?,1,VALID,maintenance_refused
+test_0185,"Good morning. I paid Rs 8,000 to an online seller on Instagram for a phone on 3 March 2025. He blocked me and never delivered anything.",1,VALID,online_shopping_fraud
+test_0186,"Sir, Which is the best tourist place to visit in Guntur in winter? Is there any remedy?",0,NOT_VALID,general_question
+test_0187,Please help. The auto driver in Kochi charged the meter fare on 14 August 2025. I wanted him to reduce it but he refused. What can I do?,0,NOT_VALID,discount_refused
+test_0188,"Madam, My flatmate Karthik entered my house in Indore without permission on 3 March 2025 and broke my furniture. Should I go to court?",1,VALID,trespass_damage
+test_0189,Good morning. The neighbour in Nagpur planted flowers in his own garden that I find ugly. Can I take legal action?,0,NOT_VALID,paint_colour
+test_0190,Arjun ended our relationship last Monday and blocked me on WhatsApp. Can I sue her for hurting my feelings? Is this a case?,0,NOT_VALID,breakup
+test_0191,"I paid Rs 3,00,000 to an online seller on WhatsApp for a phone two weeks ago. He blocked me and never delivered anything. Please guide me.",1,VALID,online_shopping_fraud
+test_0192,"Some people entered my farm near Indore on 9 September 2025, cut my mango trees and took the wood. Is there any remedy?",1,VALID,trespass_damage
+test_0193,"Madam, Two of my friends, both foreign nationals, argued over a parking spot in London on 22 June 2025. Nothing happened in India. What can I do?",0,NOT_VALID,foreign_matter
+test_0194,"Hello, I vacated my rented flat in Bhopal on 14 August 2025. The landlord is refusing to return my security deposit of Rs 75,000 though I left the flat in good condition. Is there any remedy?",1,VALID,deposit_not_returned
+test_0195,"I need advice. Some people entered my farm near Mumbai in December last year, cut my mango trees and took the wood. Please guide me.",1,VALID,trespass_damage
+test_0196,How do I cook a good biryani at home for guests? Should I go to court?,0,NOT_VALID,general_question
+test_0197,"Sir, I lent Rs 2,50,000 to Anjali in Patna. The cheque he issued to repay me was dishonoured by the bank on 22 June 2025. What can I do?",1,VALID,cheque_bounce
+test_0198,"I vacated my rented flat in Vijayawada on 14 August 2025. The landlord is refusing to return my security deposit of Rs 60,000 though I left the flat in good condition. Is there any remedy?",1,VALID,deposit_not_returned
+test_0199,"Hello, I lost a bet of Rs 40,000 with Joseph on a cricket match. I want the court to force him to return my bet money. Is there any remedy?",0,NOT_VALID,lost_bet
+test_0200,Good morning. Divya ended our relationship in January and blocked me on Telegram. Can I sue her for hurting my feelings?,0,NOT_VALID,breakup
+test_0201,I need advice. Meena ended our relationship on 14 August 2025 and blocked me on X (Twitter). Can I sue her for hurting my feelings? Should I go to court?,0,NOT_VALID,breakup
+test_0202,"Sir, Joseph won Rs 8,000 from me in a bet on the elections. Now I want to recover it legally. Is this a case?",0,NOT_VALID,lost_bet
+test_0203,"Hello, I am a British citizen living in Berlin. My British neighbour there played loud music last Monday. Can an Indian court act? Can I take legal action?",0,NOT_VALID,foreign_matter
+test_0204,"Sir, I am a British citizen living in London. My British neighbour there played loud music on 3 March 2025. Can an Indian court act? I want justice.",0,NOT_VALID,foreign_matter
+test_0205,"Madam, A shop in Mumbai refused to give me a discount on a shirt on 9 September 2025. The price was clearly marked and I chose to pay it. What can I do?",0,NOT_VALID,discount_refused
+test_0206,I need advice. I am a British citizen living in Sydney. My British neighbour there played loud music on 3 March 2025. Can an Indian court act? Can I take legal action?,0,NOT_VALID,foreign_matter
+test_0207,I need advice. My girlfriend broke up with me on 9 September 2025 because she likes someone else. I want to take action against her. Is there any remedy?,0,NOT_VALID,breakup
+test_0208,"Good morning. My landlord Neha kept my Rs 60,000 rental deposit after I moved out in January and gives no reason. Is this a case?",1,VALID,deposit_not_returned
+test_0209,"Sir, My colleague Harish entered my house in Patna without permission two weeks ago and broke my furniture. Is there any remedy?",1,VALID,trespass_damage
+test_0210,"Hello, I paid Rs 5,000 to an online seller on Instagram for a phone two weeks ago. He blocked me and never delivered anything. I want justice.",1,VALID,online_shopping_fraud
+test_0211,"Madam, I lost a bet of Rs 1,20,000 with Rekha on a cricket match. I want the court to force him to return my bet money. Is there any remedy?",0,NOT_VALID,lost_bet
+test_0212,"Hello, My landlord Anil kept my Rs 5,000 rental deposit after I moved out on 3 March 2025 and gives no reason.",1,VALID,deposit_not_returned
+test_0213,I need advice. Which is the best tourist place to visit in Guntur in winter? I want justice.,0,NOT_VALID,general_question
+test_0214,Please help. My girlfriend broke up with me on 22 June 2025 because she likes someone else. I want to take action against her. What can I do?,0,NOT_VALID,breakup
+test_0215,I need advice. My colleague Arjun entered my house in Guntur without permission in January and broke my furniture. Is there any remedy?,1,VALID,trespass_damage
+test_0216,Please help. A rash bus driver hit my son on the road in Nagpur last month. He was badly hurt. What can I do?,1,VALID,road_accident
+test_0217,"Hello, My neighbour Arjun gave me a cheque of Rs 40,000 to repay a loan and it bounced in January for insufficient funds. He refuses to pay. Is there any remedy?",1,VALID,cheque_bounce
+test_0218,Please help. I am a British citizen living in Toronto. My British neighbour there played loud music on 9 September 2025. Can an Indian court act? What can I do?,0,NOT_VALID,foreign_matter
+test_0219,Good morning. My husband left me and our two children on 3 March 2025 and refuses to give any money for food and school fees. He earns well in Delhi. Is this a case?,1,VALID,maintenance_refused
+test_0220,"Sir, My husband left me and our two children last month and refuses to give any money for food and school fees. He earns well in Guntur.",1,VALID,maintenance_refused
+test_0221,"Madam, My landlord Rekha kept my Rs 25,000 rental deposit after I moved out on 3 March 2025 and gives no reason. What can I do?",1,VALID,deposit_not_returned
+test_0222,"Hello, My landlord Pooja kept my Rs 12,500 rental deposit after I moved out on 3 March 2025 and gives no reason. Is this a case?",1,VALID,deposit_not_returned
+test_0223,"I need advice. My landlord Mohammed kept my Rs 5,000 rental deposit after I moved out on 3 March 2025 and gives no reason.",1,VALID,deposit_not_returned
+test_0224,Please help. I am a British citizen living in New York. My British neighbour there played loud music last Monday. Can an Indian court act? Can I take legal action?,0,NOT_VALID,foreign_matter
+test_0225,Good morning. My brother-in-law Farah painted his own house bright pink on 22 June 2025. I do not like the colour. Can I stop him? Please guide me.,0,NOT_VALID,paint_colour
+test_0226,"Please help. Some people entered my farm near Vijayawada on 14 August 2025, cut my mango trees and took the wood. Can I take legal action?",1,VALID,trespass_damage
+test_0227,"I need advice. Can you suggest a good laptop under Rs 60,000 for college? Should I go to court?",0,NOT_VALID,general_question
+test_0228,"Sir, My girlfriend broke up with me last Monday because she likes someone else. I want to take action against her. I want justice.",0,NOT_VALID,breakup
+test_0229,"Sir, Some people entered my farm near Vijayawada in December last year, cut my mango trees and took the wood. Should I go to court?",1,VALID,trespass_damage
+test_0230,"Sir, I paid Rs 40,000 to an online seller on Facebook for a phone on 14 August 2025. He blocked me and never delivered anything. Should I go to court?",1,VALID,online_shopping_fraud
+test_0231,"I need advice. A seller on Instagram took Rs 5,000 as advance for furniture last month and stopped responding. No product came to my house in Mumbai. Is this a case?",1,VALID,online_shopping_fraud
+test_0232,Good morning. A car hit my scooter from behind in Ahmedabad two weeks ago and the driver ran away. I fractured my leg. I noted the number plate. Can I take legal action?,1,VALID,road_accident
+test_0233,"My landlord Priya kept my Rs 2,50,000 rental deposit after I moved out on 14 August 2025 and gives no reason. Should I go to court?",1,VALID,deposit_not_returned
+test_0234,"Hello, Which is the best tourist place to visit in Mumbai in winter? Please guide me.",0,NOT_VALID,general_question
+test_0235,"Madam, I lost a bet of Rs 60,000 with Ramesh on a cricket match. I want the court to force him to return my bet money. Please guide me.",0,NOT_VALID,lost_bet
+test_0236,"Hello, Some people entered my farm near Ahmedabad on 14 August 2025, cut my mango trees and took the wood. Can I take legal action?",1,VALID,trespass_damage
+test_0237,A shop in Pune refused to give me a discount on a shirt on 22 June 2025. The price was clearly marked and I chose to pay it.,0,NOT_VALID,discount_refused
+test_0238,"Good morning. Can you suggest a good laptop under Rs 40,000 for college? Is this a case?",0,NOT_VALID,general_question
+test_0239,"Sir, Some people entered my farm near Indore on 14 August 2025, cut my mango trees and took the wood. Is this a case?",1,VALID,trespass_damage
+test_0240,"Madam, Pooja won Rs 8,000 from me in a bet on the elections. Now I want to recover it legally. Is this a case?",0,NOT_VALID,lost_bet
+test_0241,"Sir, A car hit my scooter from behind in Hyderabad in December last year and the driver ran away. I fractured my leg. I noted the number plate. Please guide me.",1,VALID,road_accident
+test_0242,"Hello, A seller on Instagram took Rs 12,500 as advance for furniture two weeks ago and stopped responding. No product came to my house in Ahmedabad. What can I do?",1,VALID,online_shopping_fraud
+test_0243,"Sir, Two of my friends, both foreign nationals, argued over a parking spot in Toronto on 14 August 2025. Nothing happened in India. Please guide me.",0,NOT_VALID,foreign_matter
+test_0244,"Hello, A seller on Facebook took Rs 12,500 as advance for furniture in January and stopped responding. No product came to my house in Hyderabad. What can I do?",1,VALID,online_shopping_fraud
+test_0245,My girlfriend broke up with me on 14 August 2025 because she likes someone else. I want to take action against her. What can I do?,0,NOT_VALID,breakup
+test_0246,"Two of my friends, both foreign nationals, argued over a parking spot in Singapore two weeks ago. Nothing happened in India. I want justice.",0,NOT_VALID,foreign_matter
+test_0247,"Please help. I lost a bet of Rs 3,00,000 with Suresh on a cricket match. I want the court to force him to return my bet money. I want justice.",0,NOT_VALID,lost_bet
+test_0248,"Hello, My friend Joseph painted his own house bright pink in December last year. I do not like the colour. Can I stop him? Should I go to court?",0,NOT_VALID,paint_colour
+test_0249,"Hello, My girlfriend broke up with me last month because she likes someone else. I want to take action against her. Is this a case?",0,NOT_VALID,breakup
+test_0250,Good morning. Which is the best tourist place to visit in Bengaluru in winter?,0,NOT_VALID,general_question
+test_0251,"Hello, I paid Rs 75,000 to an online seller on Facebook for a phone on 9 September 2025. He blocked me and never delivered anything. Is this a case?",1,VALID,online_shopping_fraud
+test_0252,"Hello, A car hit my scooter from behind in Jaipur on 3 March 2025 and the driver ran away. I fractured my leg. I noted the number plate. Please guide me.",1,VALID,road_accident
+test_0253,Please help. My husband left me and our two children on 3 March 2025 and refuses to give any money for food and school fees. He earns well in Mumbai. What can I do?,1,VALID,maintenance_refused
+test_0254,"Hello, My girlfriend broke up with me on 14 August 2025 because she likes someone else. I want to take action against her. Is this a case?",0,NOT_VALID,breakup
+test_0255,I need advice. Priya ended our relationship in January and blocked me on Instagram. Can I sue her for hurting my feelings? What can I do?,0,NOT_VALID,breakup
+test_0256,"Hello, The neighbour in Nagpur planted flowers in his own garden that I find ugly. Please guide me.",0,NOT_VALID,paint_colour
+test_0257,Good morning. After separation my husband stopped supporting our child. He has a good job in Kolkata but gives nothing.,1,VALID,maintenance_refused
+test_0258,"Please help. My friend Anil gave me a cheque of Rs 1,20,000 to repay a loan and it bounced last Monday for insufficient funds. He refuses to pay. What can I do?",1,VALID,cheque_bounce
+test_0259,A car hit my scooter from behind in Jaipur last Monday and the driver ran away. I fractured my leg. I noted the number plate. I want justice.,1,VALID,road_accident
+test_0260,Please help. A rash bus driver hit my son on the road in Indore on 9 September 2025. He was badly hurt. What can I do?,1,VALID,road_accident
+test_0261,Good morning. My girlfriend broke up with me in January because she likes someone else. I want to take action against her. I want justice.,0,NOT_VALID,breakup
+test_0262,"Sir, I lent Rs 60,000 to Anil in Bhopal. The cheque he issued to repay me was dishonoured by the bank last Monday. Is this a case?",1,VALID,cheque_bounce
+test_0263,"Hello, My husband left me and our two children on 22 June 2025 and refuses to give any money for food and school fees. He earns well in Kolkata. Should I go to court?",1,VALID,maintenance_refused
+test_0264,"Madam, I vacated my rented flat in Mumbai in January. The landlord is refusing to return my security deposit of Rs 40,000 though I left the flat in good condition.",1,VALID,deposit_not_returned
+test_0265,"Madam, A seller on Facebook took Rs 40,000 as advance for furniture on 9 September 2025 and stopped responding. No product came to my house in Bhopal. Is there any remedy?",1,VALID,online_shopping_fraud
+test_0266,"Hello, I vacated my rented flat in Ahmedabad last Monday. The landlord is refusing to return my security deposit of Rs 75,000 though I left the flat in good condition.",1,VALID,deposit_not_returned
+test_0267,Good morning. My girlfriend broke up with me two weeks ago because she likes someone else. I want to take action against her. Please guide me.,0,NOT_VALID,breakup
+test_0268,Good morning. After separation my husband stopped supporting our child. He has a good job in Jaipur but gives nothing. Can I take legal action?,1,VALID,maintenance_refused
+test_0269,"Please help. I lost a bet of Rs 2,50,000 with Meena on a cricket match. I want the court to force him to return my bet money. What can I do?",0,NOT_VALID,lost_bet
+test_0270,"Hello, My classmate Naveen entered my house in Guntur without permission on 14 August 2025 and broke my furniture. What can I do?",1,VALID,trespass_damage
+test_0271,"I need advice. Can you suggest a good laptop under Rs 60,000 for college? Can I take legal action?",0,NOT_VALID,general_question
+test_0272,Good morning. A car hit my scooter from behind in Patna on 9 September 2025 and the driver ran away. I fractured my leg. I noted the number plate. What can I do?,1,VALID,road_accident
+test_0273,My girlfriend broke up with me on 14 August 2025 because she likes someone else. I want to take action against her. Is there any remedy?,0,NOT_VALID,breakup
+test_0274,A rash bus driver hit my son on the road in Kochi in December last year. He was badly hurt. I want justice.,1,VALID,road_accident
+test_0275,"Madam, The auto driver in Lucknow charged the meter fare last month. I wanted him to reduce it but he refused. Should I go to court?",0,NOT_VALID,discount_refused
+test_0276,"Please help. Two of my friends, both foreign nationals, argued over a parking spot in Tokyo in January. Nothing happened in India. Can I take legal action?",0,NOT_VALID,foreign_matter
+test_0277,"Hello, A shop in Kochi refused to give me a discount on a shirt on 14 August 2025. The price was clearly marked and I chose to pay it. I want justice.",0,NOT_VALID,discount_refused
+test_0278,Please help. I am a British citizen living in London. My British neighbour there played loud music on 22 June 2025. Can an Indian court act? Is this a case?,0,NOT_VALID,foreign_matter
+test_0279,"Please help. Can you suggest a good laptop under Rs 40,000 for college? Should I go to court?",0,NOT_VALID,general_question
+test_0280,"Good morning. I lent Rs 8,000 to Priya in Nagpur. The cheque he issued to repay me was dishonoured by the bank in January.",1,VALID,cheque_bounce
+test_0281,Good morning. My girlfriend broke up with me on 14 August 2025 because she likes someone else. I want to take action against her. Is this a case?,0,NOT_VALID,breakup
+test_0282,"Madam, After separation my husband stopped supporting our child. He has a good job in Indore but gives nothing. What can I do?",1,VALID,maintenance_refused
+test_0283,"Madam, I lent Rs 5,000 to Divya in Nagpur. The cheque he issued to repay me was dishonoured by the bank on 3 March 2025. I want justice.",1,VALID,cheque_bounce
+test_0284,My neighbour Gopal entered my house in Kochi without permission on 9 September 2025 and broke my furniture. Is this a case?,1,VALID,trespass_damage
+test_0285,"I need advice. Can you suggest a good laptop under Rs 12,500 for college? I want justice.",0,NOT_VALID,general_question
+test_0286,"Sir, Ramesh ended our relationship two weeks ago and blocked me on WhatsApp. Can I sue her for hurting my feelings? Please guide me.",0,NOT_VALID,breakup
+test_0287,"Madam, Can you suggest a good laptop under Rs 1,20,000 for college? Please guide me.",0,NOT_VALID,general_question
+test_0288,I need advice. The neighbour in Bhopal planted flowers in his own garden that I find ugly. I want justice.,0,NOT_VALID,paint_colour
+test_0289,"I lost a bet of Rs 5,000 with Meena on a cricket match. I want the court to force him to return my bet money. What can I do?",0,NOT_VALID,lost_bet
+test_0290,Good morning. The auto driver in Delhi charged the meter fare last month. I wanted him to reduce it but he refused. I want justice.,0,NOT_VALID,discount_refused
+test_0291,"Madam, The auto driver in Visakhapatnam charged the meter fare on 3 March 2025. I wanted him to reduce it but he refused. Is this a case?",0,NOT_VALID,discount_refused
+test_0292,Please help. My husband left me and our two children on 3 March 2025 and refuses to give any money for food and school fees. He earns well in Kolkata. Is this a case?,1,VALID,maintenance_refused
+test_0293,"Please help. Two of my friends, both foreign nationals, argued over a parking spot in Toronto on 14 August 2025. Nothing happened in India. Should I go to court?",0,NOT_VALID,foreign_matter
+test_0294,"Good morning. I lent Rs 1,20,000 to Harish in Ahmedabad. The cheque he issued to repay me was dishonoured by the bank on 22 June 2025.",1,VALID,cheque_bounce
+test_0295,"Madam, Joseph won Rs 75,000 from me in a bet on the elections. Now I want to recover it legally. What can I do?",0,NOT_VALID,lost_bet
+test_0296,"I vacated my rented flat in Bhopal two weeks ago. The landlord is refusing to return my security deposit of Rs 5,000 though I left the flat in good condition. Is this a case?",1,VALID,deposit_not_returned
+test_0297,"Sir, I lent Rs 75,000 to Farah in Kolkata. The cheque he issued to repay me was dishonoured by the bank two weeks ago. What can I do?",1,VALID,cheque_bounce
+test_0298,"Madam, My friend Priya painted his own house bright pink on 22 June 2025. I do not like the colour. Can I stop him? Can I take legal action?",0,NOT_VALID,paint_colour
+test_0299,I need advice. Gopal ended our relationship in December last year and blocked me on X (Twitter). Can I sue her for hurting my feelings? I want justice.,0,NOT_VALID,breakup
+test_0300,A rash bus driver hit my son on the road in Delhi three days ago. He was badly hurt. Should I go to court?,1,VALID,road_accident
+test_0301,Good morning. A rash bus driver hit my son on the road in Guntur two weeks ago. He was badly hurt. Is this a case?,1,VALID,road_accident
+test_0302,"Hello, A seller on X (Twitter) took Rs 25,000 as advance for furniture on 3 March 2025 and stopped responding. No product came to my house in Patna. Is this a case?",1,VALID,online_shopping_fraud
+test_0303,"Madam, My landlord Joseph kept my Rs 5,000 rental deposit after I moved out in December last year and gives no reason. Should I go to court?",1,VALID,deposit_not_returned
+test_0304,"Hello, Two of my friends, both foreign nationals, argued over a parking spot in Toronto three days ago. Nothing happened in India. I want justice.",0,NOT_VALID,foreign_matter
+test_0305,"Sir, I lent Rs 75,000 to Asha in Visakhapatnam. The cheque he issued to repay me was dishonoured by the bank in January. Is there any remedy?",1,VALID,cheque_bounce
+test_0306,Please help. A car hit my scooter from behind in Delhi on 14 August 2025 and the driver ran away. I fractured my leg. I noted the number plate.,1,VALID,road_accident
+test_0307,"Madam, My friend Sanjay entered my house in Visakhapatnam without permission two weeks ago and broke my furniture. Is this a case?",1,VALID,trespass_damage
+test_0308,Please help. A rash bus driver hit my son on the road in Chennai on 22 June 2025. He was badly hurt.,1,VALID,road_accident
+test_0309,"Hello, My husband left me and our two children last month and refuses to give any money for food and school fees. He earns well in Guntur. Should I go to court?",1,VALID,maintenance_refused
+test_0310,I need advice. A rash bus driver hit my son on the road in Patna on 9 September 2025. He was badly hurt. Should I go to court?,1,VALID,road_accident
+test_0311,"Can you suggest a good laptop under Rs 25,000 for college? Should I go to court?",0,NOT_VALID,general_question
+test_0312,"I need advice. My neighbour Arjun gave me a cheque of Rs 2,50,000 to repay a loan and it bounced last month for insufficient funds. He refuses to pay. Is this a case?",1,VALID,cheque_bounce
+test_0313,"Sir, Which is the best tourist place to visit in Pune in winter? Please guide me.",0,NOT_VALID,general_question
+test_0314,"Please help. My brother-in-law Lakshmi gave me a cheque of Rs 1,20,000 to repay a loan and it bounced in December last year for insufficient funds. He refuses to pay.",1,VALID,cheque_bounce
+test_0315,"Please help. A seller on Telegram took Rs 60,000 as advance for furniture in January and stopped responding. No product came to my house in Kolkata. Can I take legal action?",1,VALID,online_shopping_fraud
+test_0316,"Madam, Can you suggest a good laptop under Rs 5,000 for college? Please guide me.",0,NOT_VALID,general_question
+test_0317,"I need advice. I vacated my rented flat in Nagpur in December last year. The landlord is refusing to return my security deposit of Rs 25,000 though I left the flat in good condition. Is there any remedy?",1,VALID,deposit_not_returned
+test_0318,"Madam, I lost a bet of Rs 1,20,000 with Anil on a cricket match. I want the court to force him to return my bet money. I want justice.",0,NOT_VALID,lost_bet
+test_0319,My husband left me and our two children two weeks ago and refuses to give any money for food and school fees. He earns well in Bhopal. Is this a case?,1,VALID,maintenance_refused
+test_0320,I need advice. I am a British citizen living in Sydney. My British neighbour there played loud music on 3 March 2025. Can an Indian court act? Should I go to court?,0,NOT_VALID,foreign_matter
+test_0321,I need advice. A rash bus driver hit my son on the road in Nagpur on 3 March 2025. He was badly hurt. Is there any remedy?,1,VALID,road_accident
+test_0322,"Madam, I vacated my rented flat in Ahmedabad last month. The landlord is refusing to return my security deposit of Rs 5,000 though I left the flat in good condition. What can I do?",1,VALID,deposit_not_returned
+test_0323,"Sir, The neighbour in Indore planted flowers in his own garden that I find ugly. Is there any remedy?",0,NOT_VALID,paint_colour
+test_0324,I am a British citizen living in Sydney. My British neighbour there played loud music two weeks ago. Can an Indian court act? Please guide me.,0,NOT_VALID,foreign_matter
+test_0325,I need advice. The auto driver in Hyderabad charged the meter fare in January. I wanted him to reduce it but he refused.,0,NOT_VALID,discount_refused
+test_0326,"Sir, Sneha ended our relationship two weeks ago and blocked me on WhatsApp. Can I sue her for hurting my feelings? What can I do?",0,NOT_VALID,breakup
+test_0327,Good morning. Meena ended our relationship on 9 September 2025 and blocked me on Instagram. Can I sue her for hurting my feelings? Should I go to court?,0,NOT_VALID,breakup
+test_0328,"I paid Rs 60,000 to an online seller on Instagram for a phone on 3 March 2025. He blocked me and never delivered anything.",1,VALID,online_shopping_fraud
+test_0329,Please help. I am a British citizen living in Singapore. My British neighbour there played loud music on 3 March 2025. Can an Indian court act? What can I do?,0,NOT_VALID,foreign_matter
+test_0330,"Hello, I lost a bet of Rs 2,50,000 with Joseph on a cricket match. I want the court to force him to return my bet money.",0,NOT_VALID,lost_bet
+test_0331,"I lost a bet of Rs 2,50,000 with Harish on a cricket match. I want the court to force him to return my bet money. Should I go to court?",0,NOT_VALID,lost_bet
+test_0332,The auto driver in Jaipur charged the meter fare last Monday. I wanted him to reduce it but he refused. Is there any remedy?,0,NOT_VALID,discount_refused
+test_0333,"Madam, My girlfriend broke up with me three days ago because she likes someone else. I want to take action against her. Should I go to court?",0,NOT_VALID,breakup
+test_0334,"Sir, Which is the best tourist place to visit in Pune in winter? Can I take legal action?",0,NOT_VALID,general_question
+test_0335,"I need advice. I vacated my rented flat in Visakhapatnam last Monday. The landlord is refusing to return my security deposit of Rs 1,20,000 though I left the flat in good condition. I want justice.",1,VALID,deposit_not_returned
+test_0336,"I need advice. I vacated my rented flat in Delhi last month. The landlord is refusing to return my security deposit of Rs 25,000 though I left the flat in good condition. Should I go to court?",1,VALID,deposit_not_returned
+test_0337,"Sir, Some people entered my farm near Bhopal in December last year, cut my mango trees and took the wood. Please guide me.",1,VALID,trespass_damage
+test_0338,"Hello, I lost a bet of Rs 25,000 with Sunita on a cricket match. I want the court to force him to return my bet money.",0,NOT_VALID,lost_bet
+test_0339,"Good morning. I vacated my rented flat in Kolkata on 9 September 2025. The landlord is refusing to return my security deposit of Rs 40,000 though I left the flat in good condition. Is there any remedy?",1,VALID,deposit_not_returned
+test_0340,"Madam, Gopal won Rs 75,000 from me in a bet on the elections. Now I want to recover it legally. Can I take legal action?",0,NOT_VALID,lost_bet
+test_0341,I need advice. After separation my husband stopped supporting our child. He has a good job in Bengaluru but gives nothing. Is this a case?,1,VALID,maintenance_refused
+test_0342,"Hello, Which is the best tourist place to visit in Mumbai in winter? Should I go to court?",0,NOT_VALID,general_question
+test_0343,"Hello, Can you suggest a good laptop under Rs 5,000 for college? Is there any remedy?",0,NOT_VALID,general_question
+test_0344,"Good morning. Can you suggest a good laptop under Rs 25,000 for college? Please guide me.",0,NOT_VALID,general_question
+test_0345,"I need advice. My brother-in-law Joseph gave me a cheque of Rs 60,000 to repay a loan and it bounced on 22 June 2025 for insufficient funds. He refuses to pay. Can I take legal action?",1,VALID,cheque_bounce
+test_0346,A rash bus driver hit my son on the road in Vijayawada on 22 June 2025. He was badly hurt.,1,VALID,road_accident
+test_0347,"I need advice. I lost a bet of Rs 40,000 with Naveen on a cricket match. I want the court to force him to return my bet money. Is there any remedy?",0,NOT_VALID,lost_bet
+test_0348,"Hello, My flatmate Sunita painted his own house bright pink on 14 August 2025. I do not like the colour. Can I stop him?",0,NOT_VALID,paint_colour
+test_0349,"Please help. Sneha won Rs 2,50,000 from me in a bet on the elections. Now I want to recover it legally.",0,NOT_VALID,lost_bet
+test_0350,Good morning. The auto driver in Pune charged the meter fare two weeks ago. I wanted him to reduce it but he refused. What can I do?,0,NOT_VALID,discount_refused
+test_0351,Good morning. A rash bus driver hit my son on the road in Kochi in January. He was badly hurt. I want justice.,1,VALID,road_accident
+test_0352,A car hit my scooter from behind in Bhopal three days ago and the driver ran away. I fractured my leg. I noted the number plate. Should I go to court?,1,VALID,road_accident
+test_0353,Good morning. After separation my husband stopped supporting our child. He has a good job in Mumbai but gives nothing. Is there any remedy?,1,VALID,maintenance_refused
+test_0354,"Madam, The auto driver in Lucknow charged the meter fare on 14 August 2025. I wanted him to reduce it but he refused. Should I go to court?",0,NOT_VALID,discount_refused
+test_0355,"Sir, Fatima ended our relationship two weeks ago and blocked me on Facebook. Can I sue her for hurting my feelings? Is there any remedy?",0,NOT_VALID,breakup
+test_0356,"Sir, The auto driver in Delhi charged the meter fare two weeks ago. I wanted him to reduce it but he refused.",0,NOT_VALID,discount_refused
+test_0357,I need advice. My girlfriend broke up with me last Monday because she likes someone else. I want to take action against her. Is there any remedy?,0,NOT_VALID,breakup
+test_0358,Please help. My girlfriend broke up with me on 14 August 2025 because she likes someone else. I want to take action against her. I want justice.,0,NOT_VALID,breakup
+test_0359,"Please help. Two of my friends, both foreign nationals, argued over a parking spot in Dubai in January. Nothing happened in India. Can I take legal action?",0,NOT_VALID,foreign_matter
+test_0360,A rash bus driver hit my son on the road in Bhopal on 22 June 2025. He was badly hurt.,1,VALID,road_accident
+test_0361,"Madam, My classmate Arjun gave me a cheque of Rs 2,50,000 to repay a loan and it bounced last month for insufficient funds. He refuses to pay.",1,VALID,cheque_bounce
+test_0362,"Sir, I lent Rs 75,000 to Anjali in Bhopal. The cheque he issued to repay me was dishonoured by the bank in December last year. Please guide me.",1,VALID,cheque_bounce
+test_0363,"Hello, I am a British citizen living in Toronto. My British neighbour there played loud music last month. Can an Indian court act? Should I go to court?",0,NOT_VALID,foreign_matter
+test_0364,"Hello, Sunita won Rs 12,500 from me in a bet on the elections. Now I want to recover it legally. I want justice.",0,NOT_VALID,lost_bet
+test_0365,My girlfriend broke up with me on 9 September 2025 because she likes someone else. I want to take action against her. Can I take legal action?,0,NOT_VALID,breakup
+test_0366,I need advice. A rash bus driver hit my son on the road in Guntur two weeks ago. He was badly hurt. Is this a case?,1,VALID,road_accident
+test_0367,I need advice. My cousin Sanjay entered my house in Bhopal without permission on 9 September 2025 and broke my furniture. What can I do?,1,VALID,trespass_damage
+test_0368,"I lost a bet of Rs 25,000 with Lakshmi on a cricket match. I want the court to force him to return my bet money. Can I take legal action?",0,NOT_VALID,lost_bet
+test_0369,"Sir, After separation my husband stopped supporting our child. He has a good job in Nagpur but gives nothing. Is there any remedy?",1,VALID,maintenance_refused
+test_0370,"Good morning. I paid Rs 5,000 to an online seller on Telegram for a phone in December last year. He blocked me and never delivered anything. Is this a case?",1,VALID,online_shopping_fraud
+test_0371,"Sir, My classmate Pooja painted his own house bright pink last month. I do not like the colour. Can I stop him? Is this a case?",0,NOT_VALID,paint_colour
+test_0372,Good morning. My friend Naveen entered my house in Patna without permission on 3 March 2025 and broke my furniture. Is there any remedy?,1,VALID,trespass_damage
+test_0373,"Good morning. Can you suggest a good laptop under Rs 75,000 for college? I want justice.",0,NOT_VALID,general_question
+test_0374,"Madam, Two of my friends, both foreign nationals, argued over a parking spot in Dubai two weeks ago. Nothing happened in India. Can I take legal action?",0,NOT_VALID,foreign_matter
+test_0375,"Neha won Rs 3,00,000 from me in a bet on the elections. Now I want to recover it legally. Is there any remedy?",0,NOT_VALID,lost_bet
+test_0376,"Sir, A rash bus driver hit my son on the road in Lucknow last Monday. He was badly hurt. Should I go to court?",1,VALID,road_accident
+test_0377,Good morning. The auto driver in Guntur charged the meter fare on 3 March 2025. I wanted him to reduce it but he refused. Can I take legal action?,0,NOT_VALID,discount_refused
+test_0378,My colleague Deepa painted his own house bright pink two weeks ago. I do not like the colour. Can I stop him? Is there any remedy?,0,NOT_VALID,paint_colour
+test_0379,"Hello, The neighbour in Delhi planted flowers in his own garden that I find ugly. What can I do?",0,NOT_VALID,paint_colour
+test_0380,"Hello, I lent Rs 8,000 to Mohammed in Indore. The cheque he issued to repay me was dishonoured by the bank on 3 March 2025. Is there any remedy?",1,VALID,cheque_bounce
+test_0381,"Hello, After separation my husband stopped supporting our child. He has a good job in Hyderabad but gives nothing. Can I take legal action?",1,VALID,maintenance_refused
+test_0382,"Sir, My colleague Fatima gave me a cheque of Rs 40,000 to repay a loan and it bounced on 22 June 2025 for insufficient funds. He refuses to pay. Is there any remedy?",1,VALID,cheque_bounce
+test_0383,"Hello, Which is the best tourist place to visit in Ahmedabad in winter? Is there any remedy?",0,NOT_VALID,general_question
+test_0384,"I need advice. Some people entered my farm near Indore in January, cut my mango trees and took the wood.",1,VALID,trespass_damage
+test_0385,Please help. I am a British citizen living in London. My British neighbour there played loud music two weeks ago. Can an Indian court act? Should I go to court?,0,NOT_VALID,foreign_matter
+test_0386,"I lent Rs 3,00,000 to Anil in Mumbai. The cheque he issued to repay me was dishonoured by the bank three days ago. Is there any remedy?",1,VALID,cheque_bounce
+test_0387,"Sir, After separation my husband stopped supporting our child. He has a good job in Kochi but gives nothing. Is there any remedy?",1,VALID,maintenance_refused
+test_0388,Please help. A car hit my scooter from behind in Jaipur on 3 March 2025 and the driver ran away. I fractured my leg. I noted the number plate. Can I take legal action?,1,VALID,road_accident
+test_0389,Good morning. I am a British citizen living in New York. My British neighbour there played loud music last Monday. Can an Indian court act? Is there any remedy?,0,NOT_VALID,foreign_matter
+test_0390,"Please help. I vacated my rented flat in Indore last Monday. The landlord is refusing to return my security deposit of Rs 60,000 though I left the flat in good condition. Should I go to court?",1,VALID,deposit_not_returned
+test_0391,"I lost a bet of Rs 40,000 with Joseph on a cricket match. I want the court to force him to return my bet money. I want justice.",0,NOT_VALID,lost_bet
+test_0392,"Good morning. A seller on X (Twitter) took Rs 12,500 as advance for furniture last month and stopped responding. No product came to my house in Kolkata. Is there any remedy?",1,VALID,online_shopping_fraud
+test_0393,"Madam, My husband left me and our two children in December last year and refuses to give any money for food and school fees. He earns well in Kolkata. What can I do?",1,VALID,maintenance_refused
+test_0394,"Madam, A shop in Bengaluru refused to give me a discount on a shirt on 22 June 2025. The price was clearly marked and I chose to pay it. Is there any remedy?",0,NOT_VALID,discount_refused
+test_0395,Please help. How do I cook a good biryani at home for guests? Is this a case?,0,NOT_VALID,general_question
+test_0396,Good morning. My flatmate Suresh painted his own house bright pink three days ago. I do not like the colour. Can I stop him?,0,NOT_VALID,paint_colour
+test_0397,"Can you suggest a good laptop under Rs 60,000 for college?",0,NOT_VALID,general_question
+test_0398,"Madam, The neighbour in Bengaluru planted flowers in his own garden that I find ugly. Is there any remedy?",0,NOT_VALID,paint_colour
+test_0399,"Please help. Some people entered my farm near Visakhapatnam three days ago, cut my mango trees and took the wood. What can I do?",1,VALID,trespass_damage
+test_0400,Good morning. A car hit my scooter from behind in Hyderabad on 22 June 2025 and the driver ran away. I fractured my leg. I noted the number plate. Is there any remedy?,1,VALID,road_accident
+test_0401,"Please help. I lent Rs 1,20,000 to Priya in Guntur. The cheque he issued to repay me was dishonoured by the bank two weeks ago. Should I go to court?",1,VALID,cheque_bounce
+test_0402,Please help. A rash bus driver hit my son on the road in Visakhapatnam in December last year. He was badly hurt. I want justice.,1,VALID,road_accident
+test_0403,"Sir, How do I cook a good biryani at home for guests? Can I take legal action?",0,NOT_VALID,general_question
+test_0404,"Good morning. Some people entered my farm near Indore three days ago, cut my mango trees and took the wood. Is there any remedy?",1,VALID,trespass_damage
+test_0405,"I paid Rs 60,000 to an online seller on Telegram for a phone last Monday. He blocked me and never delivered anything.",1,VALID,online_shopping_fraud
+test_0406,"Good morning. I lent Rs 3,00,000 to Lakshmi in Delhi. The cheque he issued to repay me was dishonoured by the bank in December last year. Is there any remedy?",1,VALID,cheque_bounce
+test_0407,"Madam, My girlfriend broke up with me on 14 August 2025 because she likes someone else. I want to take action against her. What can I do?",0,NOT_VALID,breakup
+test_0408,"Hello, My neighbour Meena painted his own house bright pink on 9 September 2025. I do not like the colour. Can I stop him? I want justice.",0,NOT_VALID,paint_colour
+test_0409,"Hello, How do I cook a good biryani at home for guests? What can I do?",0,NOT_VALID,general_question
+test_0410,"I lost a bet of Rs 8,000 with Lakshmi on a cricket match. I want the court to force him to return my bet money. What can I do?",0,NOT_VALID,lost_bet
+test_0411,"Madam, Rekha won Rs 2,50,000 from me in a bet on the elections. Now I want to recover it legally. What can I do?",0,NOT_VALID,lost_bet
+test_0412,"Sir, My friend Neha gave me a cheque of Rs 2,50,000 to repay a loan and it bounced on 9 September 2025 for insufficient funds. He refuses to pay. I want justice.",1,VALID,cheque_bounce
+test_0413,"Madam, Two of my friends, both foreign nationals, argued over a parking spot in Singapore on 9 September 2025. Nothing happened in India. Is there any remedy?",0,NOT_VALID,foreign_matter
+test_0414,"Good morning. Some people entered my farm near Nagpur on 3 March 2025, cut my mango trees and took the wood. Can I take legal action?",1,VALID,trespass_damage
+test_0415,"Sir, A shop in Kochi refused to give me a discount on a shirt last Monday. The price was clearly marked and I chose to pay it. Can I take legal action?",0,NOT_VALID,discount_refused
+test_0416,The neighbour in Ahmedabad planted flowers in his own garden that I find ugly. Is there any remedy?,0,NOT_VALID,paint_colour
+test_0417,"Madam, A rash bus driver hit my son on the road in Mumbai on 14 August 2025. He was badly hurt. I want justice.",1,VALID,road_accident
+test_0418,"Good morning. I lent Rs 8,000 to Harish in Mumbai. The cheque he issued to repay me was dishonoured by the bank last Monday. I want justice.",1,VALID,cheque_bounce
+test_0419,Good morning. A shop in Bengaluru refused to give me a discount on a shirt in January. The price was clearly marked and I chose to pay it. Please guide me.,0,NOT_VALID,discount_refused
+test_0420,Please help. I am a British citizen living in Tokyo. My British neighbour there played loud music on 9 September 2025. Can an Indian court act? Is there any remedy?,0,NOT_VALID,foreign_matter
+test_0421,I need advice. The neighbour in Visakhapatnam planted flowers in his own garden that I find ugly.,0,NOT_VALID,paint_colour
+test_0422,"Please help. Two of my friends, both foreign nationals, argued over a parking spot in Sydney on 14 August 2025. Nothing happened in India. Should I go to court?",0,NOT_VALID,foreign_matter
+test_0423,"Madam, The auto driver in Bhopal charged the meter fare two weeks ago. I wanted him to reduce it but he refused.",0,NOT_VALID,discount_refused
+test_0424,My flatmate Fatima entered my house in Mumbai without permission two weeks ago and broke my furniture. Can I take legal action?,1,VALID,trespass_damage
+test_0425,I need advice. A shop in Visakhapatnam refused to give me a discount on a shirt on 9 September 2025. The price was clearly marked and I chose to pay it. Is there any remedy?,0,NOT_VALID,discount_refused
+test_0426,Harish ended our relationship on 14 August 2025 and blocked me on Instagram. Can I sue her for hurting my feelings? Can I take legal action?,0,NOT_VALID,breakup
+test_0427,"Madam, The neighbour in Lucknow planted flowers in his own garden that I find ugly. Is this a case?",0,NOT_VALID,paint_colour
+test_0428,"Madam, Rahul won Rs 25,000 from me in a bet on the elections. Now I want to recover it legally. Is this a case?",0,NOT_VALID,lost_bet
+test_0429,"Some people entered my farm near Patna two weeks ago, cut my mango trees and took the wood. Should I go to court?",1,VALID,trespass_damage
+test_0430,"Please help. My landlord Kavya kept my Rs 25,000 rental deposit after I moved out last Monday and gives no reason. Can I take legal action?",1,VALID,deposit_not_returned
+test_0431,"Sir, I lent Rs 3,00,000 to Sunita in Kolkata. The cheque he issued to repay me was dishonoured by the bank three days ago. Can I take legal action?",1,VALID,cheque_bounce
+test_0432,Good morning. A rash bus driver hit my son on the road in Indore on 3 March 2025. He was badly hurt. Please guide me.,1,VALID,road_accident
+test_0433,"Sir, My landlord Suresh kept my Rs 1,20,000 rental deposit after I moved out on 9 September 2025 and gives no reason.",1,VALID,deposit_not_returned
+test_0434,"Priya won Rs 60,000 from me in a bet on the elections. Now I want to recover it legally.",0,NOT_VALID,lost_bet
+test_0435,"I need advice. Pooja won Rs 3,00,000 from me in a bet on the elections. Now I want to recover it legally.",0,NOT_VALID,lost_bet
+test_0436,Good morning. The neighbour in Mumbai planted flowers in his own garden that I find ugly. Is there any remedy?,0,NOT_VALID,paint_colour
+test_0437,"Madam, The neighbour in Vijayawada planted flowers in his own garden that I find ugly. Should I go to court?",0,NOT_VALID,paint_colour
+test_0438,"Please help. I vacated my rented flat in Guntur on 9 September 2025. The landlord is refusing to return my security deposit of Rs 2,50,000 though I left the flat in good condition. What can I do?",1,VALID,deposit_not_returned
+test_0439,I need advice. A rash bus driver hit my son on the road in Kochi on 9 September 2025. He was badly hurt. Is there any remedy?,1,VALID,road_accident
+test_0440,"Sir, My brother-in-law Anjali painted his own house bright pink two weeks ago. I do not like the colour. Can I stop him? I want justice.",0,NOT_VALID,paint_colour
+test_0441,Good morning. Sunita ended our relationship in December last year and blocked me on X (Twitter). Can I sue her for hurting my feelings? What can I do?,0,NOT_VALID,breakup
+test_0442,"Sir, My friend Pooja entered my house in Lucknow without permission on 14 August 2025 and broke my furniture. Is there any remedy?",1,VALID,trespass_damage
+test_0443,I need advice. The neighbour in Vijayawada planted flowers in his own garden that I find ugly. Can I take legal action?,0,NOT_VALID,paint_colour
+test_0444,"Sir, Some people entered my farm near Visakhapatnam on 14 August 2025, cut my mango trees and took the wood. What can I do?",1,VALID,trespass_damage
+test_0445,"Please help. Two of my friends, both foreign nationals, argued over a parking spot in Berlin in December last year. Nothing happened in India. Should I go to court?",0,NOT_VALID,foreign_matter
+test_0446,"I vacated my rented flat in Chennai on 3 March 2025. The landlord is refusing to return my security deposit of Rs 5,000 though I left the flat in good condition. Is this a case?",1,VALID,deposit_not_returned
+test_0447,"Please help. A seller on WhatsApp took Rs 8,000 as advance for furniture last month and stopped responding. No product came to my house in Guntur. Please guide me.",1,VALID,online_shopping_fraud
+test_0448,Good morning. The auto driver in Visakhapatnam charged the meter fare last month. I wanted him to reduce it but he refused. Is this a case?,0,NOT_VALID,discount_refused
+test_0449,Please help. Which is the best tourist place to visit in Hyderabad in winter? Is this a case?,0,NOT_VALID,general_question
+test_0450,"Madam, My husband left me and our two children two weeks ago and refuses to give any money for food and school fees. He earns well in Bengaluru.",1,VALID,maintenance_refused
+test_0451,"I need advice. I vacated my rented flat in Kochi last Monday. The landlord is refusing to return my security deposit of Rs 75,000 though I left the flat in good condition. What can I do?",1,VALID,deposit_not_returned
+test_0452,"Hello, My brother-in-law Sanjay gave me a cheque of Rs 2,50,000 to repay a loan and it bounced on 9 September 2025 for insufficient funds. He refuses to pay. Can I take legal action?",1,VALID,cheque_bounce
+test_0453,"Madam, My neighbour Lakshmi painted his own house bright pink on 22 June 2025. I do not like the colour. Can I stop him?",0,NOT_VALID,paint_colour
+test_0454,Good morning. A rash bus driver hit my son on the road in Pune on 9 September 2025. He was badly hurt. Is there any remedy?,1,VALID,road_accident
+test_0455,Which is the best tourist place to visit in Visakhapatnam in winter?,0,NOT_VALID,general_question
+test_0456,"Hello, The neighbour in Pune planted flowers in his own garden that I find ugly. Should I go to court?",0,NOT_VALID,paint_colour
+test_0457,"Madam, Sanjay ended our relationship last Monday and blocked me on Facebook. Can I sue her for hurting my feelings? Can I take legal action?",0,NOT_VALID,breakup
+test_0458,"Madam, Which is the best tourist place to visit in Bhopal in winter? Is this a case?",0,NOT_VALID,general_question
+test_0459,Good morning. The auto driver in Lucknow charged the meter fare on 14 August 2025. I wanted him to reduce it but he refused. Is there any remedy?,0,NOT_VALID,discount_refused
+test_0460,"Madam, I lost a bet of Rs 3,00,000 with Vikram on a cricket match. I want the court to force him to return my bet money. Is there any remedy?",0,NOT_VALID,lost_bet
+test_0461,"I need advice. I lost a bet of Rs 40,000 with Sunita on a cricket match. I want the court to force him to return my bet money. What can I do?",0,NOT_VALID,lost_bet
+test_0462,"Some people entered my farm near Bhopal last month, cut my mango trees and took the wood. Should I go to court?",1,VALID,trespass_damage
+test_0463,Good morning. The neighbour in Guntur planted flowers in his own garden that I find ugly. Is this a case?,0,NOT_VALID,paint_colour
+test_0464,Please help. My friend Gopal painted his own house bright pink two weeks ago. I do not like the colour. Can I stop him? Should I go to court?,0,NOT_VALID,paint_colour
+test_0465,Good morning. I am a British citizen living in New York. My British neighbour there played loud music on 22 June 2025. Can an Indian court act? Please guide me.,0,NOT_VALID,foreign_matter
+test_0466,"I lost a bet of Rs 3,00,000 with Rahul on a cricket match. I want the court to force him to return my bet money. Is there any remedy?",0,NOT_VALID,lost_bet
+test_0467,"Hello, The auto driver in Bhopal charged the meter fare on 14 August 2025. I wanted him to reduce it but he refused. Can I take legal action?",0,NOT_VALID,discount_refused
+test_0468,"I need advice. Some people entered my farm near Bengaluru on 22 June 2025, cut my mango trees and took the wood. Is there any remedy?",1,VALID,trespass_damage
+test_0469,"I vacated my rented flat in Jaipur three days ago. The landlord is refusing to return my security deposit of Rs 40,000 though I left the flat in good condition. Can I take legal action?",1,VALID,deposit_not_returned
+test_0470,Please help. A shop in Kochi refused to give me a discount on a shirt in December last year. The price was clearly marked and I chose to pay it. Is this a case?,0,NOT_VALID,discount_refused
+test_0471,"Hello, The auto driver in Bhopal charged the meter fare last month. I wanted him to reduce it but he refused.",0,NOT_VALID,discount_refused
+test_0472,"Madam, The neighbour in Visakhapatnam planted flowers in his own garden that I find ugly. I want justice.",0,NOT_VALID,paint_colour
+test_0473,I need advice. After separation my husband stopped supporting our child. He has a good job in Ahmedabad but gives nothing. Should I go to court?,1,VALID,maintenance_refused
+test_0474,"Sir, My brother-in-law Rahul painted his own house bright pink on 3 March 2025. I do not like the colour. Can I stop him? What can I do?",0,NOT_VALID,paint_colour
+test_0475,"Madam, A shop in Vijayawada refused to give me a discount on a shirt last month. The price was clearly marked and I chose to pay it. Can I take legal action?",0,NOT_VALID,discount_refused
+test_0476,"Sir, My friend Ramesh entered my house in Hyderabad without permission on 14 August 2025 and broke my furniture. Is there any remedy?",1,VALID,trespass_damage
+test_0477,"Good morning. I lent Rs 3,00,000 to Joseph in Jaipur. The cheque he issued to repay me was dishonoured by the bank on 14 August 2025. Is there any remedy?",1,VALID,cheque_bounce
+test_0478,"I need advice. I vacated my rented flat in Visakhapatnam last month. The landlord is refusing to return my security deposit of Rs 60,000 though I left the flat in good condition.",1,VALID,deposit_not_returned
+test_0479,"Madam, After separation my husband stopped supporting our child. He has a good job in Bhopal but gives nothing.",1,VALID,maintenance_refused
+test_0480,"Madam, After separation my husband stopped supporting our child. He has a good job in Ahmedabad but gives nothing. Please guide me.",1,VALID,maintenance_refused
+test_0481,"Sir, Some people entered my farm near Patna last Monday, cut my mango trees and took the wood.",1,VALID,trespass_damage
+test_0482,"Sir, After separation my husband stopped supporting our child. He has a good job in Guntur but gives nothing. What can I do?",1,VALID,maintenance_refused
+test_0483,"Sir, My girlfriend broke up with me last month because she likes someone else. I want to take action against her. Is there any remedy?",0,NOT_VALID,breakup
+test_0484,Good morning. My classmate Meena entered my house in Delhi without permission in January and broke my furniture. Please guide me.,1,VALID,trespass_damage
+test_0485,"Madam, My brother-in-law Kavya gave me a cheque of Rs 2,50,000 to repay a loan and it bounced last month for insufficient funds. He refuses to pay. Please guide me.",1,VALID,cheque_bounce
+test_0486,I need advice. I am a British citizen living in Sydney. My British neighbour there played loud music on 14 August 2025. Can an Indian court act? Can I take legal action?,0,NOT_VALID,foreign_matter
+test_0487,Please help. A car hit my scooter from behind in Kolkata on 3 March 2025 and the driver ran away. I fractured my leg. I noted the number plate. What can I do?,1,VALID,road_accident
+test_0488,Please help. After separation my husband stopped supporting our child. He has a good job in Hyderabad but gives nothing. I want justice.,1,VALID,maintenance_refused
+test_0489,"Madam, Some people entered my farm near Chennai last month, cut my mango trees and took the wood. Is there any remedy?",1,VALID,trespass_damage
+test_0490,"I need advice. I lent Rs 25,000 to Rahul in Jaipur. The cheque he issued to repay me was dishonoured by the bank in December last year. Is there any remedy?",1,VALID,cheque_bounce
+test_0491,"Good morning. My landlord Naveen kept my Rs 12,500 rental deposit after I moved out on 3 March 2025 and gives no reason. Is this a case?",1,VALID,deposit_not_returned
+test_0492,"Sir, Karthik won Rs 75,000 from me in a bet on the elections. Now I want to recover it legally. I want justice.",0,NOT_VALID,lost_bet
+test_0493,"I vacated my rented flat in Chennai on 9 September 2025. The landlord is refusing to return my security deposit of Rs 40,000 though I left the flat in good condition. I want justice.",1,VALID,deposit_not_returned
+test_0494,"Madam, My husband left me and our two children two weeks ago and refuses to give any money for food and school fees. He earns well in Kochi. Is there any remedy?",1,VALID,maintenance_refused
+test_0495,"Please help. I lent Rs 1,20,000 to Ravi in Kolkata. The cheque he issued to repay me was dishonoured by the bank on 9 September 2025. Is there any remedy?",1,VALID,cheque_bounce
+test_0496,Please help. The neighbour in Bhopal planted flowers in his own garden that I find ugly. Should I go to court?,0,NOT_VALID,paint_colour
+test_0497,"Madam, The auto driver in Chennai charged the meter fare three days ago. I wanted him to reduce it but he refused. Should I go to court?",0,NOT_VALID,discount_refused
+test_0498,Please help. Which is the best tourist place to visit in Lucknow in winter? Is this a case?,0,NOT_VALID,general_question
+test_0499,Imran ended our relationship two weeks ago and blocked me on Instagram. Can I sue her for hurting my feelings? What can I do?,0,NOT_VALID,breakup
+test_0500,"Madam, Deepa ended our relationship two weeks ago and blocked me on Instagram. Can I sue her for hurting my feelings? I want justice.",0,NOT_VALID,breakup
+test_0501,"Hello, My girlfriend broke up with me on 9 September 2025 because she likes someone else. I want to take action against her. What can I do?",0,NOT_VALID,breakup
+test_0502,"Hello, Some people entered my farm near Jaipur two weeks ago, cut my mango trees and took the wood. Is this a case?",1,VALID,trespass_damage
+test_0503,"Please help. Can you suggest a good laptop under Rs 5,000 for college? Should I go to court?",0,NOT_VALID,general_question
+test_0504,"Hello, Two of my friends, both foreign nationals, argued over a parking spot in Sydney last month. Nothing happened in India. Please guide me.",0,NOT_VALID,foreign_matter
+test_0505,I need advice. Rahul ended our relationship two weeks ago and blocked me on Facebook. Can I sue her for hurting my feelings? Please guide me.,0,NOT_VALID,breakup
+test_0506,"I lent Rs 3,00,000 to Farah in Vijayawada. The cheque he issued to repay me was dishonoured by the bank last month.",1,VALID,cheque_bounce
+test_0507,I am a British citizen living in Dubai. My British neighbour there played loud music in January. Can an Indian court act? Can I take legal action?,0,NOT_VALID,foreign_matter
+test_0508,"Hello, My girlfriend broke up with me on 3 March 2025 because she likes someone else. I want to take action against her. Can I take legal action?",0,NOT_VALID,breakup
+test_0509,"I need advice. Some people entered my farm near Jaipur on 14 August 2025, cut my mango trees and took the wood. Should I go to court?",1,VALID,trespass_damage
+test_0510,"Please help. Some people entered my farm near Pune three days ago, cut my mango trees and took the wood.",1,VALID,trespass_damage
+test_0511,Please help. My friend Deepa painted his own house bright pink in December last year. I do not like the colour. Can I stop him? Is this a case?,0,NOT_VALID,paint_colour
+test_0512,"Hello, A rash bus driver hit my son on the road in Jaipur in January. He was badly hurt. I want justice.",1,VALID,road_accident
+test_0513,I need advice. Anil ended our relationship on 9 September 2025 and blocked me on Telegram. Can I sue her for hurting my feelings? Should I go to court?,0,NOT_VALID,breakup
+test_0514,"Good morning. Two of my friends, both foreign nationals, argued over a parking spot in Singapore last month. Nothing happened in India. Is there any remedy?",0,NOT_VALID,foreign_matter
+test_0515,"Hello, Which is the best tourist place to visit in Bhopal in winter? Should I go to court?",0,NOT_VALID,general_question
+test_0516,"Sir, Anil won Rs 5,000 from me in a bet on the elections. Now I want to recover it legally. What can I do?",0,NOT_VALID,lost_bet
+test_0517,"Madam, A shop in Bhopal refused to give me a discount on a shirt on 9 September 2025. The price was clearly marked and I chose to pay it. Is this a case?",0,NOT_VALID,discount_refused
+test_0518,Please help. A rash bus driver hit my son on the road in Hyderabad three days ago. He was badly hurt. What can I do?,1,VALID,road_accident
+test_0519,Good morning. My cousin Fatima painted his own house bright pink on 14 August 2025. I do not like the colour. Can I stop him? Is there any remedy?,0,NOT_VALID,paint_colour
+test_0520,Good morning. A shop in Ahmedabad refused to give me a discount on a shirt on 14 August 2025. The price was clearly marked and I chose to pay it. I want justice.,0,NOT_VALID,discount_refused
+test_0521,"Madam, Which is the best tourist place to visit in Indore in winter? Should I go to court?",0,NOT_VALID,general_question
+test_0522,I need advice. After separation my husband stopped supporting our child. He has a good job in Kochi but gives nothing. I want justice.,1,VALID,maintenance_refused
+test_0523,"Sir, A shop in Kolkata refused to give me a discount on a shirt last month. The price was clearly marked and I chose to pay it.",0,NOT_VALID,discount_refused
+test_0524,"Good morning. I paid Rs 2,50,000 to an online seller on Facebook for a phone on 14 August 2025. He blocked me and never delivered anything. Is there any remedy?",1,VALID,online_shopping_fraud
+test_0525,Please help. A rash bus driver hit my son on the road in Mumbai on 14 August 2025. He was badly hurt. Should I go to court?,1,VALID,road_accident
+test_0526,"Sir, The neighbour in Chennai planted flowers in his own garden that I find ugly. Can I take legal action?",0,NOT_VALID,paint_colour
+test_0527,"Please help. I lost a bet of Rs 2,50,000 with Lakshmi on a cricket match. I want the court to force him to return my bet money. Can I take legal action?",0,NOT_VALID,lost_bet
+test_0528,My husband left me and our two children in January and refuses to give any money for food and school fees. He earns well in Indore. What can I do?,1,VALID,maintenance_refused
+test_0529,Please help. The neighbour in Hyderabad planted flowers in his own garden that I find ugly. Is this a case?,0,NOT_VALID,paint_colour
+test_0530,Please help. I am a British citizen living in Toronto. My British neighbour there played loud music on 22 June 2025. Can an Indian court act? Please guide me.,0,NOT_VALID,foreign_matter
+test_0531,"Please help. A seller on Instagram took Rs 60,000 as advance for furniture on 3 March 2025 and stopped responding. No product came to my house in Ahmedabad. Is this a case?",1,VALID,online_shopping_fraud
+test_0532,"Sir, Some people entered my farm near Kochi on 22 June 2025, cut my mango trees and took the wood. Is there any remedy?",1,VALID,trespass_damage
+test_0533,"Good morning. I lost a bet of Rs 60,000 with Neha on a cricket match. I want the court to force him to return my bet money. Is there any remedy?",0,NOT_VALID,lost_bet
+test_0534,"Please help. Fatima won Rs 2,50,000 from me in a bet on the elections. Now I want to recover it legally. Please guide me.",0,NOT_VALID,lost_bet
+test_0535,"Good morning. I paid Rs 3,00,000 to an online seller on Instagram for a phone last month. He blocked me and never delivered anything. Should I go to court?",1,VALID,online_shopping_fraud
+test_0536,"Good morning. I vacated my rented flat in Mumbai last Monday. The landlord is refusing to return my security deposit of Rs 60,000 though I left the flat in good condition. Can I take legal action?",1,VALID,deposit_not_returned
+test_0537,"Madam, I lent Rs 5,000 to Farah in Nagpur. The cheque he issued to repay me was dishonoured by the bank last month. Is this a case?",1,VALID,cheque_bounce
+test_0538,"Madam, After separation my husband stopped supporting our child. He has a good job in Hyderabad but gives nothing. I want justice.",1,VALID,maintenance_refused
+test_0539,Please help. A shop in Bhopal refused to give me a discount on a shirt last month. The price was clearly marked and I chose to pay it.,0,NOT_VALID,discount_refused
+test_0540,"I need advice. My neighbour Sunita gave me a cheque of Rs 3,00,000 to repay a loan and it bounced in December last year for insufficient funds. He refuses to pay. I want justice.",1,VALID,cheque_bounce
+test_0541,"I need advice. My landlord Lakshmi kept my Rs 5,000 rental deposit after I moved out on 22 June 2025 and gives no reason. Is there any remedy?",1,VALID,deposit_not_returned
+test_0542,"I lost a bet of Rs 2,50,000 with Sanjay on a cricket match. I want the court to force him to return my bet money. Is this a case?",0,NOT_VALID,lost_bet
+test_0543,"I need advice. I paid Rs 25,000 to an online seller on Facebook for a phone on 22 June 2025. He blocked me and never delivered anything. Can I take legal action?",1,VALID,online_shopping_fraud
+test_0544,My husband left me and our two children last month and refuses to give any money for food and school fees. He earns well in Patna.,1,VALID,maintenance_refused
+test_0545,"Good morning. A seller on Instagram took Rs 60,000 as advance for furniture in January and stopped responding. No product came to my house in Vijayawada. Can I take legal action?",1,VALID,online_shopping_fraud
+test_0546,"Hello, My landlord Rahul kept my Rs 8,000 rental deposit after I moved out on 22 June 2025 and gives no reason. Please guide me.",1,VALID,deposit_not_returned
+test_0547,"I vacated my rented flat in Vijayawada last month. The landlord is refusing to return my security deposit of Rs 5,000 though I left the flat in good condition. Please guide me.",1,VALID,deposit_not_returned
+test_0548,"Some people entered my farm near Pune on 14 August 2025, cut my mango trees and took the wood.",1,VALID,trespass_damage
+test_0549,"I need advice. My landlord Asha kept my Rs 2,50,000 rental deposit after I moved out on 22 June 2025 and gives no reason. I want justice.",1,VALID,deposit_not_returned
+test_0550,I need advice. My friend Kavya painted his own house bright pink on 22 June 2025. I do not like the colour. Can I stop him? What can I do?,0,NOT_VALID,paint_colour
+test_0551,I am a British citizen living in London. My British neighbour there played loud music three days ago. Can an Indian court act? I want justice.,0,NOT_VALID,foreign_matter
+test_0552,"Good morning. I vacated my rented flat in Delhi last Monday. The landlord is refusing to return my security deposit of Rs 60,000 though I left the flat in good condition. Can I take legal action?",1,VALID,deposit_not_returned
+test_0553,"Madam, My husband left me and our two children on 3 March 2025 and refuses to give any money for food and school fees. He earns well in Bengaluru. Should I go to court?",1,VALID,maintenance_refused
+test_0554,"Madam, A shop in Guntur refused to give me a discount on a shirt in January. The price was clearly marked and I chose to pay it. Is this a case?",0,NOT_VALID,discount_refused
+test_0555,My colleague Farah painted his own house bright pink three days ago. I do not like the colour. Can I stop him? Is there any remedy?,0,NOT_VALID,paint_colour
+test_0556,Please help. The neighbour in Patna planted flowers in his own garden that I find ugly. What can I do?,0,NOT_VALID,paint_colour
+test_0557,Good morning. My neighbour Naveen painted his own house bright pink last month. I do not like the colour. Can I stop him? Should I go to court?,0,NOT_VALID,paint_colour
+test_0558,"Hello, My husband left me and our two children two weeks ago and refuses to give any money for food and school fees. He earns well in Lucknow. Should I go to court?",1,VALID,maintenance_refused
+test_0559,Good morning. The auto driver in Hyderabad charged the meter fare on 22 June 2025. I wanted him to reduce it but he refused. What can I do?,0,NOT_VALID,discount_refused
+test_0560,"Hello, After separation my husband stopped supporting our child. He has a good job in Ahmedabad but gives nothing. Is this a case?",1,VALID,maintenance_refused
+test_0561,"Madam, I am a British citizen living in Toronto. My British neighbour there played loud music last month. Can an Indian court act?",0,NOT_VALID,foreign_matter
+test_0562,"Please help. I paid Rs 5,000 to an online seller on X (Twitter) for a phone on 14 August 2025. He blocked me and never delivered anything. Is this a case?",1,VALID,online_shopping_fraud
+test_0563,I am a British citizen living in Tokyo. My British neighbour there played loud music on 9 September 2025. Can an Indian court act? Is this a case?,0,NOT_VALID,foreign_matter
+test_0564,"Sir, A shop in Chennai refused to give me a discount on a shirt on 14 August 2025. The price was clearly marked and I chose to pay it.",0,NOT_VALID,discount_refused
+test_0565,Please help. Imran ended our relationship two weeks ago and blocked me on WhatsApp. Can I sue her for hurting my feelings? Is this a case?,0,NOT_VALID,breakup
+test_0566,I need advice. A shop in Nagpur refused to give me a discount on a shirt on 3 March 2025. The price was clearly marked and I chose to pay it. Please guide me.,0,NOT_VALID,discount_refused
+test_0567,"Sir, My brother-in-law Lakshmi painted his own house bright pink three days ago. I do not like the colour. Can I stop him? Should I go to court?",0,NOT_VALID,paint_colour
+test_0568,"Hello, The neighbour in Indore planted flowers in his own garden that I find ugly. Is there any remedy?",0,NOT_VALID,paint_colour
+test_0569,"I need advice. I vacated my rented flat in Indore in December last year. The landlord is refusing to return my security deposit of Rs 1,20,000 though I left the flat in good condition. Please guide me.",1,VALID,deposit_not_returned
+test_0570,"Sir, I lent Rs 75,000 to Kavya in Mumbai. The cheque he issued to repay me was dishonoured by the bank on 3 March 2025. Is there any remedy?",1,VALID,cheque_bounce
+test_0571,Naveen ended our relationship on 9 September 2025 and blocked me on Telegram. Can I sue her for hurting my feelings? What can I do?,0,NOT_VALID,breakup
+test_0572,I need advice. Deepa ended our relationship last Monday and blocked me on X (Twitter). Can I sue her for hurting my feelings? Should I go to court?,0,NOT_VALID,breakup
+test_0573,Good morning. The neighbour in Chennai planted flowers in his own garden that I find ugly. I want justice.,0,NOT_VALID,paint_colour
+test_0574,"Hello, Some people entered my farm near Ahmedabad last Monday, cut my mango trees and took the wood. Is this a case?",1,VALID,trespass_damage
+test_0575,The auto driver in Lucknow charged the meter fare in December last year. I wanted him to reduce it but he refused. Should I go to court?,0,NOT_VALID,discount_refused
+test_0576,"Sir, After separation my husband stopped supporting our child. He has a good job in Nagpur but gives nothing.",1,VALID,maintenance_refused
+test_0577,Please help. How do I cook a good biryani at home for guests?,0,NOT_VALID,general_question
+test_0578,"Madam, My husband left me and our two children three days ago and refuses to give any money for food and school fees. He earns well in Bhopal. Can I take legal action?",1,VALID,maintenance_refused
+test_0579,Good morning. The neighbour in Patna planted flowers in his own garden that I find ugly. Should I go to court?,0,NOT_VALID,paint_colour
+test_0580,Please help. How do I cook a good biryani at home for guests? I want justice.,0,NOT_VALID,general_question
+test_0581,"Hello, Which is the best tourist place to visit in Kochi in winter? Please guide me.",0,NOT_VALID,general_question
+test_0582,"I need advice. Some people entered my farm near Jaipur on 9 September 2025, cut my mango trees and took the wood. Is there any remedy?",1,VALID,trespass_damage
+test_0583,I need advice. Which is the best tourist place to visit in Kochi in winter? Is there any remedy?,0,NOT_VALID,general_question
+test_0584,"Madam, My husband left me and our two children on 9 September 2025 and refuses to give any money for food and school fees. He earns well in Bhopal. Should I go to court?",1,VALID,maintenance_refused
+test_0585,"I paid Rs 2,50,000 to an online seller on Facebook for a phone last Monday. He blocked me and never delivered anything. Can I take legal action?",1,VALID,online_shopping_fraud
+test_0586,"Sir, My friend Sneha painted his own house bright pink last Monday. I do not like the colour. Can I stop him? What can I do?",0,NOT_VALID,paint_colour
+test_0587,"Please help. Can you suggest a good laptop under Rs 12,500 for college? Is this a case?",0,NOT_VALID,general_question
+test_0588,"I need advice. I lent Rs 2,50,000 to Asha in Indore. The cheque he issued to repay me was dishonoured by the bank in December last year. Is there any remedy?",1,VALID,cheque_bounce
+test_0589,"Madam, Which is the best tourist place to visit in Mumbai in winter? I want justice.",0,NOT_VALID,general_question
+test_0590,"I need advice. I paid Rs 12,500 to an online seller on X (Twitter) for a phone last Monday. He blocked me and never delivered anything. Should I go to court?",1,VALID,online_shopping_fraud
+test_0591,"I need advice. I lent Rs 25,000 to Harish in Jaipur. The cheque he issued to repay me was dishonoured by the bank two weeks ago. Should I go to court?",1,VALID,cheque_bounce
+test_0592,"Hello, Two of my friends, both foreign nationals, argued over a parking spot in Dubai three days ago. Nothing happened in India.",0,NOT_VALID,foreign_matter
+test_0593,"Madam, I lost a bet of Rs 3,00,000 with Joseph on a cricket match. I want the court to force him to return my bet money. Can I take legal action?",0,NOT_VALID,lost_bet
+test_0594,"Good morning. A seller on Facebook took Rs 3,00,000 as advance for furniture in December last year and stopped responding. No product came to my house in Delhi. Is this a case?",1,VALID,online_shopping_fraud
+test_0595,"Sir, A car hit my scooter from behind in Mumbai on 22 June 2025 and the driver ran away. I fractured my leg. I noted the number plate. Can I take legal action?",1,VALID,road_accident
+test_0596,"Madam, I am a British citizen living in Tokyo. My British neighbour there played loud music on 14 August 2025. Can an Indian court act? Should I go to court?",0,NOT_VALID,foreign_matter
+test_0597,"Sir, How do I cook a good biryani at home for guests? Please guide me.",0,NOT_VALID,general_question
+test_0598,"Hello, A shop in Bhopal refused to give me a discount on a shirt on 3 March 2025. The price was clearly marked and I chose to pay it. What can I do?",0,NOT_VALID,discount_refused
+test_0599,Good morning. The auto driver in Bengaluru charged the meter fare on 14 August 2025. I wanted him to reduce it but he refused.,0,NOT_VALID,discount_refused
+test_0600,"I need advice. Two of my friends, both foreign nationals, argued over a parking spot in Singapore on 9 September 2025. Nothing happened in India. Can I take legal action?",0,NOT_VALID,foreign_matter
+test_0601,"Good morning. I paid Rs 40,000 to an online seller on Telegram for a phone last month. He blocked me and never delivered anything. Should I go to court?",1,VALID,online_shopping_fraud
+test_0602,Good morning. My neighbour Sunita painted his own house bright pink in January. I do not like the colour. Can I stop him?,0,NOT_VALID,paint_colour
+test_0603,I need advice. The neighbour in Hyderabad planted flowers in his own garden that I find ugly. What can I do?,0,NOT_VALID,paint_colour
+test_0604,"I lent Rs 75,000 to Neha in Mumbai. The cheque he issued to repay me was dishonoured by the bank on 3 March 2025. Can I take legal action?",1,VALID,cheque_bounce
+test_0605,"I need advice. I vacated my rented flat in Mumbai in January. The landlord is refusing to return my security deposit of Rs 5,000 though I left the flat in good condition. I want justice.",1,VALID,deposit_not_returned
+test_0606,Good morning. I am a British citizen living in Toronto. My British neighbour there played loud music three days ago. Can an Indian court act? Is there any remedy?,0,NOT_VALID,foreign_matter
+test_0607,"Hello, A shop in Hyderabad refused to give me a discount on a shirt in December last year. The price was clearly marked and I chose to pay it. Should I go to court?",0,NOT_VALID,discount_refused
+test_0608,"Sir, A shop in Guntur refused to give me a discount on a shirt last Monday. The price was clearly marked and I chose to pay it.",0,NOT_VALID,discount_refused
+test_0609,"Hello, Which is the best tourist place to visit in Chennai in winter? Is this a case?",0,NOT_VALID,general_question
+test_0610,"Sir, Can you suggest a good laptop under Rs 5,000 for college? What can I do?",0,NOT_VALID,general_question
+test_0611,"Good morning. I lent Rs 1,20,000 to Deepa in Kolkata. The cheque he issued to repay me was dishonoured by the bank in January. Can I take legal action?",1,VALID,cheque_bounce
+test_0612,Meena ended our relationship two weeks ago and blocked me on Facebook. Can I sue her for hurting my feelings?,0,NOT_VALID,breakup
+test_0613,"Hello, A car hit my scooter from behind in Nagpur last Monday and the driver ran away. I fractured my leg. I noted the number plate. Should I go to court?",1,VALID,road_accident
+test_0614,I am a British citizen living in Berlin. My British neighbour there played loud music two weeks ago. Can an Indian court act? Can I take legal action?,0,NOT_VALID,foreign_matter
+test_0615,"Hello, After separation my husband stopped supporting our child. He has a good job in Patna but gives nothing.",1,VALID,maintenance_refused
+test_0616,"Sir, Two of my friends, both foreign nationals, argued over a parking spot in Sydney on 14 August 2025. Nothing happened in India. Is this a case?",0,NOT_VALID,foreign_matter
+test_0617,"Madam, I paid Rs 2,50,000 to an online seller on Instagram for a phone on 3 March 2025. He blocked me and never delivered anything. What can I do?",1,VALID,online_shopping_fraud
+test_0618,I need advice. My husband left me and our two children last Monday and refuses to give any money for food and school fees. He earns well in Guntur. I want justice.,1,VALID,maintenance_refused
+test_0619,"Hello, After separation my husband stopped supporting our child. He has a good job in Patna but gives nothing. Is there any remedy?",1,VALID,maintenance_refused
+test_0620,"Madam, The neighbour in Indore planted flowers in his own garden that I find ugly. Can I take legal action?",0,NOT_VALID,paint_colour
+test_0621,"Good morning. I paid Rs 3,00,000 to an online seller on Facebook for a phone three days ago. He blocked me and never delivered anything. Should I go to court?",1,VALID,online_shopping_fraud
+test_0622,I need advice. My neighbour Sunita painted his own house bright pink on 9 September 2025. I do not like the colour. Can I stop him? Is this a case?,0,NOT_VALID,paint_colour
+test_0623,"Please help. My landlord Joseph kept my Rs 12,500 rental deposit after I moved out last Monday and gives no reason. Please guide me.",1,VALID,deposit_not_returned
+test_0624,"Hello, I lent Rs 40,000 to Meena in Chennai. The cheque he issued to repay me was dishonoured by the bank three days ago.",1,VALID,cheque_bounce
+test_0625,"Sir, A rash bus driver hit my son on the road in Kolkata in December last year. He was badly hurt. Is there any remedy?",1,VALID,road_accident
+test_0626,"I need advice. I paid Rs 25,000 to an online seller on Instagram for a phone on 3 March 2025. He blocked me and never delivered anything. Should I go to court?",1,VALID,online_shopping_fraud
+test_0627,"Sir, My girlfriend broke up with me last month because she likes someone else. I want to take action against her. What can I do?",0,NOT_VALID,breakup
+test_0628,"My neighbour Pooja gave me a cheque of Rs 2,50,000 to repay a loan and it bounced two weeks ago for insufficient funds. He refuses to pay. Is there any remedy?",1,VALID,cheque_bounce
+test_0629,"Please help. I lost a bet of Rs 25,000 with Vikram on a cricket match. I want the court to force him to return my bet money. Is there any remedy?",0,NOT_VALID,lost_bet
+test_0630,I need advice. My colleague Ravi entered my house in Lucknow without permission three days ago and broke my furniture. Should I go to court?,1,VALID,trespass_damage
+test_0631,"Sir, I am a British citizen living in Toronto. My British neighbour there played loud music three days ago. Can an Indian court act? Please guide me.",0,NOT_VALID,foreign_matter
+test_0632,"Hello, My husband left me and our two children on 14 August 2025 and refuses to give any money for food and school fees. He earns well in Hyderabad.",1,VALID,maintenance_refused
+test_0633,"Sir, A car hit my scooter from behind in Patna two weeks ago and the driver ran away. I fractured my leg. I noted the number plate. What can I do?",1,VALID,road_accident
+test_0634,"Please help. I paid Rs 8,000 to an online seller on Facebook for a phone in January. He blocked me and never delivered anything. Please guide me.",1,VALID,online_shopping_fraud
+test_0635,"I need advice. I lost a bet of Rs 75,000 with Gopal on a cricket match. I want the court to force him to return my bet money. I want justice.",0,NOT_VALID,lost_bet
+test_0636,"Hello, My neighbour Fatima gave me a cheque of Rs 8,000 to repay a loan and it bounced three days ago for insufficient funds. He refuses to pay.",1,VALID,cheque_bounce
+test_0637,Please help. A shop in Ahmedabad refused to give me a discount on a shirt on 22 June 2025. The price was clearly marked and I chose to pay it. What can I do?,0,NOT_VALID,discount_refused
+test_0638,"Some people entered my farm near Bhopal two weeks ago, cut my mango trees and took the wood. I want justice.",1,VALID,trespass_damage
+test_0639,"Madam, I lent Rs 8,000 to Fatima in Jaipur. The cheque he issued to repay me was dishonoured by the bank on 14 August 2025. Can I take legal action?",1,VALID,cheque_bounce
+test_0640,Good morning. A car hit my scooter from behind in Pune two weeks ago and the driver ran away. I fractured my leg. I noted the number plate. Please guide me.,1,VALID,road_accident
+test_0641,"Madam, My husband left me and our two children in December last year and refuses to give any money for food and school fees. He earns well in Jaipur. Can I take legal action?",1,VALID,maintenance_refused
+test_0642,"Sir, Two of my friends, both foreign nationals, argued over a parking spot in New York last month. Nothing happened in India. Please guide me.",0,NOT_VALID,foreign_matter
+test_0643,"Sir, Can you suggest a good laptop under Rs 60,000 for college? Should I go to court?",0,NOT_VALID,general_question
+test_0644,"Hello, I am a British citizen living in New York. My British neighbour there played loud music on 14 August 2025. Can an Indian court act?",0,NOT_VALID,foreign_matter
+test_0645,Please help. A shop in Indore refused to give me a discount on a shirt last month. The price was clearly marked and I chose to pay it.,0,NOT_VALID,discount_refused
+test_0646,Please help. My girlfriend broke up with me in January because she likes someone else. I want to take action against her. Is this a case?,0,NOT_VALID,breakup
+test_0647,"Good morning. A seller on Telegram took Rs 40,000 as advance for furniture three days ago and stopped responding. No product came to my house in Delhi. Is there any remedy?",1,VALID,online_shopping_fraud
+test_0648,"Madam, After separation my husband stopped supporting our child. He has a good job in Patna but gives nothing. Please guide me.",1,VALID,maintenance_refused
+test_0649,"Sir, Lakshmi ended our relationship on 9 September 2025 and blocked me on Instagram. Can I sue her for hurting my feelings? Is this a case?",0,NOT_VALID,breakup
+test_0650,"Good morning. My landlord Farah kept my Rs 75,000 rental deposit after I moved out last Monday and gives no reason. What can I do?",1,VALID,deposit_not_returned
+test_0651,The neighbour in Hyderabad planted flowers in his own garden that I find ugly.,0,NOT_VALID,paint_colour
+test_0652,"Sir, I vacated my rented flat in Mumbai in January. The landlord is refusing to return my security deposit of Rs 5,000 though I left the flat in good condition. I want justice.",1,VALID,deposit_not_returned
+test_0653,I need advice. The auto driver in Chennai charged the meter fare in January. I wanted him to reduce it but he refused. I want justice.,0,NOT_VALID,discount_refused
+test_0654,I need advice. My husband left me and our two children on 3 March 2025 and refuses to give any money for food and school fees. He earns well in Jaipur. Please guide me.,1,VALID,maintenance_refused
+test_0655,"Good morning. Pooja won Rs 25,000 from me in a bet on the elections. Now I want to recover it legally. I want justice.",0,NOT_VALID,lost_bet
+test_0656,A shop in Bhopal refused to give me a discount on a shirt in December last year. The price was clearly marked and I chose to pay it. I want justice.,0,NOT_VALID,discount_refused
+test_0657,Good morning. My cousin Lakshmi painted his own house bright pink in January. I do not like the colour. Can I stop him? What can I do?,0,NOT_VALID,paint_colour
+test_0658,A car hit my scooter from behind in Kolkata last month and the driver ran away. I fractured my leg. I noted the number plate. Is this a case?,1,VALID,road_accident
+test_0659,"Sir, My girlfriend broke up with me on 9 September 2025 because she likes someone else. I want to take action against her. What can I do?",0,NOT_VALID,breakup
+test_0660,"Hello, A car hit my scooter from behind in Jaipur on 9 September 2025 and the driver ran away. I fractured my leg. I noted the number plate.",1,VALID,road_accident
+test_0661,Good morning. My husband left me and our two children last month and refuses to give any money for food and school fees. He earns well in Mumbai. Should I go to court?,1,VALID,maintenance_refused
+test_0662,"Madam, I lent Rs 2,50,000 to Deepa in Mumbai. The cheque he issued to repay me was dishonoured by the bank in January. Should I go to court?",1,VALID,cheque_bounce
+test_0663,A rash bus driver hit my son on the road in Chennai on 3 March 2025. He was badly hurt. Is there any remedy?,1,VALID,road_accident
+test_0664,"Madam, A seller on Facebook took Rs 1,20,000 as advance for furniture on 3 March 2025 and stopped responding. No product came to my house in Bhopal. Is there any remedy?",1,VALID,online_shopping_fraud
+test_0665,My husband left me and our two children in January and refuses to give any money for food and school fees. He earns well in Nagpur. Can I take legal action?,1,VALID,maintenance_refused
+test_0666,I need advice. A shop in Lucknow refused to give me a discount on a shirt two weeks ago. The price was clearly marked and I chose to pay it. Should I go to court?,0,NOT_VALID,discount_refused
+test_0667,"Please help. My landlord Anjali kept my Rs 12,500 rental deposit after I moved out on 14 August 2025 and gives no reason. Is this a case?",1,VALID,deposit_not_returned
+test_0668,Please help. I am a British citizen living in Singapore. My British neighbour there played loud music last month. Can an Indian court act?,0,NOT_VALID,foreign_matter
+test_0669,"I paid Rs 5,000 to an online seller on WhatsApp for a phone on 22 June 2025. He blocked me and never delivered anything. Can I take legal action?",1,VALID,online_shopping_fraud
+test_0670,"Madam, A seller on Telegram took Rs 25,000 as advance for furniture last Monday and stopped responding. No product came to my house in Vijayawada. Please guide me.",1,VALID,online_shopping_fraud
+test_0671,"Madam, Arjun ended our relationship in January and blocked me on Instagram. Can I sue her for hurting my feelings? Please guide me.",0,NOT_VALID,breakup
+test_0672,"Sir, A car hit my scooter from behind in Patna last month and the driver ran away. I fractured my leg. I noted the number plate. I want justice.",1,VALID,road_accident
+test_0673,"Madam, Which is the best tourist place to visit in Ahmedabad in winter? What can I do?",0,NOT_VALID,general_question
+test_0674,The neighbour in Jaipur planted flowers in his own garden that I find ugly.,0,NOT_VALID,paint_colour
+test_0675,"I need advice. I lent Rs 60,000 to Sanjay in Jaipur. The cheque he issued to repay me was dishonoured by the bank last month. I want justice.",1,VALID,cheque_bounce
+test_0676,I need advice. A shop in Indore refused to give me a discount on a shirt three days ago. The price was clearly marked and I chose to pay it. Can I take legal action?,0,NOT_VALID,discount_refused
+test_0677,"Sir, My landlord Farah kept my Rs 60,000 rental deposit after I moved out on 9 September 2025 and gives no reason. Is this a case?",1,VALID,deposit_not_returned
+test_0678,"Please help. Two of my friends, both foreign nationals, argued over a parking spot in New York three days ago. Nothing happened in India. What can I do?",0,NOT_VALID,foreign_matter
+test_0679,"Please help. A seller on WhatsApp took Rs 60,000 as advance for furniture on 3 March 2025 and stopped responding. No product came to my house in Jaipur.",1,VALID,online_shopping_fraud
+test_0680,"Sir, I lost a bet of Rs 25,000 with Vikram on a cricket match. I want the court to force him to return my bet money. Should I go to court?",0,NOT_VALID,lost_bet
+test_0681,"Good morning. I paid Rs 40,000 to an online seller on Telegram for a phone three days ago. He blocked me and never delivered anything. Should I go to court?",1,VALID,online_shopping_fraud
+test_0682,"Hello, I lost a bet of Rs 5,000 with Suresh on a cricket match. I want the court to force him to return my bet money. I want justice.",0,NOT_VALID,lost_bet
+test_0683,I need advice. My flatmate Vikram entered my house in Lucknow without permission on 14 August 2025 and broke my furniture. What can I do?,1,VALID,trespass_damage
+test_0684,Please help. The neighbour in Indore planted flowers in his own garden that I find ugly. Is this a case?,0,NOT_VALID,paint_colour
+test_0685,"Please help. Can you suggest a good laptop under Rs 75,000 for college?",0,NOT_VALID,general_question
+test_0686,"Can you suggest a good laptop under Rs 25,000 for college?",0,NOT_VALID,general_question
+test_0687,"Madam, A car hit my scooter from behind in Bengaluru last month and the driver ran away. I fractured my leg. I noted the number plate. Is this a case?",1,VALID,road_accident
+test_0688,"Can you suggest a good laptop under Rs 60,000 for college? Is there any remedy?",0,NOT_VALID,general_question
+test_0689,"A seller on Telegram took Rs 40,000 as advance for furniture on 3 March 2025 and stopped responding. No product came to my house in Mumbai. I want justice.",1,VALID,online_shopping_fraud
+test_0690,"Good morning. I paid Rs 1,20,000 to an online seller on Telegram for a phone last month. He blocked me and never delivered anything. Is there any remedy?",1,VALID,online_shopping_fraud
+test_0691,Good morning. A rash bus driver hit my son on the road in Lucknow last Monday. He was badly hurt. Can I take legal action?,1,VALID,road_accident
+test_0692,"I paid Rs 5,000 to an online seller on Telegram for a phone on 3 March 2025. He blocked me and never delivered anything. I want justice.",1,VALID,online_shopping_fraud
+test_0693,"Sir, My husband left me and our two children on 9 September 2025 and refuses to give any money for food and school fees. He earns well in Visakhapatnam. What can I do?",1,VALID,maintenance_refused
+test_0694,"Madam, Can you suggest a good laptop under Rs 25,000 for college? Please guide me.",0,NOT_VALID,general_question
+test_0695,"Sir, Can you suggest a good laptop under Rs 8,000 for college? I want justice.",0,NOT_VALID,general_question
+test_0696,My brother-in-law Arjun entered my house in Lucknow without permission on 22 June 2025 and broke my furniture. Is this a case?,1,VALID,trespass_damage
+test_0697,After separation my husband stopped supporting our child. He has a good job in Lucknow but gives nothing. Should I go to court?,1,VALID,maintenance_refused
+test_0698,After separation my husband stopped supporting our child. He has a good job in Guntur but gives nothing. Is this a case?,1,VALID,maintenance_refused
+test_0699,"Hello, A car hit my scooter from behind in Guntur in January and the driver ran away. I fractured my leg. I noted the number plate. Is this a case?",1,VALID,road_accident
+test_0700,Please help. My girlfriend broke up with me last Monday because she likes someone else. I want to take action against her. I want justice.,0,NOT_VALID,breakup
+test_0701,"Hello, My husband left me and our two children on 9 September 2025 and refuses to give any money for food and school fees. He earns well in Indore. What can I do?",1,VALID,maintenance_refused
+test_0702,Good morning. I am a British citizen living in Sydney. My British neighbour there played loud music in December last year. Can an Indian court act? Can I take legal action?,0,NOT_VALID,foreign_matter
+test_0703,"Please help. Two of my friends, both foreign nationals, argued over a parking spot in Dubai on 3 March 2025. Nothing happened in India. What can I do?",0,NOT_VALID,foreign_matter
+test_0704,Good morning. Joseph ended our relationship on 9 September 2025 and blocked me on Facebook. Can I sue her for hurting my feelings? Please guide me.,0,NOT_VALID,breakup
+test_0705,"Hello, A seller on Facebook took Rs 75,000 as advance for furniture last Monday and stopped responding. No product came to my house in Pune. Is there any remedy?",1,VALID,online_shopping_fraud
+test_0706,Good morning. My brother-in-law Vikram painted his own house bright pink on 9 September 2025. I do not like the colour. Can I stop him? Should I go to court?,0,NOT_VALID,paint_colour
+test_0707,"Hello, A car hit my scooter from behind in Vijayawada on 3 March 2025 and the driver ran away. I fractured my leg. I noted the number plate. Should I go to court?",1,VALID,road_accident
+test_0708,"Sir, A rash bus driver hit my son on the road in Mumbai on 14 August 2025. He was badly hurt. Is there any remedy?",1,VALID,road_accident
+test_0709,"Madam, I lent Rs 25,000 to Deepa in Bhopal. The cheque he issued to repay me was dishonoured by the bank on 22 June 2025. Is this a case?",1,VALID,cheque_bounce
+test_0710,I need advice. Which is the best tourist place to visit in Hyderabad in winter? I want justice.,0,NOT_VALID,general_question
+test_0711,"Hello, My girlfriend broke up with me in January because she likes someone else. I want to take action against her. Should I go to court?",0,NOT_VALID,breakup
+test_0712,Please help. A shop in Hyderabad refused to give me a discount on a shirt two weeks ago. The price was clearly marked and I chose to pay it. Is there any remedy?,0,NOT_VALID,discount_refused
+test_0713,"Madam, A car hit my scooter from behind in Hyderabad on 9 September 2025 and the driver ran away. I fractured my leg. I noted the number plate. Can I take legal action?",1,VALID,road_accident
+test_0714,"Please help. A seller on X (Twitter) took Rs 8,000 as advance for furniture in December last year and stopped responding. No product came to my house in Jaipur. What can I do?",1,VALID,online_shopping_fraud
+test_0715,"Please help. I paid Rs 2,50,000 to an online seller on WhatsApp for a phone on 3 March 2025. He blocked me and never delivered anything. Can I take legal action?",1,VALID,online_shopping_fraud
+test_0716,Please help. Which is the best tourist place to visit in Guntur in winter? Please guide me.,0,NOT_VALID,general_question
+test_0717,"Please help. I lost a bet of Rs 5,000 with Rekha on a cricket match. I want the court to force him to return my bet money. Please guide me.",0,NOT_VALID,lost_bet
+test_0718,"I need advice. A seller on WhatsApp took Rs 25,000 as advance for furniture on 9 September 2025 and stopped responding. No product came to my house in Lucknow. Is this a case?",1,VALID,online_shopping_fraud
+test_0719,"Madam, I lost a bet of Rs 8,000 with Fatima on a cricket match. I want the court to force him to return my bet money. I want justice.",0,NOT_VALID,lost_bet
+test_0720,"Hello, I am a British citizen living in Singapore. My British neighbour there played loud music two weeks ago. Can an Indian court act? Can I take legal action?",0,NOT_VALID,foreign_matter
+test_0721,"Hello, A shop in Visakhapatnam refused to give me a discount on a shirt last month. The price was clearly marked and I chose to pay it. Please guide me.",0,NOT_VALID,discount_refused
+test_0722,"Madam, I lost a bet of Rs 25,000 with Arjun on a cricket match. I want the court to force him to return my bet money.",0,NOT_VALID,lost_bet
+test_0723,"Madam, I lent Rs 3,00,000 to Sunita in Chennai. The cheque he issued to repay me was dishonoured by the bank on 14 August 2025. Is this a case?",1,VALID,cheque_bounce
+test_0724,"Madam, Which is the best tourist place to visit in Indore in winter?",0,NOT_VALID,general_question
+test_0725,Please help. My brother-in-law Fatima entered my house in Bengaluru without permission in December last year and broke my furniture. Please guide me.,1,VALID,trespass_damage
+test_0726,"Sir, Some people entered my farm near Ahmedabad on 14 August 2025, cut my mango trees and took the wood. Is this a case?",1,VALID,trespass_damage
+test_0727,I need advice. The auto driver in Lucknow charged the meter fare three days ago. I wanted him to reduce it but he refused. What can I do?,0,NOT_VALID,discount_refused
+test_0728,My flatmate Gopal painted his own house bright pink on 14 August 2025. I do not like the colour. Can I stop him?,0,NOT_VALID,paint_colour
+test_0729,"Madam, My cousin Mohammed gave me a cheque of Rs 40,000 to repay a loan and it bounced last month for insufficient funds. He refuses to pay. Please guide me.",1,VALID,cheque_bounce
+test_0730,"Sir, Some people entered my farm near Guntur last month, cut my mango trees and took the wood. Can I take legal action?",1,VALID,trespass_damage
+test_0731,Good morning. A car hit my scooter from behind in Nagpur in January and the driver ran away. I fractured my leg. I noted the number plate. Can I take legal action?,1,VALID,road_accident
+test_0732,I need advice. The auto driver in Delhi charged the meter fare two weeks ago. I wanted him to reduce it but he refused. Please guide me.,0,NOT_VALID,discount_refused
+test_0733,"I need advice. My landlord Pooja kept my Rs 2,50,000 rental deposit after I moved out on 22 June 2025 and gives no reason.",1,VALID,deposit_not_returned
+test_0734,"Madam, The auto driver in Kolkata charged the meter fare last month. I wanted him to reduce it but he refused.",0,NOT_VALID,discount_refused
+test_0735,"Two of my friends, both foreign nationals, argued over a parking spot in Singapore last Monday. Nothing happened in India. Please guide me.",0,NOT_VALID,foreign_matter
+test_0736,"Hello, My husband left me and our two children last month and refuses to give any money for food and school fees. He earns well in Vijayawada. Can I take legal action?",1,VALID,maintenance_refused
+test_0737,"Madam, My husband left me and our two children on 9 September 2025 and refuses to give any money for food and school fees. He earns well in Indore. What can I do?",1,VALID,maintenance_refused
+test_0738,"I need advice. My landlord Harish kept my Rs 25,000 rental deposit after I moved out on 14 August 2025 and gives no reason. Please guide me.",1,VALID,deposit_not_returned
+test_0739,How do I cook a good biryani at home for guests? Can I take legal action?,0,NOT_VALID,general_question
+test_0740,"I need advice. I vacated my rented flat in Chennai in December last year. The landlord is refusing to return my security deposit of Rs 2,50,000 though I left the flat in good condition.",1,VALID,deposit_not_returned
+test_0741,"Madam, Mohammed won Rs 12,500 from me in a bet on the elections. Now I want to recover it legally. What can I do?",0,NOT_VALID,lost_bet
+test_0742,Good morning. Rahul ended our relationship in January and blocked me on Instagram. Can I sue her for hurting my feelings? Can I take legal action?,0,NOT_VALID,breakup
+test_0743,"Please help. I lent Rs 3,00,000 to Neha in Patna. The cheque he issued to repay me was dishonoured by the bank on 3 March 2025. Can I take legal action?",1,VALID,cheque_bounce
+test_0744,"Madam, Two of my friends, both foreign nationals, argued over a parking spot in Berlin on 9 September 2025. Nothing happened in India. Is this a case?",0,NOT_VALID,foreign_matter
+test_0745,My husband left me and our two children on 9 September 2025 and refuses to give any money for food and school fees. He earns well in Kolkata. Is this a case?,1,VALID,maintenance_refused
+test_0746,"Madam, The neighbour in Bhopal planted flowers in his own garden that I find ugly. Please guide me.",0,NOT_VALID,paint_colour
+test_0747,"Hello, I paid Rs 40,000 to an online seller on Facebook for a phone on 14 August 2025. He blocked me and never delivered anything. Should I go to court?",1,VALID,online_shopping_fraud
+test_0748,"Madam, The neighbour in Hyderabad planted flowers in his own garden that I find ugly. Is there any remedy?",0,NOT_VALID,paint_colour
+test_0749,I need advice. My girlfriend broke up with me on 9 September 2025 because she likes someone else. I want to take action against her. Can I take legal action?,0,NOT_VALID,breakup
+test_0750,"Hello, After separation my husband stopped supporting our child. He has a good job in Kolkata but gives nothing. Can I take legal action?",1,VALID,maintenance_refused
+test_0751,"Sir, My colleague Suresh entered my house in Nagpur without permission on 9 September 2025 and broke my furniture. Is this a case?",1,VALID,trespass_damage
+test_0752,"Hello, A rash bus driver hit my son on the road in Vijayawada in December last year. He was badly hurt. Is there any remedy?",1,VALID,road_accident
+test_0753,"Good morning. I paid Rs 12,500 to an online seller on Instagram for a phone three days ago. He blocked me and never delivered anything. Is there any remedy?",1,VALID,online_shopping_fraud
+test_0754,"Madam, I lent Rs 1,20,000 to Sneha in Guntur. The cheque he issued to repay me was dishonoured by the bank three days ago. Please guide me.",1,VALID,cheque_bounce
+test_0755,"Good morning. A seller on Telegram took Rs 40,000 as advance for furniture last Monday and stopped responding. No product came to my house in Nagpur. Should I go to court?",1,VALID,online_shopping_fraud
+test_0756,"I need advice. My landlord Kavya kept my Rs 8,000 rental deposit after I moved out three days ago and gives no reason. I want justice.",1,VALID,deposit_not_returned
+test_0757,"Sir, Two of my friends, both foreign nationals, argued over a parking spot in Tokyo last Monday. Nothing happened in India. I want justice.",0,NOT_VALID,foreign_matter
+test_0758,"Sir, The neighbour in Pune planted flowers in his own garden that I find ugly. Please guide me.",0,NOT_VALID,paint_colour
+test_0759,"I need advice. Two of my friends, both foreign nationals, argued over a parking spot in Toronto in December last year. Nothing happened in India. Is this a case?",0,NOT_VALID,foreign_matter
+test_0760,"Hello, A rash bus driver hit my son on the road in Lucknow on 9 September 2025. He was badly hurt. Is this a case?",1,VALID,road_accident
+test_0761,Good morning. A rash bus driver hit my son on the road in Bengaluru last Monday. He was badly hurt. Is there any remedy?,1,VALID,road_accident
+test_0762,"Madam, I am a British citizen living in London. My British neighbour there played loud music three days ago. Can an Indian court act? Please guide me.",0,NOT_VALID,foreign_matter
+test_0763,"Madam, I lost a bet of Rs 5,000 with Gopal on a cricket match. I want the court to force him to return my bet money. Is this a case?",0,NOT_VALID,lost_bet
+test_0764,"Madam, I lent Rs 25,000 to Deepa in Jaipur. The cheque he issued to repay me was dishonoured by the bank on 14 August 2025.",1,VALID,cheque_bounce
+test_0765,"Please help. I lost a bet of Rs 3,00,000 with Vikram on a cricket match. I want the court to force him to return my bet money. Is this a case?",0,NOT_VALID,lost_bet
+test_0766,"I need advice. I lost a bet of Rs 75,000 with Naveen on a cricket match. I want the court to force him to return my bet money. I want justice.",0,NOT_VALID,lost_bet
+test_0767,"Madam, How do I cook a good biryani at home for guests? Should I go to court?",0,NOT_VALID,general_question
+test_0768,"I need advice. I lost a bet of Rs 5,000 with Meena on a cricket match. I want the court to force him to return my bet money. Please guide me.",0,NOT_VALID,lost_bet
+test_0769,"Madam, A seller on Telegram took Rs 25,000 as advance for furniture on 3 March 2025 and stopped responding. No product came to my house in Kolkata. What can I do?",1,VALID,online_shopping_fraud
+test_0770,"Sir, My girlfriend broke up with me on 22 June 2025 because she likes someone else. I want to take action against her. Is there any remedy?",0,NOT_VALID,breakup
+test_0771,"I paid Rs 12,500 to an online seller on Telegram for a phone on 22 June 2025. He blocked me and never delivered anything. What can I do?",1,VALID,online_shopping_fraud
+test_0772,"I vacated my rented flat in Pune on 9 September 2025. The landlord is refusing to return my security deposit of Rs 12,500 though I left the flat in good condition. Should I go to court?",1,VALID,deposit_not_returned
+test_0773,"Sir, I paid Rs 75,000 to an online seller on Telegram for a phone two weeks ago. He blocked me and never delivered anything.",1,VALID,online_shopping_fraud
+test_0774,"Sir, My brother-in-law Anil gave me a cheque of Rs 25,000 to repay a loan and it bounced three days ago for insufficient funds. He refuses to pay. Please guide me.",1,VALID,cheque_bounce
+test_0775,"I need advice. I lent Rs 75,000 to Anjali in Ahmedabad. The cheque he issued to repay me was dishonoured by the bank on 14 August 2025.",1,VALID,cheque_bounce
+test_0776,"My landlord Ramesh kept my Rs 1,20,000 rental deposit after I moved out in January and gives no reason. I want justice.",1,VALID,deposit_not_returned
+test_0777,"Sir, I am a British citizen living in Toronto. My British neighbour there played loud music two weeks ago. Can an Indian court act? Should I go to court?",0,NOT_VALID,foreign_matter
+test_0778,"Hello, A seller on Instagram took Rs 3,00,000 as advance for furniture three days ago and stopped responding. No product came to my house in Kochi. What can I do?",1,VALID,online_shopping_fraud
+test_0779,"Good morning. I vacated my rented flat in Kochi two weeks ago. The landlord is refusing to return my security deposit of Rs 40,000 though I left the flat in good condition. Should I go to court?",1,VALID,deposit_not_returned
+test_0780,"Hello, My colleague Pooja gave me a cheque of Rs 5,000 to repay a loan and it bounced on 22 June 2025 for insufficient funds. He refuses to pay. Can I take legal action?",1,VALID,cheque_bounce
+test_0781,"Madam, The auto driver in Mumbai charged the meter fare three days ago. I wanted him to reduce it but he refused.",0,NOT_VALID,discount_refused
+test_0782,"Please help. My friend Anjali gave me a cheque of Rs 25,000 to repay a loan and it bounced on 3 March 2025 for insufficient funds. He refuses to pay. Can I take legal action?",1,VALID,cheque_bounce
+test_0783,"I need advice. I lost a bet of Rs 40,000 with Pooja on a cricket match. I want the court to force him to return my bet money. Should I go to court?",0,NOT_VALID,lost_bet
+test_0784,I need advice. My girlfriend broke up with me last month because she likes someone else. I want to take action against her. Please guide me.,0,NOT_VALID,breakup
+test_0785,"Madam, I am a British citizen living in London. My British neighbour there played loud music in January. Can an Indian court act? I want justice.",0,NOT_VALID,foreign_matter
+test_0786,"Sir, I vacated my rented flat in Lucknow on 3 March 2025. The landlord is refusing to return my security deposit of Rs 8,000 though I left the flat in good condition. What can I do?",1,VALID,deposit_not_returned
+test_0787,Please help. After separation my husband stopped supporting our child. He has a good job in Visakhapatnam but gives nothing.,1,VALID,maintenance_refused
+test_0788,"Hello, The neighbour in Ahmedabad planted flowers in his own garden that I find ugly. What can I do?",0,NOT_VALID,paint_colour
+test_0789,I need advice. Priya ended our relationship on 3 March 2025 and blocked me on WhatsApp. Can I sue her for hurting my feelings? Is this a case?,0,NOT_VALID,breakup
+test_0790,My girlfriend broke up with me last month because she likes someone else. I want to take action against her.,0,NOT_VALID,breakup
+test_0791,"Sir, A shop in Hyderabad refused to give me a discount on a shirt on 22 June 2025. The price was clearly marked and I chose to pay it. Please guide me.",0,NOT_VALID,discount_refused
+test_0792,"Sir, Can you suggest a good laptop under Rs 1,20,000 for college? Can I take legal action?",0,NOT_VALID,general_question
+test_0793,"A seller on Instagram took Rs 40,000 as advance for furniture last month and stopped responding. No product came to my house in Kolkata. Can I take legal action?",1,VALID,online_shopping_fraud
+test_0794,Please help. Joseph ended our relationship three days ago and blocked me on Telegram. Can I sue her for hurting my feelings? Should I go to court?,0,NOT_VALID,breakup
+test_0795,A shop in Hyderabad refused to give me a discount on a shirt on 3 March 2025. The price was clearly marked and I chose to pay it. What can I do?,0,NOT_VALID,discount_refused
+test_0796,I need advice. I am a British citizen living in Berlin. My British neighbour there played loud music on 3 March 2025. Can an Indian court act? Can I take legal action?,0,NOT_VALID,foreign_matter
+test_0797,Good morning. Which is the best tourist place to visit in Mumbai in winter? Can I take legal action?,0,NOT_VALID,general_question
+test_0798,"Hello, Some people entered my farm near Hyderabad on 22 June 2025, cut my mango trees and took the wood.",1,VALID,trespass_damage
+test_0799,"Sir, The neighbour in Kochi planted flowers in his own garden that I find ugly. I want justice.",0,NOT_VALID,paint_colour
+test_0800,Good morning. A shop in Ahmedabad refused to give me a discount on a shirt on 14 August 2025. The price was clearly marked and I chose to pay it.,0,NOT_VALID,discount_refused
+test_0801,"Sir, My brother-in-law Fatima entered my house in Hyderabad without permission in January and broke my furniture. Can I take legal action?",1,VALID,trespass_damage
+test_0802,"Sir, How do I cook a good biryani at home for guests? I want justice.",0,NOT_VALID,general_question
+test_0803,"Sir, I lost a bet of Rs 60,000 with Neha on a cricket match. I want the court to force him to return my bet money. Is this a case?",0,NOT_VALID,lost_bet
+test_0804,Good morning. Farah ended our relationship two weeks ago and blocked me on X (Twitter). Can I sue her for hurting my feelings? I want justice.,0,NOT_VALID,breakup
+test_0805,"Hello, I lost a bet of Rs 60,000 with Joseph on a cricket match. I want the court to force him to return my bet money. Please guide me.",0,NOT_VALID,lost_bet
+test_0806,"Some people entered my farm near Mumbai last month, cut my mango trees and took the wood. Please guide me.",1,VALID,trespass_damage
+test_0807,"Madam, Some people entered my farm near Kochi on 3 March 2025, cut my mango trees and took the wood.",1,VALID,trespass_damage
+test_0808,I need advice. A car hit my scooter from behind in Vijayawada in January and the driver ran away. I fractured my leg. I noted the number plate. Is this a case?,1,VALID,road_accident
+test_0809,"Sir, Kavya ended our relationship last month and blocked me on X (Twitter). Can I sue her for hurting my feelings? Please guide me.",0,NOT_VALID,breakup
+test_0810,"Sir, Which is the best tourist place to visit in Ahmedabad in winter? Please guide me.",0,NOT_VALID,general_question
+test_0811,I need advice. Which is the best tourist place to visit in Ahmedabad in winter? Should I go to court?,0,NOT_VALID,general_question
+test_0812,"Good morning. I vacated my rented flat in Kolkata two weeks ago. The landlord is refusing to return my security deposit of Rs 40,000 though I left the flat in good condition.",1,VALID,deposit_not_returned
+test_0813,Good morning. My girlfriend broke up with me in January because she likes someone else. I want to take action against her. What can I do?,0,NOT_VALID,breakup
+test_0814,"My landlord Suresh kept my Rs 1,20,000 rental deposit after I moved out in December last year and gives no reason. What can I do?",1,VALID,deposit_not_returned
+test_0815,Please help. My girlfriend broke up with me on 14 August 2025 because she likes someone else. I want to take action against her. Is this a case?,0,NOT_VALID,breakup
+test_0816,"Madam, My flatmate Meena painted his own house bright pink in January. I do not like the colour. Can I stop him? Is this a case?",0,NOT_VALID,paint_colour
+test_0817,Good morning. The auto driver in Pune charged the meter fare in December last year. I wanted him to reduce it but he refused. Can I take legal action?,0,NOT_VALID,discount_refused
+test_0818,"Sir, My classmate Deepa entered my house in Ahmedabad without permission three days ago and broke my furniture. Is this a case?",1,VALID,trespass_damage
+test_0819,"Please help. I lent Rs 25,000 to Anil in Delhi. The cheque he issued to repay me was dishonoured by the bank last Monday. Is this a case?",1,VALID,cheque_bounce
+test_0820,"I need advice. My neighbour Imran gave me a cheque of Rs 12,500 to repay a loan and it bounced on 14 August 2025 for insufficient funds. He refuses to pay. Should I go to court?",1,VALID,cheque_bounce
+test_0821,I need advice. After separation my husband stopped supporting our child. He has a good job in Mumbai but gives nothing. Is this a case?,1,VALID,maintenance_refused
+test_0822,"Hello, My landlord Pooja kept my Rs 60,000 rental deposit after I moved out on 14 August 2025 and gives no reason. Should I go to court?",1,VALID,deposit_not_returned
+test_0823,Good morning. Karthik ended our relationship three days ago and blocked me on Instagram. Can I sue her for hurting my feelings? Is there any remedy?,0,NOT_VALID,breakup
+test_0824,Please help. A car hit my scooter from behind in Delhi on 22 June 2025 and the driver ran away. I fractured my leg. I noted the number plate. Can I take legal action?,1,VALID,road_accident
+test_0825,"Sir, The neighbour in Lucknow planted flowers in his own garden that I find ugly. Is there any remedy?",0,NOT_VALID,paint_colour
+test_0826,After separation my husband stopped supporting our child. He has a good job in Bengaluru but gives nothing.,1,VALID,maintenance_refused
+test_0827,"Sir, Joseph won Rs 3,00,000 from me in a bet on the elections. Now I want to recover it legally. Please guide me.",0,NOT_VALID,lost_bet
+test_0828,"I need advice. My landlord Lakshmi kept my Rs 2,50,000 rental deposit after I moved out two weeks ago and gives no reason. Can I take legal action?",1,VALID,deposit_not_returned
+test_0829,"Anil won Rs 2,50,000 from me in a bet on the elections. Now I want to recover it legally. Is this a case?",0,NOT_VALID,lost_bet
+test_0830,"Hello, My brother-in-law Arjun gave me a cheque of Rs 5,000 to repay a loan and it bounced in January for insufficient funds. He refuses to pay.",1,VALID,cheque_bounce
+test_0831,Good morning. The neighbour in Chennai planted flowers in his own garden that I find ugly. Please guide me.,0,NOT_VALID,paint_colour
+test_0832,"Madam, I lent Rs 5,000 to Deepa in Chennai. The cheque he issued to repay me was dishonoured by the bank on 14 August 2025. Is this a case?",1,VALID,cheque_bounce
+test_0833,"Hello, The auto driver in Bengaluru charged the meter fare three days ago. I wanted him to reduce it but he refused. Please guide me.",0,NOT_VALID,discount_refused
+test_0834,"Madam, I vacated my rented flat in Bengaluru in December last year. The landlord is refusing to return my security deposit of Rs 2,50,000 though I left the flat in good condition.",1,VALID,deposit_not_returned
+test_0835,"Sir, How do I cook a good biryani at home for guests? What can I do?",0,NOT_VALID,general_question
+test_0836,Good morning. My husband left me and our two children on 3 March 2025 and refuses to give any money for food and school fees. He earns well in Bengaluru. Can I take legal action?,1,VALID,maintenance_refused
+test_0837,I need advice. The neighbour in Lucknow planted flowers in his own garden that I find ugly. Is there any remedy?,0,NOT_VALID,paint_colour
+test_0838,My colleague Mohammed entered my house in Nagpur without permission on 9 September 2025 and broke my furniture.,1,VALID,trespass_damage
+test_0839,"Please help. My classmate Rahul gave me a cheque of Rs 8,000 to repay a loan and it bounced two weeks ago for insufficient funds. He refuses to pay. Should I go to court?",1,VALID,cheque_bounce
+test_0840,My girlfriend broke up with me three days ago because she likes someone else. I want to take action against her. What can I do?,0,NOT_VALID,breakup
+test_0841,Good morning. A rash bus driver hit my son on the road in Kochi three days ago. He was badly hurt. Should I go to court?,1,VALID,road_accident
+test_0842,Good morning. A rash bus driver hit my son on the road in Mumbai last month. He was badly hurt. Please guide me.,1,VALID,road_accident
+test_0843,"Madam, A shop in Chennai refused to give me a discount on a shirt on 9 September 2025. The price was clearly marked and I chose to pay it. Please guide me.",0,NOT_VALID,discount_refused
+test_0844,"Sir, My cousin Sunita gave me a cheque of Rs 40,000 to repay a loan and it bounced last Monday for insufficient funds. He refuses to pay. I want justice.",1,VALID,cheque_bounce
+test_0845,Please help. My classmate Arjun entered my house in Delhi without permission on 9 September 2025 and broke my furniture. Is there any remedy?,1,VALID,trespass_damage
+test_0846,"Good morning. I lost a bet of Rs 60,000 with Deepa on a cricket match. I want the court to force him to return my bet money. Please guide me.",0,NOT_VALID,lost_bet
+test_0847,My girlfriend broke up with me in January because she likes someone else. I want to take action against her. Is there any remedy?,0,NOT_VALID,breakup
+test_0848,I need advice. After separation my husband stopped supporting our child. He has a good job in Chennai but gives nothing. Is this a case?,1,VALID,maintenance_refused
+test_0849,My girlfriend broke up with me two weeks ago because she likes someone else. I want to take action against her. Is there any remedy?,0,NOT_VALID,breakup
+test_0850,"I need advice. My landlord Sneha kept my Rs 40,000 rental deposit after I moved out last month and gives no reason. What can I do?",1,VALID,deposit_not_returned
+test_0851,I need advice. After separation my husband stopped supporting our child. He has a good job in Chennai but gives nothing. Can I take legal action?,1,VALID,maintenance_refused
+test_0852,"Good morning. I lent Rs 60,000 to Pooja in Jaipur. The cheque he issued to repay me was dishonoured by the bank in December last year. I want justice.",1,VALID,cheque_bounce
+test_0853,"I paid Rs 3,00,000 to an online seller on Instagram for a phone on 22 June 2025. He blocked me and never delivered anything. I want justice.",1,VALID,online_shopping_fraud
+test_0854,"Hello, A car hit my scooter from behind in Mumbai last Monday and the driver ran away. I fractured my leg. I noted the number plate. Can I take legal action?",1,VALID,road_accident
+test_0855,"Madam, I am a British citizen living in Toronto. My British neighbour there played loud music on 9 September 2025. Can an Indian court act? What can I do?",0,NOT_VALID,foreign_matter
+test_0856,"Hello, I lent Rs 40,000 to Fatima in Lucknow. The cheque he issued to repay me was dishonoured by the bank three days ago. Should I go to court?",1,VALID,cheque_bounce
+test_0857,"I need advice. I lost a bet of Rs 3,00,000 with Priya on a cricket match. I want the court to force him to return my bet money. I want justice.",0,NOT_VALID,lost_bet
+test_0858,"Madam, I lent Rs 12,500 to Arjun in Guntur. The cheque he issued to repay me was dishonoured by the bank last month.",1,VALID,cheque_bounce
+test_0859,"Sir, I paid Rs 60,000 to an online seller on Telegram for a phone in January. He blocked me and never delivered anything. Can I take legal action?",1,VALID,online_shopping_fraud
+test_0860,"Sir, A car hit my scooter from behind in Ahmedabad three days ago and the driver ran away. I fractured my leg. I noted the number plate.",1,VALID,road_accident
+test_0861,"Please help. Gopal won Rs 25,000 from me in a bet on the elections. Now I want to recover it legally. Is there any remedy?",0,NOT_VALID,lost_bet
+test_0862,"Sir, The neighbour in Guntur planted flowers in his own garden that I find ugly. Should I go to court?",0,NOT_VALID,paint_colour
+test_0863,"Good morning. I lent Rs 3,00,000 to Sanjay in Delhi. The cheque he issued to repay me was dishonoured by the bank on 22 June 2025. What can I do?",1,VALID,cheque_bounce
+test_0864,"Please help. Some people entered my farm near Delhi three days ago, cut my mango trees and took the wood. Please guide me.",1,VALID,trespass_damage
+test_0865,Good morning. My husband left me and our two children last month and refuses to give any money for food and school fees. He earns well in Lucknow. Is this a case?,1,VALID,maintenance_refused
+test_0866,"Hello, Karthik ended our relationship two weeks ago and blocked me on Facebook. Can I sue her for hurting my feelings? Should I go to court?",0,NOT_VALID,breakup
+test_0867,"Sir, A rash bus driver hit my son on the road in Patna on 3 March 2025. He was badly hurt. Should I go to court?",1,VALID,road_accident
+test_0868,A car hit my scooter from behind in Patna three days ago and the driver ran away. I fractured my leg. I noted the number plate. Please guide me.,1,VALID,road_accident
+test_0869,"Madam, A seller on Facebook took Rs 60,000 as advance for furniture in December last year and stopped responding. No product came to my house in Delhi.",1,VALID,online_shopping_fraud
+test_0870,"Good morning. Two of my friends, both foreign nationals, argued over a parking spot in Dubai last Monday. Nothing happened in India.",0,NOT_VALID,foreign_matter
+test_0871,"Good morning. My classmate Gopal gave me a cheque of Rs 60,000 to repay a loan and it bounced on 22 June 2025 for insufficient funds. He refuses to pay. Is this a case?",1,VALID,cheque_bounce
+test_0872,"I need advice. I vacated my rented flat in Vijayawada in January. The landlord is refusing to return my security deposit of Rs 1,20,000 though I left the flat in good condition.",1,VALID,deposit_not_returned
+test_0873,"Sir, I am a British citizen living in Tokyo. My British neighbour there played loud music in January. Can an Indian court act? I want justice.",0,NOT_VALID,foreign_matter
+test_0874,"Hello, I lent Rs 1,20,000 to Arjun in Jaipur. The cheque he issued to repay me was dishonoured by the bank on 22 June 2025. What can I do?",1,VALID,cheque_bounce
+test_0875,Please help. A car hit my scooter from behind in Vijayawada on 3 March 2025 and the driver ran away. I fractured my leg. I noted the number plate. What can I do?,1,VALID,road_accident
+test_0876,"Hello, Two of my friends, both foreign nationals, argued over a parking spot in Dubai last month. Nothing happened in India. What can I do?",0,NOT_VALID,foreign_matter
+test_0877,"Hello, The auto driver in Mumbai charged the meter fare last Monday. I wanted him to reduce it but he refused.",0,NOT_VALID,discount_refused
+test_0878,My husband left me and our two children two weeks ago and refuses to give any money for food and school fees. He earns well in Patna. Can I take legal action?,1,VALID,maintenance_refused
+test_0879,"I vacated my rented flat in Bhopal last Monday. The landlord is refusing to return my security deposit of Rs 25,000 though I left the flat in good condition. I want justice.",1,VALID,deposit_not_returned
+test_0880,I need advice. A rash bus driver hit my son on the road in Kolkata on 22 June 2025. He was badly hurt. Can I take legal action?,1,VALID,road_accident
+test_0881,"Sir, A car hit my scooter from behind in Jaipur three days ago and the driver ran away. I fractured my leg. I noted the number plate. Can I take legal action?",1,VALID,road_accident
+test_0882,"Some people entered my farm near Chennai two weeks ago, cut my mango trees and took the wood. Can I take legal action?",1,VALID,trespass_damage
+test_0883,"Madam, My brother-in-law Ravi gave me a cheque of Rs 60,000 to repay a loan and it bounced on 3 March 2025 for insufficient funds. He refuses to pay. Is this a case?",1,VALID,cheque_bounce
+test_0884,"I need advice. I paid Rs 2,50,000 to an online seller on X (Twitter) for a phone in December last year. He blocked me and never delivered anything. Please guide me.",1,VALID,online_shopping_fraud
+test_0885,"I need advice. Some people entered my farm near Vijayawada three days ago, cut my mango trees and took the wood. I want justice.",1,VALID,trespass_damage
+test_0886,"Sir, My neighbour Anjali entered my house in Guntur without permission three days ago and broke my furniture. Is there any remedy?",1,VALID,trespass_damage
+test_0887,A rash bus driver hit my son on the road in Patna two weeks ago. He was badly hurt. What can I do?,1,VALID,road_accident
+test_0888,Good morning. A shop in Pune refused to give me a discount on a shirt three days ago. The price was clearly marked and I chose to pay it.,0,NOT_VALID,discount_refused
+test_0889,"Madam, A rash bus driver hit my son on the road in Visakhapatnam last Monday. He was badly hurt. Is this a case?",1,VALID,road_accident
+test_0890,"Hello, I vacated my rented flat in Nagpur last month. The landlord is refusing to return my security deposit of Rs 8,000 though I left the flat in good condition. What can I do?",1,VALID,deposit_not_returned
+test_0891,"Madam, I lost a bet of Rs 5,000 with Ramesh on a cricket match. I want the court to force him to return my bet money.",0,NOT_VALID,lost_bet
+test_0892,"Madam, Some people entered my farm near Jaipur last Monday, cut my mango trees and took the wood. What can I do?",1,VALID,trespass_damage
+test_0893,I need advice. After separation my husband stopped supporting our child. He has a good job in Chennai but gives nothing. Is there any remedy?,1,VALID,maintenance_refused
+test_0894,"Hello, A rash bus driver hit my son on the road in Bengaluru last Monday. He was badly hurt. Is this a case?",1,VALID,road_accident
+test_0895,"Hello, Two of my friends, both foreign nationals, argued over a parking spot in Singapore two weeks ago. Nothing happened in India. I want justice.",0,NOT_VALID,foreign_matter
+test_0896,I need advice. The auto driver in Chennai charged the meter fare in December last year. I wanted him to reduce it but he refused.,0,NOT_VALID,discount_refused
+test_0897,"Madam, I vacated my rented flat in Indore on 9 September 2025. The landlord is refusing to return my security deposit of Rs 2,50,000 though I left the flat in good condition. What can I do?",1,VALID,deposit_not_returned
+test_0898,"Sir, My girlfriend broke up with me last month because she likes someone else. I want to take action against her. Should I go to court?",0,NOT_VALID,breakup
+test_0899,"Sir, How do I cook a good biryani at home for guests? Is this a case?",0,NOT_VALID,general_question
+test_0900,I need advice. A shop in Pune refused to give me a discount on a shirt on 22 June 2025. The price was clearly marked and I chose to pay it. Is this a case?,0,NOT_VALID,discount_refused
+test_0901,"Good morning. Two of my friends, both foreign nationals, argued over a parking spot in Singapore last month. Nothing happened in India. Please guide me.",0,NOT_VALID,foreign_matter
+test_0902,"Please help. Can you suggest a good laptop under Rs 8,000 for college? What can I do?",0,NOT_VALID,general_question
+test_0903,"Sir, A car hit my scooter from behind in Vijayawada in January and the driver ran away. I fractured my leg. I noted the number plate. What can I do?",1,VALID,road_accident
+test_0904,"Sir, Meena won Rs 5,000 from me in a bet on the elections. Now I want to recover it legally. What can I do?",0,NOT_VALID,lost_bet
+test_0905,"Madam, How do I cook a good biryani at home for guests? Is there any remedy?",0,NOT_VALID,general_question
+test_0906,"I need advice. Ravi won Rs 3,00,000 from me in a bet on the elections. Now I want to recover it legally. Is there any remedy?",0,NOT_VALID,lost_bet
+test_0907,Good morning. My husband left me and our two children in December last year and refuses to give any money for food and school fees. He earns well in Vijayawada. Can I take legal action?,1,VALID,maintenance_refused
+test_0908,"Please help. I vacated my rented flat in Indore on 22 June 2025. The landlord is refusing to return my security deposit of Rs 60,000 though I left the flat in good condition. Is there any remedy?",1,VALID,deposit_not_returned
+test_0909,I need advice. The neighbour in Pune planted flowers in his own garden that I find ugly. I want justice.,0,NOT_VALID,paint_colour
+test_0910,"Sir, Which is the best tourist place to visit in Jaipur in winter? I want justice.",0,NOT_VALID,general_question
+test_0911,I need advice. I am a British citizen living in Toronto. My British neighbour there played loud music last month. Can an Indian court act? Is this a case?,0,NOT_VALID,foreign_matter
+test_0912,The auto driver in Nagpur charged the meter fare two weeks ago. I wanted him to reduce it but he refused. Should I go to court?,0,NOT_VALID,discount_refused
+test_0913,I need advice. I am a British citizen living in London. My British neighbour there played loud music in January. Can an Indian court act?,0,NOT_VALID,foreign_matter
+test_0914,"Hello, Arjun ended our relationship in January and blocked me on WhatsApp. Can I sue her for hurting my feelings? Should I go to court?",0,NOT_VALID,breakup
+test_0915,"Please help. I paid Rs 12,500 to an online seller on Instagram for a phone in January. He blocked me and never delivered anything. Is there any remedy?",1,VALID,online_shopping_fraud
+test_0916,"Sir, My landlord Meena kept my Rs 60,000 rental deposit after I moved out three days ago and gives no reason. Is there any remedy?",1,VALID,deposit_not_returned
+test_0917,"I lent Rs 40,000 to Ramesh in Bhopal. The cheque he issued to repay me was dishonoured by the bank in January. Is there any remedy?",1,VALID,cheque_bounce
+test_0918,"Sir, How do I cook a good biryani at home for guests? Is there any remedy?",0,NOT_VALID,general_question
+test_0919,Please help. A rash bus driver hit my son on the road in Kochi on 9 September 2025. He was badly hurt. Please guide me.,1,VALID,road_accident
+test_0920,"I need advice. I lost a bet of Rs 3,00,000 with Divya on a cricket match. I want the court to force him to return my bet money. I want justice.",0,NOT_VALID,lost_bet
+test_0921,"Hello, I lent Rs 5,000 to Harish in Ahmedabad. The cheque he issued to repay me was dishonoured by the bank last month.",1,VALID,cheque_bounce
+test_0922,"Sir, After separation my husband stopped supporting our child. He has a good job in Bhopal but gives nothing. Please guide me.",1,VALID,maintenance_refused
+test_0923,"Please help. Two of my friends, both foreign nationals, argued over a parking spot in Toronto last Monday. Nothing happened in India. I want justice.",0,NOT_VALID,foreign_matter
+test_0924,"Good morning. Two of my friends, both foreign nationals, argued over a parking spot in Berlin last Monday. Nothing happened in India. Please guide me.",0,NOT_VALID,foreign_matter
+test_0925,"Madam, Farah won Rs 5,000 from me in a bet on the elections. Now I want to recover it legally. Is this a case?",0,NOT_VALID,lost_bet
+test_0926,"Sir, I lent Rs 1,20,000 to Imran in Ahmedabad. The cheque he issued to repay me was dishonoured by the bank on 22 June 2025. Should I go to court?",1,VALID,cheque_bounce
+test_0927,"Please help. I paid Rs 3,00,000 to an online seller on Facebook for a phone in January. He blocked me and never delivered anything.",1,VALID,online_shopping_fraud
+test_0928,"Hello, Neha won Rs 5,000 from me in a bet on the elections. Now I want to recover it legally. Can I take legal action?",0,NOT_VALID,lost_bet
+test_0929,"Hello, A car hit my scooter from behind in Guntur last Monday and the driver ran away. I fractured my leg. I noted the number plate. Is there any remedy?",1,VALID,road_accident
+test_0930,"Good morning. I lost a bet of Rs 75,000 with Lakshmi on a cricket match. I want the court to force him to return my bet money. I want justice.",0,NOT_VALID,lost_bet
+test_0931,"Hello, Asha won Rs 75,000 from me in a bet on the elections. Now I want to recover it legally. Is there any remedy?",0,NOT_VALID,lost_bet
+test_0932,"Hello, A seller on Telegram took Rs 75,000 as advance for furniture in January and stopped responding. No product came to my house in Chennai. Can I take legal action?",1,VALID,online_shopping_fraud
+test_0933,"Hello, I lost a bet of Rs 60,000 with Sanjay on a cricket match. I want the court to force him to return my bet money. Is there any remedy?",0,NOT_VALID,lost_bet
+test_0934,"Sir, My neighbour Mohammed painted his own house bright pink in December last year. I do not like the colour. Can I stop him? I want justice.",0,NOT_VALID,paint_colour
+test_0935,"Hello, I vacated my rented flat in Hyderabad on 9 September 2025. The landlord is refusing to return my security deposit of Rs 8,000 though I left the flat in good condition. What can I do?",1,VALID,deposit_not_returned
+test_0936,"My friend Neha gave me a cheque of Rs 2,50,000 to repay a loan and it bounced last Monday for insufficient funds. He refuses to pay. Should I go to court?",1,VALID,cheque_bounce
+test_0937,The auto driver in Nagpur charged the meter fare in January. I wanted him to reduce it but he refused. I want justice.,0,NOT_VALID,discount_refused
+test_0938,"Madam, I lent Rs 3,00,000 to Lakshmi in Hyderabad. The cheque he issued to repay me was dishonoured by the bank in January. Is this a case?",1,VALID,cheque_bounce
+test_0939,"Madam, My brother-in-law Fatima gave me a cheque of Rs 60,000 to repay a loan and it bounced three days ago for insufficient funds. He refuses to pay. Please guide me.",1,VALID,cheque_bounce
+test_0940,"Good morning. Some people entered my farm near Bengaluru last Monday, cut my mango trees and took the wood. What can I do?",1,VALID,trespass_damage
+test_0941,"Hello, My friend Anil entered my house in Chennai without permission last Monday and broke my furniture. What can I do?",1,VALID,trespass_damage
+test_0942,Good morning. The neighbour in Vijayawada planted flowers in his own garden that I find ugly. What can I do?,0,NOT_VALID,paint_colour
+test_0943,Please help. My husband left me and our two children three days ago and refuses to give any money for food and school fees. He earns well in Guntur. Is there any remedy?,1,VALID,maintenance_refused
+test_0944,"Sir, A car hit my scooter from behind in Mumbai three days ago and the driver ran away. I fractured my leg. I noted the number plate. Is there any remedy?",1,VALID,road_accident
+test_0945,"Madam, After separation my husband stopped supporting our child. He has a good job in Lucknow but gives nothing. Is there any remedy?",1,VALID,maintenance_refused
+test_0946,"Sir, Sneha ended our relationship last month and blocked me on Telegram. Can I sue her for hurting my feelings? I want justice.",0,NOT_VALID,breakup
+test_0947,I need advice. My cousin Gopal painted his own house bright pink two weeks ago. I do not like the colour. Can I stop him? Please guide me.,0,NOT_VALID,paint_colour
+test_0948,Please help. My husband left me and our two children two weeks ago and refuses to give any money for food and school fees. He earns well in Delhi. Is there any remedy?,1,VALID,maintenance_refused
+test_0949,Good morning. The auto driver in Mumbai charged the meter fare two weeks ago. I wanted him to reduce it but he refused. I want justice.,0,NOT_VALID,discount_refused
+test_0950,"I need advice. Can you suggest a good laptop under Rs 1,20,000 for college? Is this a case?",0,NOT_VALID,general_question
+test_0951,Good morning. My girlfriend broke up with me last Monday because she likes someone else. I want to take action against her. Should I go to court?,0,NOT_VALID,breakup
+test_0952,I need advice. I am a British citizen living in Singapore. My British neighbour there played loud music in December last year. Can an Indian court act? What can I do?,0,NOT_VALID,foreign_matter
+test_0953,"Sir, My landlord Neha kept my Rs 3,00,000 rental deposit after I moved out last month and gives no reason. Can I take legal action?",1,VALID,deposit_not_returned
+test_0954,My friend Sunita entered my house in Ahmedabad without permission on 3 March 2025 and broke my furniture. What can I do?,1,VALID,trespass_damage
+test_0955,Good morning. My girlfriend broke up with me three days ago because she likes someone else. I want to take action against her. Can I take legal action?,0,NOT_VALID,breakup
+test_0956,Good morning. A shop in Visakhapatnam refused to give me a discount on a shirt last Monday. The price was clearly marked and I chose to pay it. Is there any remedy?,0,NOT_VALID,discount_refused
+test_0957,Please help. My girlfriend broke up with me last Monday because she likes someone else. I want to take action against her. Should I go to court?,0,NOT_VALID,breakup
+test_0958,"Sir, My landlord Anil kept my Rs 12,500 rental deposit after I moved out on 14 August 2025 and gives no reason. I want justice.",1,VALID,deposit_not_returned
+test_0959,"Good morning. I lent Rs 40,000 to Divya in Nagpur. The cheque he issued to repay me was dishonoured by the bank last Monday. Should I go to court?",1,VALID,cheque_bounce
+test_0960,"Hello, A rash bus driver hit my son on the road in Bhopal on 14 August 2025. He was badly hurt. Should I go to court?",1,VALID,road_accident
+test_0961,Good morning. My brother-in-law Suresh painted his own house bright pink on 3 March 2025. I do not like the colour. Can I stop him? Is there any remedy?,0,NOT_VALID,paint_colour
+test_0962,I need advice. My brother-in-law Rahul entered my house in Nagpur without permission on 14 August 2025 and broke my furniture. Should I go to court?,1,VALID,trespass_damage
+test_0963,"Sir, I lent Rs 12,500 to Sunita in Nagpur. The cheque he issued to repay me was dishonoured by the bank on 22 June 2025. Please guide me.",1,VALID,cheque_bounce
+test_0964,"Madam, I am a British citizen living in Singapore. My British neighbour there played loud music on 14 August 2025. Can an Indian court act?",0,NOT_VALID,foreign_matter
+test_0965,"Madam, I vacated my rented flat in Lucknow last month. The landlord is refusing to return my security deposit of Rs 12,500 though I left the flat in good condition. Should I go to court?",1,VALID,deposit_not_returned
+test_0966,I need advice. A car hit my scooter from behind in Hyderabad on 3 March 2025 and the driver ran away. I fractured my leg. I noted the number plate. What can I do?,1,VALID,road_accident
+test_0967,"Madam, Ravi won Rs 60,000 from me in a bet on the elections. Now I want to recover it legally. I want justice.",0,NOT_VALID,lost_bet
+test_0968,"Good morning. I vacated my rented flat in Mumbai last Monday. The landlord is refusing to return my security deposit of Rs 2,50,000 though I left the flat in good condition.",1,VALID,deposit_not_returned
+test_0969,"Please help. I paid Rs 12,500 to an online seller on Telegram for a phone last Monday. He blocked me and never delivered anything. Is there any remedy?",1,VALID,online_shopping_fraud
+test_0970,Good morning. A shop in Chennai refused to give me a discount on a shirt on 3 March 2025. The price was clearly marked and I chose to pay it. Please guide me.,0,NOT_VALID,discount_refused
+test_0971,"Madam, My brother-in-law Ramesh painted his own house bright pink on 3 March 2025. I do not like the colour. Can I stop him? I want justice.",0,NOT_VALID,paint_colour
+test_0972,The auto driver in Bhopal charged the meter fare three days ago. I wanted him to reduce it but he refused. Should I go to court?,0,NOT_VALID,discount_refused
+test_0973,"Sir, My classmate Suresh entered my house in Guntur without permission on 14 August 2025 and broke my furniture. Should I go to court?",1,VALID,trespass_damage
+test_0974,"Sir, Some people entered my farm near Chennai on 14 August 2025, cut my mango trees and took the wood. Can I take legal action?",1,VALID,trespass_damage
+test_0975,I need advice. The auto driver in Pune charged the meter fare on 3 March 2025. I wanted him to reduce it but he refused. Please guide me.,0,NOT_VALID,discount_refused
+test_0976,"I need advice. Some people entered my farm near Hyderabad two weeks ago, cut my mango trees and took the wood. Is there any remedy?",1,VALID,trespass_damage
+test_0977,I need advice. A rash bus driver hit my son on the road in Guntur last Monday. He was badly hurt. Is this a case?,1,VALID,road_accident
+test_0978,"Hello, My landlord Naveen kept my Rs 60,000 rental deposit after I moved out on 14 August 2025 and gives no reason. Is there any remedy?",1,VALID,deposit_not_returned
+test_0979,"Madam, I vacated my rented flat in Indore on 9 September 2025. The landlord is refusing to return my security deposit of Rs 75,000 though I left the flat in good condition. Can I take legal action?",1,VALID,deposit_not_returned
+test_0980,"Hello, My girlfriend broke up with me in January because she likes someone else. I want to take action against her. Please guide me.",0,NOT_VALID,breakup
+test_0981,"Hello, A shop in Indore refused to give me a discount on a shirt on 9 September 2025. The price was clearly marked and I chose to pay it. Is this a case?",0,NOT_VALID,discount_refused
+test_0982,"Hello, A seller on WhatsApp took Rs 40,000 as advance for furniture on 3 March 2025 and stopped responding. No product came to my house in Nagpur. Please guide me.",1,VALID,online_shopping_fraud
+test_0983,"Madam, The neighbour in Kochi planted flowers in his own garden that I find ugly. Is this a case?",0,NOT_VALID,paint_colour
+test_0984,"Sir, My husband left me and our two children last month and refuses to give any money for food and school fees. He earns well in Vijayawada. Is this a case?",1,VALID,maintenance_refused
+test_0985,"Hello, My landlord Karthik kept my Rs 40,000 rental deposit after I moved out last month and gives no reason. Can I take legal action?",1,VALID,deposit_not_returned
+test_0986,"Please help. Some people entered my farm near Jaipur in January, cut my mango trees and took the wood. Please guide me.",1,VALID,trespass_damage
+test_0987,"Sir, A shop in Kochi refused to give me a discount on a shirt on 9 September 2025. The price was clearly marked and I chose to pay it. Is this a case?",0,NOT_VALID,discount_refused
+test_0988,"Madam, A seller on Facebook took Rs 1,20,000 as advance for furniture in December last year and stopped responding. No product came to my house in Jaipur. Is this a case?",1,VALID,online_shopping_fraud
+test_0989,"Please help. Two of my friends, both foreign nationals, argued over a parking spot in London on 9 September 2025. Nothing happened in India. Please guide me.",0,NOT_VALID,foreign_matter
+test_0990,Good morning. After separation my husband stopped supporting our child. He has a good job in Bengaluru but gives nothing. Please guide me.,1,VALID,maintenance_refused
+test_0991,"Sir, I paid Rs 1,20,000 to an online seller on Facebook for a phone on 3 March 2025. He blocked me and never delivered anything. Is there any remedy?",1,VALID,online_shopping_fraud
+test_0992,Good morning. A shop in Bhopal refused to give me a discount on a shirt on 22 June 2025. The price was clearly marked and I chose to pay it. Please guide me.,0,NOT_VALID,discount_refused
+test_0993,Please help. How do I cook a good biryani at home for guests? Can I take legal action?,0,NOT_VALID,general_question
+test_0994,My classmate Vikram painted his own house bright pink last Monday. I do not like the colour. Can I stop him? Should I go to court?,0,NOT_VALID,paint_colour
+test_0995,"Please help. My classmate Naveen gave me a cheque of Rs 25,000 to repay a loan and it bounced three days ago for insufficient funds. He refuses to pay. Is this a case?",1,VALID,cheque_bounce
+test_0996,"My colleague Mohammed gave me a cheque of Rs 3,00,000 to repay a loan and it bounced on 9 September 2025 for insufficient funds. He refuses to pay.",1,VALID,cheque_bounce
+test_0997,"Hello, The neighbour in Guntur planted flowers in his own garden that I find ugly. Is there any remedy?",0,NOT_VALID,paint_colour
+test_0998,"I need advice. A seller on Facebook took Rs 1,20,000 as advance for furniture in January and stopped responding. No product came to my house in Visakhapatnam. Please guide me.",1,VALID,online_shopping_fraud
+test_0999,Please help. I am a British citizen living in London. My British neighbour there played loud music on 3 March 2025. Can an Indian court act? What can I do?,0,NOT_VALID,foreign_matter
+test_1000,"Hello, I vacated my rented flat in Jaipur two weeks ago. The landlord is refusing to return my security deposit of Rs 12,500 though I left the flat in good condition. Should I go to court?",1,VALID,deposit_not_returned
+test_1001,"Sir, My landlord Gopal kept my Rs 8,000 rental deposit after I moved out on 9 September 2025 and gives no reason. Is there any remedy?",1,VALID,deposit_not_returned
+test_1002,"Sir, My brother-in-law Anjali entered my house in Bengaluru without permission in December last year and broke my furniture. Can I take legal action?",1,VALID,trespass_damage
+test_1003,Please help. Sunita ended our relationship last Monday and blocked me on Telegram. Can I sue her for hurting my feelings? Can I take legal action?,0,NOT_VALID,breakup
+test_1004,"Madam, Can you suggest a good laptop under Rs 5,000 for college?",0,NOT_VALID,general_question
+test_1005,"Please help. I paid Rs 1,20,000 to an online seller on Facebook for a phone two weeks ago. He blocked me and never delivered anything. Is this a case?",1,VALID,online_shopping_fraud
+test_1006,Good morning. I am a British citizen living in Tokyo. My British neighbour there played loud music on 3 March 2025. Can an Indian court act? What can I do?,0,NOT_VALID,foreign_matter
+test_1007,"Please help. I lost a bet of Rs 8,000 with Kavya on a cricket match. I want the court to force him to return my bet money. I want justice.",0,NOT_VALID,lost_bet

@@ -1,0 +1,31 @@
+case_id,text,expected_label,expected_label_name
+app_01,"My tenant in Guntur has not paid rent for eight months, about Rs 96,000 in total, and refuses to vacate even after a written notice.",1,VALID
+app_02,"A courier boy delivered an empty box instead of the mobile phone I ordered and paid Rs 18,999 for. The online platform refuses a refund.",1,VALID
+app_03,"My neighbour Prakash poured kerosene near my door last night and shouted that he would burn my house down. My family in Nellore is scared.",1,VALID
+app_04,"I lent my college friend Rs 2,00,000 by bank transfer for his sister's wedding with a signed promissory note. Two years later he denies taking it.",1,VALID
+app_05,"The private school in Warangal is not giving my son's transfer certificate unless I pay an extra Rs 30,000 donation that was never part of the fees.",1,VALID
+app_06,"My employer deducted PF from my salary for three years but never deposited it in my PF account.",1,VALID
+app_07,"An unknown person used my Aadhaar copy to open a mobile connection and is using it for fraud calls. Police from another state called me.",1,VALID
+app_08,"My elder brother has locked our late father's house in Kakinada and refuses to give me and my sister any share, though there is no will.",1,VALID
+app_09,"A private doctor in Rajahmundry prescribed medicine without examining my wife and her kidney got damaged. Another hospital confirmed the wrong medicine.",1,VALID
+app_10,"A stranger snatched my gold chain while I was walking near the bus stand in Tirupati yesterday evening.",1,VALID
+app_11,"My husband's relatives took away all my stridhan jewellery after marriage and refuse to give it back now that we live separately.",1,VALID
+app_12,"The travel agent in Hyderabad took Rs 1,50,000 for a Thailand package, gave fake hotel bookings and is not answering calls.",1,VALID
+app_13,"A man has been following me from my office to my home every day for two weeks and keeps calling from different numbers.",1,VALID
+app_14,"The electricity department disconnected my house supply without any notice even though all my bills are paid up to date.",1,VALID
+app_15,"My contractor took Rs 4,00,000 advance to build two rooms, did only the foundation and has stopped work for six months.",1,VALID
+app_16,"My sister-in-law did not like the saree I gifted her at Diwali and said so in front of everyone.",0,NOT_VALID
+app_17,"My son scored 85 percent but wanted 90 percent. The board evaluated the paper correctly and the marks match his answers.",0,NOT_VALID
+app_18,"A YouTuber reviewed my favourite phone brand negatively and gave his honest opinion. I feel he should be punished.",0,NOT_VALID
+app_19,"My friend chose to go on holiday with other friends instead of me this summer.",0,NOT_VALID
+app_20,"I paid for a yoga class, attended all sessions, and the class was exactly as advertised, but I did not lose weight as quickly as I hoped.",0,NOT_VALID
+app_21,"My Canadian colleague in Toronto was rude to another Canadian colleague at their Toronto office. None of us are in India.",0,NOT_VALID
+app_22,"My cousin bought a bigger car than mine and keeps showing it off at family functions.",0,NOT_VALID
+app_23,"I bet Rs 5,000 with my roommate on an IPL final and lost. I want to get my money back through court.",0,NOT_VALID
+app_24,"The restaurant in Vizag was crowded and I had to wait 20 minutes for a table, then the food was fine.",0,NOT_VALID
+app_25,"Which documents do I need to apply for a passport renewal?",0,NOT_VALID
+app_26,"My neighbour's dog barks once in the morning when the milkman comes. It is not aggressive and stops quickly.",0,NOT_VALID
+app_27,"I might start a business next year and I am afraid some partner might cheat me in future.",0,NOT_VALID
+app_28,"My teacher gave the class a lot of homework for the holidays, same for every student.",0,NOT_VALID
+app_29,"My favourite TV serial ended with a sad climax and I want the channel to change it.",0,NOT_VALID
+app_30,"My old school friend got married and changed her surname, so I could not find her on Facebook.",0,NOT_VALID

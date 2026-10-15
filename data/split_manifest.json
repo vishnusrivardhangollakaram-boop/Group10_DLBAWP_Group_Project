@@ -1,0 +1,69 @@
+{
+  "seed": 5240,
+  "family_split": {
+    "appraisal": "train",
+    "assault": "train",
+    "boring_movie": "train",
+    "breakup": "test",
+    "builder_delay": "train",
+    "celebrity_opinion": "validation",
+    "cheque_bounce": "test",
+    "criminal_intimidation": "validation",
+    "cyber_harassment": "train",
+    "defamation": "train",
+    "defective_product": "train",
+    "deposit_not_returned": "test",
+    "discount_refused": "test",
+    "dowry_harassment": "validation",
+    "dream_complaint": "train",
+    "encroachment": "train",
+    "food_taste": "validation",
+    "foreign_matter": "test",
+    "forgery": "validation",
+    "game_loss": "train",
+    "general_question": "test",
+    "hypothetical": "validation",
+    "insurance_rejected": "train",
+    "investment_scam": "train",
+    "late_reply": "train",
+    "lawful_bank_charge": "validation",
+    "lost_bet": "test",
+    "maintenance_refused": "test",
+    "medical_negligence": "train",
+    "not_invited": "train",
+    "online_shopping_fraud": "test",
+    "own_mistake": "train",
+    "paint_colour": "test",
+    "road_accident": "test",
+    "rude_sibling": "train",
+    "salary_unpaid": "train",
+    "sports_selection": "train",
+    "theft": "train",
+    "traffic_jam": "train",
+    "trespass_damage": "test",
+    "unfollowed": "train",
+    "upi_fraud": "validation",
+    "weather_forecast": "train",
+    "workplace_harassment": "train"
+  },
+  "files": {
+    "train.csv": {
+      "rows": 5088,
+      "valid": 2544,
+      "not_valid": 2544,
+      "sha256": "476144fd01442eda33cea25d9e87a19d1442720dcca8626ecf14076527a197a2"
+    },
+    "validation.csv": {
+      "rows": 994,
+      "valid": 504,
+      "not_valid": 490,
+      "sha256": "db8aa5c54c0c2be288616cd34cea8048369a9adb8a82502a5536a17216fc354f"
+    },
+    "test.csv": {
+      "rows": 1008,
+      "valid": 504,
+      "not_valid": 504,
+      "sha256": "70ded66ef94f52fca5c0b8f9909c9f061369b731d48de4d8e165aa409d740797"
+    }
+  }
+}

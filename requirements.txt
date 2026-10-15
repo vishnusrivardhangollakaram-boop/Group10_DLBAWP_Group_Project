@@ -1,0 +1,16 @@
+# LegalCheck India - Python packages for Streamlit Cloud (minimum and maximum compatible versions)
+
+# Web app framework (st.write_stream and bordered containers need >= 1.40)
+streamlit>=1.40.0,<2.0.0
+
+# Hugging Face pipelines (Qwen3 chat template needs >= 4.51; course notebooks use < 5.0)
+transformers>=4.51.0,<5.0.0
+tokenizers>=0.21.0,<0.24.0
+huggingface_hub>=0.30.0,<1.0.0
+safetensors>=0.4.1,<1.0.0
+
+# Deep learning engine (CPU)
+torch>=2.6.0,<2.10.0
+
+# Editable Word export of the draft
+python-docx>=1.1.0,<2.0.0

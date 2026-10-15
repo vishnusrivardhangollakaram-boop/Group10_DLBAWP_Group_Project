@@ -1,0 +1,995 @@
+sample_id,text,label,label_name,family
+val_0000,"Sir, My bank deducted a Rs 50 SMS charge that is listed in the account terms I signed. I just do not like paying it.",0,NOT_VALID,lawful_bank_charge
+val_0001,"Sir, Loan recovery agents came to my house in Kochi on 22 June 2025, abused my parents and threatened to harm us. What can I do?",1,VALID,criminal_intimidation
+val_0002,"Good morning. Loan recovery agents came to my house in Kolkata last Monday, abused my parents and threatened to harm us. Please guide me.",1,VALID,criminal_intimidation
+val_0003,"Good morning. The gym in Bengaluru did not refund my fee after I stopped going, and the membership form I signed clearly said no refunds after 30 days of use. What can I do?",0,NOT_VALID,lawful_bank_charge
+val_0004,"Sir, A famous singer did not reply to my fan letter. I want action against her. Please guide me.",0,NOT_VALID,celebrity_opinion
+val_0005,"Please help. Since marriage my in-laws harass me for dowry. in January they threw me out of the house for not bringing Rs 2,50,000. Please guide me.",1,VALID,dowry_harassment
+val_0006,"Madam, The gym in Pune did not refund my fee after I stopped going, and the membership form I signed clearly said no refunds after 30 days of use. Is there any remedy?",0,NOT_VALID,lawful_bank_charge
+val_0007,"Please help. A caller claiming to be a bank officer made me share an OTP in January and Rs 8,000 vanished from my savings account. I live in Lucknow. Can I take legal action?",1,VALID,upi_fraud
+val_0008,Please help. The coffee at a cafe in Jaipur was too sweet for my liking. They served exactly what I ordered. Can I take legal action?,0,NOT_VALID,food_taste
+val_0009,"Sir, I feel that my classmate Mohammed might cheat me someday in future, though he has done nothing yet. Please guide me.",0,NOT_VALID,hypothetical
+val_0010,"Since marriage my in-laws harass me for dowry. last month they threw me out of the house for not bringing Rs 8,000. Can I take legal action?",1,VALID,dowry_harassment
+val_0011,"Madam, The coffee at a cafe in Lucknow was too sweet for my liking. They served exactly what I ordered. Is this a case?",0,NOT_VALID,food_taste
+val_0012,"Good morning. Since marriage my in-laws harass me for dowry. on 3 March 2025 they threw me out of the house for not bringing Rs 25,000. I want justice.",1,VALID,dowry_harassment
+val_0013,"Sir, A caller claiming to be a bank officer made me share an OTP three days ago and Rs 2,50,000 vanished from my savings account. I live in Visakhapatnam. Should I go to court?",1,VALID,upi_fraud
+val_0014,"Hello, I feel that my cousin Rekha might cheat me someday in future, though he has done nothing yet. Is this a case?",0,NOT_VALID,hypothetical
+val_0015,"Good morning. I ordered biryani at a restaurant in Visakhapatnam on 14 August 2025. It was served as ordered and I paid, but it tasted bland to me. Is this a case?",0,NOT_VALID,food_taste
+val_0016,I need advice. The coffee at a cafe in Pune was too sweet for my liking. They served exactly what I ordered. Should I go to court?,0,NOT_VALID,food_taste
+val_0017,"Sir, A film star said in an interview that he prefers tea over coffee. I love coffee and feel offended. I want justice.",0,NOT_VALID,celebrity_opinion
+val_0018,"A caller claiming to be a bank officer made me share an OTP in January and Rs 25,000 vanished from my savings account. I live in Nagpur. Please guide me.",1,VALID,upi_fraud
+val_0019,Good morning. A film star said in an interview that he prefers tea over coffee. I love coffee and feel offended. Can I take legal action?,0,NOT_VALID,celebrity_opinion
+val_0020,"Please help. I feel that my classmate Rekha might cheat me someday in future, though he has done nothing yet. Please guide me.",0,NOT_VALID,hypothetical
+val_0021,"I need advice. Loan recovery agents came to my house in Guntur on 14 August 2025, abused my parents and threatened to harm us. Should I go to court?",1,VALID,criminal_intimidation
+val_0022,Please help. A film star said in an interview that he prefers tea over coffee. I love coffee and feel offended. I want justice.,0,NOT_VALID,celebrity_opinion
+val_0023,"Sir, I ordered biryani at a restaurant in Kochi on 14 August 2025. It was served as ordered and I paid, but it tasted bland to me.",0,NOT_VALID,food_taste
+val_0024,Good morning. My bank deducted a Rs 50 SMS charge that is listed in the account terms I signed. I just do not like paying it. Should I go to court?,0,NOT_VALID,lawful_bank_charge
+val_0025,"Sir, I feel that my classmate Suresh might cheat me someday in future, though he has done nothing yet.",0,NOT_VALID,hypothetical
+val_0026,"Madam, My flatmate Rekha forged my signature on property papers and sold my house in Lucknow without my knowledge. Please guide me.",1,VALID,forgery
+val_0027,"I need advice. Someone forged my signature to take a loan of Rs 12,500 in my name from a finance company in Indore. What can I do?",1,VALID,forgery
+val_0028,"I need advice. A caller claiming to be a bank officer made me share an OTP three days ago and Rs 5,000 vanished from my savings account. I live in Vijayawada.",1,VALID,upi_fraud
+val_0029,"Hello, I got a fake KYC update link last month, entered my details and Rs 75,000 was transferred out of my account by unknown people in Pune. Should I go to court?",1,VALID,upi_fraud
+val_0030,"Madam, Loan recovery agents came to my house in Guntur in December last year, abused my parents and threatened to harm us. I want justice.",1,VALID,criminal_intimidation
+val_0031,A film star said in an interview that he prefers tea over coffee. I love coffee and feel offended. Please guide me.,0,NOT_VALID,celebrity_opinion
+val_0032,"Sir, I feel that my flatmate Deepa might cheat me someday in future, though he has done nothing yet. Is this a case?",0,NOT_VALID,hypothetical
+val_0033,"I need advice. What if my landlord increases the rent next year? Nothing has happened yet, I am just worried. Should I go to court?",0,NOT_VALID,hypothetical
+val_0034,"Hello, Since marriage my in-laws harass me for dowry. on 22 June 2025 they threw me out of the house for not bringing Rs 12,500. What can I do?",1,VALID,dowry_harassment
+val_0035,"Madam, My brother-in-law Anjali threatened to kill me and my family on 9 September 2025 if I do not sell him my land in Guntur. Is this a case?",1,VALID,criminal_intimidation
+val_0036,"Madam, My classmate Harish threatened to kill me and my family last Monday if I do not sell him my land in Ahmedabad. Is this a case?",1,VALID,criminal_intimidation
+val_0037,"I need advice. Someone forged my signature to take a loan of Rs 8,000 in my name from a finance company in Chennai. Please guide me.",1,VALID,forgery
+val_0038,"Since marriage my in-laws harass me for dowry. on 9 September 2025 they threw me out of the house for not bringing Rs 25,000. Can I take legal action?",1,VALID,dowry_harassment
+val_0039,"I need advice. What if my landlord increases the rent next year? Nothing has happened yet, I am just worried. Is this a case?",0,NOT_VALID,hypothetical
+val_0040,"I need advice. I ordered biryani at a restaurant in Ahmedabad in January. It was served as ordered and I paid, but it tasted bland to me. Should I go to court?",0,NOT_VALID,food_taste
+val_0041,"The gym in Indore did not refund my fee after I stopped going, and the membership form I signed clearly said no refunds after 30 days of use. Can I take legal action?",0,NOT_VALID,lawful_bank_charge
+val_0042,"I need advice. I got a fake KYC update link on 22 June 2025, entered my details and Rs 25,000 was transferred out of my account by unknown people in Delhi.",1,VALID,upi_fraud
+val_0043,"Please help. My husband and in-laws in Indore keep demanding Rs 12,500 more as dowry and beat me when I refuse. Please guide me.",1,VALID,dowry_harassment
+val_0044,"Madam, A film star said in an interview that he prefers tea over coffee. I love coffee and feel offended. Should I go to court?",0,NOT_VALID,celebrity_opinion
+val_0045,"Sir, Someone forged my signature to take a loan of Rs 2,50,000 in my name from a finance company in Hyderabad. Is there any remedy?",1,VALID,forgery
+val_0046,"Hello, I got a fake KYC update link in December last year, entered my details and Rs 1,20,000 was transferred out of my account by unknown people in Guntur. I want justice.",1,VALID,upi_fraud
+val_0047,"Please help. Someone called me on 9 September 2025 pretending to be from my bank and took my OTP. Rs 40,000 was debited from my account in Lucknow without my consent. I want justice.",1,VALID,upi_fraud
+val_0048,"Madam, The coffee at a cafe in Pune was too sweet for my liking. They served exactly what I ordered. I want justice.",0,NOT_VALID,food_taste
+val_0049,"Hello, Loan recovery agents came to my house in Delhi last Monday, abused my parents and threatened to harm us.",1,VALID,criminal_intimidation
+val_0050,Please help. A famous singer did not reply to my fan letter. I want action against her. Please guide me.,0,NOT_VALID,celebrity_opinion
+val_0051,"I need advice. Someone called me last month pretending to be from my bank and took my OTP. Rs 60,000 was debited from my account in Visakhapatnam without my consent. Is this a case?",1,VALID,upi_fraud
+val_0052,"Madam, Loan recovery agents came to my house in Kochi on 14 August 2025, abused my parents and threatened to harm us. Is this a case?",1,VALID,criminal_intimidation
+val_0053,I need advice. A famous singer did not reply to my fan letter. I want action against her. Is there any remedy?,0,NOT_VALID,celebrity_opinion
+val_0054,"I need advice. Since marriage my in-laws harass me for dowry. in December last year they threw me out of the house for not bringing Rs 12,500. Is this a case?",1,VALID,dowry_harassment
+val_0055,"Hello, I ordered biryani at a restaurant in Nagpur on 14 August 2025. It was served as ordered and I paid, but it tasted bland to me. Is this a case?",0,NOT_VALID,food_taste
+val_0056,"Please help. Loan recovery agents came to my house in Patna on 9 September 2025, abused my parents and threatened to harm us. Should I go to court?",1,VALID,criminal_intimidation
+val_0057,"Hello, The coffee at a cafe in Patna was too sweet for my liking. They served exactly what I ordered. What can I do?",0,NOT_VALID,food_taste
+val_0058,"Madam, The gym in Nagpur did not refund my fee after I stopped going, and the membership form I signed clearly said no refunds after 30 days of use. I want justice.",0,NOT_VALID,lawful_bank_charge
+val_0059,"Please help. I got a fake KYC update link in January, entered my details and Rs 75,000 was transferred out of my account by unknown people in Chennai.",1,VALID,upi_fraud
+val_0060,"Madam, I got a fake KYC update link on 22 June 2025, entered my details and Rs 3,00,000 was transferred out of my account by unknown people in Visakhapatnam. Can I take legal action?",1,VALID,upi_fraud
+val_0061,"Madam, A film star said in an interview that he prefers tea over coffee. I love coffee and feel offended. Can I take legal action?",0,NOT_VALID,celebrity_opinion
+val_0062,"The gym in Delhi did not refund my fee after I stopped going, and the membership form I signed clearly said no refunds after 30 days of use. What can I do?",0,NOT_VALID,lawful_bank_charge
+val_0063,"Madam, My brother-in-law Harish threatened to kill me and my family on 9 September 2025 if I do not sell him my land in Indore. I want justice.",1,VALID,criminal_intimidation
+val_0064,"Please help. My husband and in-laws in Lucknow keep demanding Rs 75,000 more as dowry and beat me when I refuse.",1,VALID,dowry_harassment
+val_0065,A famous singer did not reply to my fan letter. I want action against her. Please guide me.,0,NOT_VALID,celebrity_opinion
+val_0066,"Sir, Since marriage my in-laws harass me for dowry. three days ago they threw me out of the house for not bringing Rs 5,000. I want justice.",1,VALID,dowry_harassment
+val_0067,"Someone forged my signature to take a loan of Rs 5,000 in my name from a finance company in Mumbai. Can I take legal action?",1,VALID,forgery
+val_0068,"Sir, I got a fake KYC update link on 22 June 2025, entered my details and Rs 60,000 was transferred out of my account by unknown people in Visakhapatnam. What can I do?",1,VALID,upi_fraud
+val_0069,Please help. My flatmate Ravi forged my signature on property papers and sold my house in Nagpur without my knowledge. Is there any remedy?,1,VALID,forgery
+val_0070,A film star said in an interview that he prefers tea over coffee. I love coffee and feel offended. Should I go to court?,0,NOT_VALID,celebrity_opinion
+val_0071,"My husband and in-laws in Kolkata keep demanding Rs 40,000 more as dowry and beat me when I refuse.",1,VALID,dowry_harassment
+val_0072,"Since marriage my in-laws harass me for dowry. three days ago they threw me out of the house for not bringing Rs 12,500. Please guide me.",1,VALID,dowry_harassment
+val_0073,"Sir, A film star said in an interview that he prefers tea over coffee. I love coffee and feel offended.",0,NOT_VALID,celebrity_opinion
+val_0074,"Good morning. I feel that my flatmate Gopal might cheat me someday in future, though he has done nothing yet.",0,NOT_VALID,hypothetical
+val_0075,"I need advice. Someone called me on 22 June 2025 pretending to be from my bank and took my OTP. Rs 25,000 was debited from my account in Kochi without my consent. Can I take legal action?",1,VALID,upi_fraud
+val_0076,"Hello, Someone forged my signature to take a loan of Rs 8,000 in my name from a finance company in Visakhapatnam. I want justice.",1,VALID,forgery
+val_0077,Good morning. The coffee at a cafe in Patna was too sweet for my liking. They served exactly what I ordered. What can I do?,0,NOT_VALID,food_taste
+val_0078,"Hello, My bank deducted a Rs 50 SMS charge that is listed in the account terms I signed. I just do not like paying it. I want justice.",0,NOT_VALID,lawful_bank_charge
+val_0079,"Someone forged my signature to take a loan of Rs 3,00,000 in my name from a finance company in Ahmedabad.",1,VALID,forgery
+val_0080,"Hello, The gym in Delhi did not refund my fee after I stopped going, and the membership form I signed clearly said no refunds after 30 days of use.",0,NOT_VALID,lawful_bank_charge
+val_0081,"I need advice. A caller claiming to be a bank officer made me share an OTP in December last year and Rs 60,000 vanished from my savings account. I live in Chennai. Please guide me.",1,VALID,upi_fraud
+val_0082,"I need advice. The gym in Kochi did not refund my fee after I stopped going, and the membership form I signed clearly said no refunds after 30 days of use.",0,NOT_VALID,lawful_bank_charge
+val_0083,"I need advice. I feel that my friend Arjun might cheat me someday in future, though he has done nothing yet. I want justice.",0,NOT_VALID,hypothetical
+val_0084,"Sir, I ordered biryani at a restaurant in Vijayawada on 3 March 2025. It was served as ordered and I paid, but it tasted bland to me. What can I do?",0,NOT_VALID,food_taste
+val_0085,"Madam, My bank deducted a Rs 50 SMS charge that is listed in the account terms I signed. I just do not like paying it. Is this a case?",0,NOT_VALID,lawful_bank_charge
+val_0086,"Hello, Loan recovery agents came to my house in Kolkata on 9 September 2025, abused my parents and threatened to harm us. Please guide me.",1,VALID,criminal_intimidation
+val_0087,"The gym in Ahmedabad did not refund my fee after I stopped going, and the membership form I signed clearly said no refunds after 30 days of use. Can I take legal action?",0,NOT_VALID,lawful_bank_charge
+val_0088,"Loan recovery agents came to my house in Kolkata on 14 August 2025, abused my parents and threatened to harm us. Is this a case?",1,VALID,criminal_intimidation
+val_0089,"Hello, Someone called me on 14 August 2025 pretending to be from my bank and took my OTP. Rs 25,000 was debited from my account in Mumbai without my consent. Should I go to court?",1,VALID,upi_fraud
+val_0090,"Sir, A film star said in an interview that he prefers tea over coffee. I love coffee and feel offended. Can I take legal action?",0,NOT_VALID,celebrity_opinion
+val_0091,"Good morning. My husband and in-laws in Patna keep demanding Rs 8,000 more as dowry and beat me when I refuse. What can I do?",1,VALID,dowry_harassment
+val_0092,"Sir, Since marriage my in-laws harass me for dowry. on 9 September 2025 they threw me out of the house for not bringing Rs 5,000. What can I do?",1,VALID,dowry_harassment
+val_0093,"Sir, What if my landlord increases the rent next year? Nothing has happened yet, I am just worried. I want justice.",0,NOT_VALID,hypothetical
+val_0094,"I need advice. Someone called me on 3 March 2025 pretending to be from my bank and took my OTP. Rs 5,000 was debited from my account in Nagpur without my consent. What can I do?",1,VALID,upi_fraud
+val_0095,"Madam, The coffee at a cafe in Nagpur was too sweet for my liking. They served exactly what I ordered. Is this a case?",0,NOT_VALID,food_taste
+val_0096,"Madam, The coffee at a cafe in Visakhapatnam was too sweet for my liking. They served exactly what I ordered. What can I do?",0,NOT_VALID,food_taste
+val_0097,"Madam, The gym in Mumbai did not refund my fee after I stopped going, and the membership form I signed clearly said no refunds after 30 days of use. Is this a case?",0,NOT_VALID,lawful_bank_charge
+val_0098,"Hello, Loan recovery agents came to my house in Visakhapatnam last month, abused my parents and threatened to harm us. Please guide me.",1,VALID,criminal_intimidation
+val_0099,"Good morning. The gym in Hyderabad did not refund my fee after I stopped going, and the membership form I signed clearly said no refunds after 30 days of use. I want justice.",0,NOT_VALID,lawful_bank_charge
+val_0100,"Hello, A caller claiming to be a bank officer made me share an OTP last month and Rs 40,000 vanished from my savings account. I live in Kolkata. What can I do?",1,VALID,upi_fraud
+val_0101,"Please help. The gym in Vijayawada did not refund my fee after I stopped going, and the membership form I signed clearly said no refunds after 30 days of use. I want justice.",0,NOT_VALID,lawful_bank_charge
+val_0102,"Sir, I feel that my colleague Neha might cheat me someday in future, though he has done nothing yet. Can I take legal action?",0,NOT_VALID,hypothetical
+val_0103,"Madam, Since marriage my in-laws harass me for dowry. on 9 September 2025 they threw me out of the house for not bringing Rs 60,000. I want justice.",1,VALID,dowry_harassment
+val_0104,My friend Fatima threatened to kill me and my family three days ago if I do not sell him my land in Kolkata. Is there any remedy?,1,VALID,criminal_intimidation
+val_0105,"The gym in Kolkata did not refund my fee after I stopped going, and the membership form I signed clearly said no refunds after 30 days of use. Please guide me.",0,NOT_VALID,lawful_bank_charge
+val_0106,"Hello, Since marriage my in-laws harass me for dowry. on 22 June 2025 they threw me out of the house for not bringing Rs 40,000. Is this a case?",1,VALID,dowry_harassment
+val_0107,Please help. A film star said in an interview that he prefers tea over coffee. I love coffee and feel offended. Can I take legal action?,0,NOT_VALID,celebrity_opinion
+val_0108,"I feel that my friend Karthik might cheat me someday in future, though he has done nothing yet. Should I go to court?",0,NOT_VALID,hypothetical
+val_0109,"Madam, I feel that my colleague Asha might cheat me someday in future, though he has done nothing yet. Is this a case?",0,NOT_VALID,hypothetical
+val_0110,"Madam, A famous singer did not reply to my fan letter. I want action against her. Is there any remedy?",0,NOT_VALID,celebrity_opinion
+val_0111,"Hello, A film star said in an interview that he prefers tea over coffee. I love coffee and feel offended. What can I do?",0,NOT_VALID,celebrity_opinion
+val_0112,"Please help. My husband and in-laws in Kolkata keep demanding Rs 8,000 more as dowry and beat me when I refuse. What can I do?",1,VALID,dowry_harassment
+val_0113,"Please help. What if my landlord increases the rent next year? Nothing has happened yet, I am just worried. Can I take legal action?",0,NOT_VALID,hypothetical
+val_0114,"Sir, My cousin Meena forged my signature on property papers and sold my house in Mumbai without my knowledge.",1,VALID,forgery
+val_0115,"Sir, A famous singer did not reply to my fan letter. I want action against her. Is there any remedy?",0,NOT_VALID,celebrity_opinion
+val_0116,I need advice. A famous singer did not reply to my fan letter. I want action against her. Can I take legal action?,0,NOT_VALID,celebrity_opinion
+val_0117,"Please help. Loan recovery agents came to my house in Jaipur on 3 March 2025, abused my parents and threatened to harm us. Can I take legal action?",1,VALID,criminal_intimidation
+val_0118,"I need advice. The gym in Bhopal did not refund my fee after I stopped going, and the membership form I signed clearly said no refunds after 30 days of use. Please guide me.",0,NOT_VALID,lawful_bank_charge
+val_0119,"Good morning. I got a fake KYC update link on 22 June 2025, entered my details and Rs 3,00,000 was transferred out of my account by unknown people in Ahmedabad. Is this a case?",1,VALID,upi_fraud
+val_0120,"Good morning. Loan recovery agents came to my house in Lucknow on 22 June 2025, abused my parents and threatened to harm us. Is there any remedy?",1,VALID,criminal_intimidation
+val_0121,Please help. A famous singer did not reply to my fan letter. I want action against her. Should I go to court?,0,NOT_VALID,celebrity_opinion
+val_0122,"Please help. I ordered biryani at a restaurant in Pune on 9 September 2025. It was served as ordered and I paid, but it tasted bland to me. Is this a case?",0,NOT_VALID,food_taste
+val_0123,Please help. My flatmate Joseph threatened to kill me and my family in January if I do not sell him my land in Visakhapatnam. Can I take legal action?,1,VALID,criminal_intimidation
+val_0124,"I need advice. Since marriage my in-laws harass me for dowry. two weeks ago they threw me out of the house for not bringing Rs 1,20,000. Should I go to court?",1,VALID,dowry_harassment
+val_0125,"Sir, The coffee at a cafe in Visakhapatnam was too sweet for my liking. They served exactly what I ordered. Is there any remedy?",0,NOT_VALID,food_taste
+val_0126,"Sir, A film star said in an interview that he prefers tea over coffee. I love coffee and feel offended. What can I do?",0,NOT_VALID,celebrity_opinion
+val_0127,"Good morning. Someone forged my signature to take a loan of Rs 40,000 in my name from a finance company in Mumbai. I want justice.",1,VALID,forgery
+val_0128,"Someone forged my signature to take a loan of Rs 75,000 in my name from a finance company in Hyderabad. I want justice.",1,VALID,forgery
+val_0129,"Good morning. Someone forged my signature to take a loan of Rs 60,000 in my name from a finance company in Patna. Please guide me.",1,VALID,forgery
+val_0130,"The gym in Patna did not refund my fee after I stopped going, and the membership form I signed clearly said no refunds after 30 days of use. Should I go to court?",0,NOT_VALID,lawful_bank_charge
+val_0131,"Please help. I ordered biryani at a restaurant in Bengaluru three days ago. It was served as ordered and I paid, but it tasted bland to me. What can I do?",0,NOT_VALID,food_taste
+val_0132,"Sir, The coffee at a cafe in Nagpur was too sweet for my liking. They served exactly what I ordered. What can I do?",0,NOT_VALID,food_taste
+val_0133,"Sir, My husband and in-laws in Bhopal keep demanding Rs 5,000 more as dowry and beat me when I refuse. Please guide me.",1,VALID,dowry_harassment
+val_0134,"Good morning. The gym in Kochi did not refund my fee after I stopped going, and the membership form I signed clearly said no refunds after 30 days of use. I want justice.",0,NOT_VALID,lawful_bank_charge
+val_0135,"Please help. I ordered biryani at a restaurant in Indore on 14 August 2025. It was served as ordered and I paid, but it tasted bland to me. Please guide me.",0,NOT_VALID,food_taste
+val_0136,"Sir, My husband and in-laws in Delhi keep demanding Rs 12,500 more as dowry and beat me when I refuse. Can I take legal action?",1,VALID,dowry_harassment
+val_0137,"Madam, The gym in Jaipur did not refund my fee after I stopped going, and the membership form I signed clearly said no refunds after 30 days of use. Is this a case?",0,NOT_VALID,lawful_bank_charge
+val_0138,"Please help. Someone forged my signature to take a loan of Rs 8,000 in my name from a finance company in Delhi. Can I take legal action?",1,VALID,forgery
+val_0139,"Sir, My flatmate Naveen forged my signature on property papers and sold my house in Kolkata without my knowledge. I want justice.",1,VALID,forgery
+val_0140,"Good morning. Someone forged my signature to take a loan of Rs 1,20,000 in my name from a finance company in Kolkata. Please guide me.",1,VALID,forgery
+val_0141,I need advice. My cousin Sanjay threatened to kill me and my family last month if I do not sell him my land in Visakhapatnam. What can I do?,1,VALID,criminal_intimidation
+val_0142,"Madam, I ordered biryani at a restaurant in Bhopal on 9 September 2025. It was served as ordered and I paid, but it tasted bland to me. Is this a case?",0,NOT_VALID,food_taste
+val_0143,"Good morning. I ordered biryani at a restaurant in Guntur on 14 August 2025. It was served as ordered and I paid, but it tasted bland to me. I want justice.",0,NOT_VALID,food_taste
+val_0144,"Sir, I got a fake KYC update link two weeks ago, entered my details and Rs 40,000 was transferred out of my account by unknown people in Lucknow. Is there any remedy?",1,VALID,upi_fraud
+val_0145,The coffee at a cafe in Nagpur was too sweet for my liking. They served exactly what I ordered.,0,NOT_VALID,food_taste
+val_0146,"Sir, What if my landlord increases the rent next year? Nothing has happened yet, I am just worried. Is there any remedy?",0,NOT_VALID,hypothetical
+val_0147,"Sir, My friend Sanjay threatened to kill me and my family last Monday if I do not sell him my land in Mumbai. What can I do?",1,VALID,criminal_intimidation
+val_0148,"I need advice. A caller claiming to be a bank officer made me share an OTP on 22 June 2025 and Rs 5,000 vanished from my savings account. I live in Nagpur. Should I go to court?",1,VALID,upi_fraud
+val_0149,I need advice. My friend Priya forged my signature on property papers and sold my house in Mumbai without my knowledge. I want justice.,1,VALID,forgery
+val_0150,Good morning. A famous singer did not reply to my fan letter. I want action against her. What can I do?,0,NOT_VALID,celebrity_opinion
+val_0151,"Madam, A famous singer did not reply to my fan letter. I want action against her.",0,NOT_VALID,celebrity_opinion
+val_0152,"What if my landlord increases the rent next year? Nothing has happened yet, I am just worried. What can I do?",0,NOT_VALID,hypothetical
+val_0153,"Sir, My colleague Karthik forged my signature on property papers and sold my house in Kolkata without my knowledge. Is there any remedy?",1,VALID,forgery
+val_0154,Good morning. My friend Divya forged my signature on property papers and sold my house in Visakhapatnam without my knowledge. I want justice.,1,VALID,forgery
+val_0155,"Madam, A famous singer did not reply to my fan letter. I want action against her. Please guide me.",0,NOT_VALID,celebrity_opinion
+val_0156,Please help. My brother-in-law Anil forged my signature on property papers and sold my house in Nagpur without my knowledge. I want justice.,1,VALID,forgery
+val_0157,"Sir, Since marriage my in-laws harass me for dowry. on 14 August 2025 they threw me out of the house for not bringing Rs 60,000.",1,VALID,dowry_harassment
+val_0158,"Loan recovery agents came to my house in Guntur two weeks ago, abused my parents and threatened to harm us.",1,VALID,criminal_intimidation
+val_0159,"Please help. I ordered biryani at a restaurant in Jaipur on 14 August 2025. It was served as ordered and I paid, but it tasted bland to me. I want justice.",0,NOT_VALID,food_taste
+val_0160,"I need advice. Someone forged my signature to take a loan of Rs 75,000 in my name from a finance company in Kolkata. Please guide me.",1,VALID,forgery
+val_0161,"Madam, Someone forged my signature to take a loan of Rs 25,000 in my name from a finance company in Patna. I want justice.",1,VALID,forgery
+val_0162,"Madam, I got a fake KYC update link in December last year, entered my details and Rs 1,20,000 was transferred out of my account by unknown people in Pune. Should I go to court?",1,VALID,upi_fraud
+val_0163,"I feel that my classmate Neha might cheat me someday in future, though he has done nothing yet. What can I do?",0,NOT_VALID,hypothetical
+val_0164,"Hello, My flatmate Naveen threatened to kill me and my family in January if I do not sell him my land in Chennai. What can I do?",1,VALID,criminal_intimidation
+val_0165,"Sir, I got a fake KYC update link two weeks ago, entered my details and Rs 5,000 was transferred out of my account by unknown people in Vijayawada. Should I go to court?",1,VALID,upi_fraud
+val_0166,"Since marriage my in-laws harass me for dowry. two weeks ago they threw me out of the house for not bringing Rs 1,20,000. I want justice.",1,VALID,dowry_harassment
+val_0167,"I need advice. My husband and in-laws in Patna keep demanding Rs 75,000 more as dowry and beat me when I refuse. Is this a case?",1,VALID,dowry_harassment
+val_0168,"Please help. Since marriage my in-laws harass me for dowry. last month they threw me out of the house for not bringing Rs 1,20,000. I want justice.",1,VALID,dowry_harassment
+val_0169,"Madam, I feel that my flatmate Mohammed might cheat me someday in future, though he has done nothing yet. Please guide me.",0,NOT_VALID,hypothetical
+val_0170,"Good morning. I feel that my flatmate Sunita might cheat me someday in future, though he has done nothing yet. What can I do?",0,NOT_VALID,hypothetical
+val_0171,"Sir, My flatmate Divya threatened to kill me and my family three days ago if I do not sell him my land in Lucknow. I want justice.",1,VALID,criminal_intimidation
+val_0172,"Loan recovery agents came to my house in Mumbai in January, abused my parents and threatened to harm us. I want justice.",1,VALID,criminal_intimidation
+val_0173,"Hello, My flatmate Gopal threatened to kill me and my family on 9 September 2025 if I do not sell him my land in Patna.",1,VALID,criminal_intimidation
+val_0174,"Hello, My bank deducted a Rs 50 SMS charge that is listed in the account terms I signed. I just do not like paying it. Can I take legal action?",0,NOT_VALID,lawful_bank_charge
+val_0175,"Madam, Someone called me on 9 September 2025 pretending to be from my bank and took my OTP. Rs 5,000 was debited from my account in Pune without my consent.",1,VALID,upi_fraud
+val_0176,Good morning. My cousin Lakshmi forged my signature on property papers and sold my house in Pune without my knowledge.,1,VALID,forgery
+val_0177,"Good morning. Someone called me in January pretending to be from my bank and took my OTP. Rs 25,000 was debited from my account in Kolkata without my consent. Should I go to court?",1,VALID,upi_fraud
+val_0178,"Please help. I got a fake KYC update link on 22 June 2025, entered my details and Rs 5,000 was transferred out of my account by unknown people in Ahmedabad.",1,VALID,upi_fraud
+val_0179,Good morning. My flatmate Deepa threatened to kill me and my family last Monday if I do not sell him my land in Kolkata. Should I go to court?,1,VALID,criminal_intimidation
+val_0180,"Sir, My husband and in-laws in Kolkata keep demanding Rs 12,500 more as dowry and beat me when I refuse. Should I go to court?",1,VALID,dowry_harassment
+val_0181,"Good morning. My husband and in-laws in Kochi keep demanding Rs 25,000 more as dowry and beat me when I refuse.",1,VALID,dowry_harassment
+val_0182,"A caller claiming to be a bank officer made me share an OTP last Monday and Rs 40,000 vanished from my savings account. I live in Bengaluru.",1,VALID,upi_fraud
+val_0183,"Good morning. My husband and in-laws in Jaipur keep demanding Rs 3,00,000 more as dowry and beat me when I refuse. Is this a case?",1,VALID,dowry_harassment
+val_0184,Please help. My cousin Asha threatened to kill me and my family in January if I do not sell him my land in Nagpur. What can I do?,1,VALID,criminal_intimidation
+val_0185,"Please help. Since marriage my in-laws harass me for dowry. on 22 June 2025 they threw me out of the house for not bringing Rs 60,000. What can I do?",1,VALID,dowry_harassment
+val_0186,"The gym in Indore did not refund my fee after I stopped going, and the membership form I signed clearly said no refunds after 30 days of use. I want justice.",0,NOT_VALID,lawful_bank_charge
+val_0187,"Please help. I feel that my colleague Deepa might cheat me someday in future, though he has done nothing yet. Can I take legal action?",0,NOT_VALID,hypothetical
+val_0188,"Madam, A famous singer did not reply to my fan letter. I want action against her. Is this a case?",0,NOT_VALID,celebrity_opinion
+val_0189,"Madam, My brother-in-law Mohammed threatened to kill me and my family on 9 September 2025 if I do not sell him my land in Bengaluru. Is there any remedy?",1,VALID,criminal_intimidation
+val_0190,"I need advice. Loan recovery agents came to my house in Kolkata on 9 September 2025, abused my parents and threatened to harm us. Please guide me.",1,VALID,criminal_intimidation
+val_0191,"Sir, My bank deducted a Rs 50 SMS charge that is listed in the account terms I signed. I just do not like paying it. Should I go to court?",0,NOT_VALID,lawful_bank_charge
+val_0192,"Hello, Since marriage my in-laws harass me for dowry. two weeks ago they threw me out of the house for not bringing Rs 1,20,000. Is there any remedy?",1,VALID,dowry_harassment
+val_0193,Please help. My bank deducted a Rs 50 SMS charge that is listed in the account terms I signed. I just do not like paying it. I want justice.,0,NOT_VALID,lawful_bank_charge
+val_0194,"I feel that my cousin Harish might cheat me someday in future, though he has done nothing yet.",0,NOT_VALID,hypothetical
+val_0195,"Hello, A caller claiming to be a bank officer made me share an OTP three days ago and Rs 5,000 vanished from my savings account. I live in Pune. Please guide me.",1,VALID,upi_fraud
+val_0196,"Please help. Loan recovery agents came to my house in Bengaluru in December last year, abused my parents and threatened to harm us. Is this a case?",1,VALID,criminal_intimidation
+val_0197,"Good morning. What if my landlord increases the rent next year? Nothing has happened yet, I am just worried.",0,NOT_VALID,hypothetical
+val_0198,Please help. A famous singer did not reply to my fan letter. I want action against her. Can I take legal action?,0,NOT_VALID,celebrity_opinion
+val_0199,"Madam, A film star said in an interview that he prefers tea over coffee. I love coffee and feel offended.",0,NOT_VALID,celebrity_opinion
+val_0200,My cousin Mohammed threatened to kill me and my family three days ago if I do not sell him my land in Kochi. Can I take legal action?,1,VALID,criminal_intimidation
+val_0201,"Since marriage my in-laws harass me for dowry. in January they threw me out of the house for not bringing Rs 3,00,000. What can I do?",1,VALID,dowry_harassment
+val_0202,"Sir, A famous singer did not reply to my fan letter. I want action against her. I want justice.",0,NOT_VALID,celebrity_opinion
+val_0203,Good morning. My friend Meena forged my signature on property papers and sold my house in Nagpur without my knowledge. Should I go to court?,1,VALID,forgery
+val_0204,"Madam, My colleague Lakshmi threatened to kill me and my family last Monday if I do not sell him my land in Visakhapatnam. Should I go to court?",1,VALID,criminal_intimidation
+val_0205,My cousin Joseph forged my signature on property papers and sold my house in Chennai without my knowledge. Is there any remedy?,1,VALID,forgery
+val_0206,"Since marriage my in-laws harass me for dowry. on 3 March 2025 they threw me out of the house for not bringing Rs 25,000. Please guide me.",1,VALID,dowry_harassment
+val_0207,"Good morning. Loan recovery agents came to my house in Nagpur on 3 March 2025, abused my parents and threatened to harm us. What can I do?",1,VALID,criminal_intimidation
+val_0208,"Sir, My brother-in-law Suresh threatened to kill me and my family on 22 June 2025 if I do not sell him my land in Lucknow.",1,VALID,criminal_intimidation
+val_0209,I need advice. A famous singer did not reply to my fan letter. I want action against her. Should I go to court?,0,NOT_VALID,celebrity_opinion
+val_0210,"Please help. A caller claiming to be a bank officer made me share an OTP on 22 June 2025 and Rs 12,500 vanished from my savings account. I live in Pune. Please guide me.",1,VALID,upi_fraud
+val_0211,"I need advice. The gym in Kochi did not refund my fee after I stopped going, and the membership form I signed clearly said no refunds after 30 days of use. What can I do?",0,NOT_VALID,lawful_bank_charge
+val_0212,"Madam, Since marriage my in-laws harass me for dowry. in January they threw me out of the house for not bringing Rs 3,00,000.",1,VALID,dowry_harassment
+val_0213,"Sir, I feel that my friend Lakshmi might cheat me someday in future, though he has done nothing yet. Is there any remedy?",0,NOT_VALID,hypothetical
+val_0214,"Madam, My bank deducted a Rs 50 SMS charge that is listed in the account terms I signed. I just do not like paying it. What can I do?",0,NOT_VALID,lawful_bank_charge
+val_0215,"Good morning. Loan recovery agents came to my house in Bhopal on 3 March 2025, abused my parents and threatened to harm us. What can I do?",1,VALID,criminal_intimidation
+val_0216,"Madam, I feel that my neighbour Sanjay might cheat me someday in future, though he has done nothing yet. What can I do?",0,NOT_VALID,hypothetical
+val_0217,"Good morning. I got a fake KYC update link in December last year, entered my details and Rs 75,000 was transferred out of my account by unknown people in Lucknow. Can I take legal action?",1,VALID,upi_fraud
+val_0218,"Sir, Someone forged my signature to take a loan of Rs 25,000 in my name from a finance company in Vijayawada. What can I do?",1,VALID,forgery
+val_0219,"Madam, A caller claiming to be a bank officer made me share an OTP on 9 September 2025 and Rs 12,500 vanished from my savings account. I live in Bhopal. Is this a case?",1,VALID,upi_fraud
+val_0220,"What if my landlord increases the rent next year? Nothing has happened yet, I am just worried. Is this a case?",0,NOT_VALID,hypothetical
+val_0221,"I need advice. I ordered biryani at a restaurant in Pune last month. It was served as ordered and I paid, but it tasted bland to me. Is this a case?",0,NOT_VALID,food_taste
+val_0222,"Madam, Someone called me last Monday pretending to be from my bank and took my OTP. Rs 75,000 was debited from my account in Kolkata without my consent. I want justice.",1,VALID,upi_fraud
+val_0223,"I need advice. I ordered biryani at a restaurant in Hyderabad in January. It was served as ordered and I paid, but it tasted bland to me. Is this a case?",0,NOT_VALID,food_taste
+val_0224,"Good morning. I feel that my cousin Fatima might cheat me someday in future, though he has done nothing yet. Is there any remedy?",0,NOT_VALID,hypothetical
+val_0225,"Madam, A famous singer did not reply to my fan letter. I want action against her. What can I do?",0,NOT_VALID,celebrity_opinion
+val_0226,"I need advice. Someone forged my signature to take a loan of Rs 12,500 in my name from a finance company in Mumbai. Is there any remedy?",1,VALID,forgery
+val_0227,"Loan recovery agents came to my house in Visakhapatnam last month, abused my parents and threatened to harm us. Can I take legal action?",1,VALID,criminal_intimidation
+val_0228,"Sir, The gym in Vijayawada did not refund my fee after I stopped going, and the membership form I signed clearly said no refunds after 30 days of use. What can I do?",0,NOT_VALID,lawful_bank_charge
+val_0229,Good morning. My bank deducted a Rs 50 SMS charge that is listed in the account terms I signed. I just do not like paying it. What can I do?,0,NOT_VALID,lawful_bank_charge
+val_0230,"Good morning. Loan recovery agents came to my house in Vijayawada on 9 September 2025, abused my parents and threatened to harm us. Can I take legal action?",1,VALID,criminal_intimidation
+val_0231,"Sir, My neighbour Arjun threatened to kill me and my family last month if I do not sell him my land in Lucknow.",1,VALID,criminal_intimidation
+val_0232,"Please help. I ordered biryani at a restaurant in Chennai two weeks ago. It was served as ordered and I paid, but it tasted bland to me. Should I go to court?",0,NOT_VALID,food_taste
+val_0233,"Sir, Someone called me on 9 September 2025 pretending to be from my bank and took my OTP. Rs 25,000 was debited from my account in Delhi without my consent. Can I take legal action?",1,VALID,upi_fraud
+val_0234,I need advice. A famous singer did not reply to my fan letter. I want action against her. Please guide me.,0,NOT_VALID,celebrity_opinion
+val_0235,"Good morning. The gym in Vijayawada did not refund my fee after I stopped going, and the membership form I signed clearly said no refunds after 30 days of use. Should I go to court?",0,NOT_VALID,lawful_bank_charge
+val_0236,I need advice. My flatmate Arjun forged my signature on property papers and sold my house in Vijayawada without my knowledge. Can I take legal action?,1,VALID,forgery
+val_0237,"Madam, The coffee at a cafe in Indore was too sweet for my liking. They served exactly what I ordered. Is there any remedy?",0,NOT_VALID,food_taste
+val_0238,"Madam, Since marriage my in-laws harass me for dowry. last Monday they threw me out of the house for not bringing Rs 25,000.",1,VALID,dowry_harassment
+val_0239,I need advice. My colleague Sanjay forged my signature on property papers and sold my house in Hyderabad without my knowledge. Is there any remedy?,1,VALID,forgery
+val_0240,"Good morning. The gym in Lucknow did not refund my fee after I stopped going, and the membership form I signed clearly said no refunds after 30 days of use. Should I go to court?",0,NOT_VALID,lawful_bank_charge
+val_0241,"Madam, My classmate Suresh forged my signature on property papers and sold my house in Hyderabad without my knowledge. Is there any remedy?",1,VALID,forgery
+val_0242,"Madam, My bank deducted a Rs 50 SMS charge that is listed in the account terms I signed. I just do not like paying it. I want justice.",0,NOT_VALID,lawful_bank_charge
+val_0243,"Good morning. Someone forged my signature to take a loan of Rs 8,000 in my name from a finance company in Pune. Can I take legal action?",1,VALID,forgery
+val_0244,My brother-in-law Pooja threatened to kill me and my family in December last year if I do not sell him my land in Delhi. Should I go to court?,1,VALID,criminal_intimidation
+val_0245,The coffee at a cafe in Kolkata was too sweet for my liking. They served exactly what I ordered. Can I take legal action?,0,NOT_VALID,food_taste
+val_0246,"Madam, I feel that my flatmate Sneha might cheat me someday in future, though he has done nothing yet. I want justice.",0,NOT_VALID,hypothetical
+val_0247,"Hello, My friend Naveen threatened to kill me and my family on 22 June 2025 if I do not sell him my land in Delhi.",1,VALID,criminal_intimidation
+val_0248,"Madam, What if my landlord increases the rent next year? Nothing has happened yet, I am just worried. Should I go to court?",0,NOT_VALID,hypothetical
+val_0249,"Sir, Someone forged my signature to take a loan of Rs 40,000 in my name from a finance company in Lucknow. Is this a case?",1,VALID,forgery
+val_0250,"Sir, The gym in Kolkata did not refund my fee after I stopped going, and the membership form I signed clearly said no refunds after 30 days of use. Is this a case?",0,NOT_VALID,lawful_bank_charge
+val_0251,"Good morning. A caller claiming to be a bank officer made me share an OTP two weeks ago and Rs 8,000 vanished from my savings account. I live in Nagpur.",1,VALID,upi_fraud
+val_0252,"Hello, I feel that my neighbour Naveen might cheat me someday in future, though he has done nothing yet. What can I do?",0,NOT_VALID,hypothetical
+val_0253,"Sir, Loan recovery agents came to my house in Lucknow last Monday, abused my parents and threatened to harm us. Is this a case?",1,VALID,criminal_intimidation
+val_0254,"Sir, I ordered biryani at a restaurant in Mumbai in January. It was served as ordered and I paid, but it tasted bland to me. Should I go to court?",0,NOT_VALID,food_taste
+val_0255,"Please help. What if my landlord increases the rent next year? Nothing has happened yet, I am just worried. Please guide me.",0,NOT_VALID,hypothetical
+val_0256,Good morning. The coffee at a cafe in Bhopal was too sweet for my liking. They served exactly what I ordered. Please guide me.,0,NOT_VALID,food_taste
+val_0257,"I ordered biryani at a restaurant in Mumbai in January. It was served as ordered and I paid, but it tasted bland to me. Is this a case?",0,NOT_VALID,food_taste
+val_0258,"I need advice. My husband and in-laws in Mumbai keep demanding Rs 1,20,000 more as dowry and beat me when I refuse. Is there any remedy?",1,VALID,dowry_harassment
+val_0259,"Madam, I ordered biryani at a restaurant in Patna on 22 June 2025. It was served as ordered and I paid, but it tasted bland to me. Is there any remedy?",0,NOT_VALID,food_taste
+val_0260,"Madam, The coffee at a cafe in Kochi was too sweet for my liking. They served exactly what I ordered. Please guide me.",0,NOT_VALID,food_taste
+val_0261,"Please help. Someone forged my signature to take a loan of Rs 5,000 in my name from a finance company in Hyderabad. Can I take legal action?",1,VALID,forgery
+val_0262,"Please help. Since marriage my in-laws harass me for dowry. last Monday they threw me out of the house for not bringing Rs 12,500. Can I take legal action?",1,VALID,dowry_harassment
+val_0263,"Madam, I got a fake KYC update link last month, entered my details and Rs 60,000 was transferred out of my account by unknown people in Visakhapatnam. Please guide me.",1,VALID,upi_fraud
+val_0264,"Please help. Someone called me in December last year pretending to be from my bank and took my OTP. Rs 3,00,000 was debited from my account in Ahmedabad without my consent. I want justice.",1,VALID,upi_fraud
+val_0265,"Please help. Since marriage my in-laws harass me for dowry. two weeks ago they threw me out of the house for not bringing Rs 12,500. What can I do?",1,VALID,dowry_harassment
+val_0266,"Madam, I got a fake KYC update link on 22 June 2025, entered my details and Rs 40,000 was transferred out of my account by unknown people in Chennai. Please guide me.",1,VALID,upi_fraud
+val_0267,"Hello, I got a fake KYC update link on 9 September 2025, entered my details and Rs 3,00,000 was transferred out of my account by unknown people in Visakhapatnam. Can I take legal action?",1,VALID,upi_fraud
+val_0268,"Good morning. The gym in Bhopal did not refund my fee after I stopped going, and the membership form I signed clearly said no refunds after 30 days of use.",0,NOT_VALID,lawful_bank_charge
+val_0269,"Madam, The coffee at a cafe in Ahmedabad was too sweet for my liking. They served exactly what I ordered. I want justice.",0,NOT_VALID,food_taste
+val_0270,"I need advice. A caller claiming to be a bank officer made me share an OTP on 3 March 2025 and Rs 3,00,000 vanished from my savings account. I live in Visakhapatnam. Should I go to court?",1,VALID,upi_fraud
+val_0271,"Sir, The coffee at a cafe in Chennai was too sweet for my liking. They served exactly what I ordered.",0,NOT_VALID,food_taste
+val_0272,"Sir, My husband and in-laws in Lucknow keep demanding Rs 60,000 more as dowry and beat me when I refuse. Is there any remedy?",1,VALID,dowry_harassment
+val_0273,"Madam, I got a fake KYC update link on 22 June 2025, entered my details and Rs 25,000 was transferred out of my account by unknown people in Kolkata. Please guide me.",1,VALID,upi_fraud
+val_0274,"Please help. My husband and in-laws in Patna keep demanding Rs 75,000 more as dowry and beat me when I refuse. I want justice.",1,VALID,dowry_harassment
+val_0275,"Please help. A caller claiming to be a bank officer made me share an OTP last Monday and Rs 2,50,000 vanished from my savings account. I live in Nagpur. Is there any remedy?",1,VALID,upi_fraud
+val_0276,"Sir, Someone called me two weeks ago pretending to be from my bank and took my OTP. Rs 2,50,000 was debited from my account in Nagpur without my consent. What can I do?",1,VALID,upi_fraud
+val_0277,Please help. My bank deducted a Rs 50 SMS charge that is listed in the account terms I signed. I just do not like paying it. Is there any remedy?,0,NOT_VALID,lawful_bank_charge
+val_0278,"Hello, A film star said in an interview that he prefers tea over coffee. I love coffee and feel offended. Is there any remedy?",0,NOT_VALID,celebrity_opinion
+val_0279,"My husband and in-laws in Chennai keep demanding Rs 3,00,000 more as dowry and beat me when I refuse. Is there any remedy?",1,VALID,dowry_harassment
+val_0280,"Sir, My husband and in-laws in Ahmedabad keep demanding Rs 2,50,000 more as dowry and beat me when I refuse.",1,VALID,dowry_harassment
+val_0281,"Hello, I got a fake KYC update link last Monday, entered my details and Rs 12,500 was transferred out of my account by unknown people in Vijayawada.",1,VALID,upi_fraud
+val_0282,"Hello, Since marriage my in-laws harass me for dowry. three days ago they threw me out of the house for not bringing Rs 5,000. Is this a case?",1,VALID,dowry_harassment
+val_0283,"I need advice. I ordered biryani at a restaurant in Ahmedabad last month. It was served as ordered and I paid, but it tasted bland to me. Is there any remedy?",0,NOT_VALID,food_taste
+val_0284,"Sir, What if my landlord increases the rent next year? Nothing has happened yet, I am just worried. What can I do?",0,NOT_VALID,hypothetical
+val_0285,"Sir, What if my landlord increases the rent next year? Nothing has happened yet, I am just worried. Should I go to court?",0,NOT_VALID,hypothetical
+val_0286,"I need advice. The gym in Delhi did not refund my fee after I stopped going, and the membership form I signed clearly said no refunds after 30 days of use. Can I take legal action?",0,NOT_VALID,lawful_bank_charge
+val_0287,"Sir, My husband and in-laws in Bhopal keep demanding Rs 60,000 more as dowry and beat me when I refuse. Can I take legal action?",1,VALID,dowry_harassment
+val_0288,"Hello, What if my landlord increases the rent next year? Nothing has happened yet, I am just worried. Is this a case?",0,NOT_VALID,hypothetical
+val_0289,"Good morning. My husband and in-laws in Delhi keep demanding Rs 40,000 more as dowry and beat me when I refuse. Should I go to court?",1,VALID,dowry_harassment
+val_0290,My colleague Vikram threatened to kill me and my family in December last year if I do not sell him my land in Nagpur. Should I go to court?,1,VALID,criminal_intimidation
+val_0291,"Someone called me on 9 September 2025 pretending to be from my bank and took my OTP. Rs 60,000 was debited from my account in Hyderabad without my consent. Is there any remedy?",1,VALID,upi_fraud
+val_0292,"Good morning. I feel that my colleague Neha might cheat me someday in future, though he has done nothing yet. I want justice.",0,NOT_VALID,hypothetical
+val_0293,"Sir, The gym in Lucknow did not refund my fee after I stopped going, and the membership form I signed clearly said no refunds after 30 days of use. Please guide me.",0,NOT_VALID,lawful_bank_charge
+val_0294,"Sir, A famous singer did not reply to my fan letter. I want action against her. Should I go to court?",0,NOT_VALID,celebrity_opinion
+val_0295,"Sir, Loan recovery agents came to my house in Patna on 22 June 2025, abused my parents and threatened to harm us. Is this a case?",1,VALID,criminal_intimidation
+val_0296,"Madam, My husband and in-laws in Indore keep demanding Rs 2,50,000 more as dowry and beat me when I refuse.",1,VALID,dowry_harassment
+val_0297,I need advice. A famous singer did not reply to my fan letter. I want action against her.,0,NOT_VALID,celebrity_opinion
+val_0298,"Sir, I got a fake KYC update link in January, entered my details and Rs 3,00,000 was transferred out of my account by unknown people in Kochi. Should I go to court?",1,VALID,upi_fraud
+val_0299,"I need advice. Someone called me in January pretending to be from my bank and took my OTP. Rs 2,50,000 was debited from my account in Bhopal without my consent. I want justice.",1,VALID,upi_fraud
+val_0300,"Madam, Loan recovery agents came to my house in Bengaluru on 9 September 2025, abused my parents and threatened to harm us. Should I go to court?",1,VALID,criminal_intimidation
+val_0301,"Madam, I feel that my colleague Arjun might cheat me someday in future, though he has done nothing yet. What can I do?",0,NOT_VALID,hypothetical
+val_0302,"I ordered biryani at a restaurant in Nagpur in January. It was served as ordered and I paid, but it tasted bland to me. Is there any remedy?",0,NOT_VALID,food_taste
+val_0303,"I need advice. My husband and in-laws in Patna keep demanding Rs 8,000 more as dowry and beat me when I refuse. Please guide me.",1,VALID,dowry_harassment
+val_0304,"Sir, I ordered biryani at a restaurant in Jaipur last Monday. It was served as ordered and I paid, but it tasted bland to me. Is this a case?",0,NOT_VALID,food_taste
+val_0305,"Madam, Someone called me in January pretending to be from my bank and took my OTP. Rs 12,500 was debited from my account in Nagpur without my consent. Is there any remedy?",1,VALID,upi_fraud
+val_0306,"Since marriage my in-laws harass me for dowry. three days ago they threw me out of the house for not bringing Rs 60,000. Is there any remedy?",1,VALID,dowry_harassment
+val_0307,"Please help. Since marriage my in-laws harass me for dowry. in December last year they threw me out of the house for not bringing Rs 3,00,000. Is there any remedy?",1,VALID,dowry_harassment
+val_0308,"Good morning. Loan recovery agents came to my house in Lucknow two weeks ago, abused my parents and threatened to harm us. What can I do?",1,VALID,criminal_intimidation
+val_0309,"Hello, My cousin Lakshmi forged my signature on property papers and sold my house in Patna without my knowledge. Can I take legal action?",1,VALID,forgery
+val_0310,"Hello, A famous singer did not reply to my fan letter. I want action against her. Is this a case?",0,NOT_VALID,celebrity_opinion
+val_0311,"Madam, My cousin Sneha forged my signature on property papers and sold my house in Bengaluru without my knowledge. Please guide me.",1,VALID,forgery
+val_0312,Good morning. A famous singer did not reply to my fan letter. I want action against her.,0,NOT_VALID,celebrity_opinion
+val_0313,"Madam, The gym in Chennai did not refund my fee after I stopped going, and the membership form I signed clearly said no refunds after 30 days of use. What can I do?",0,NOT_VALID,lawful_bank_charge
+val_0314,"Sir, The gym in Pune did not refund my fee after I stopped going, and the membership form I signed clearly said no refunds after 30 days of use. I want justice.",0,NOT_VALID,lawful_bank_charge
+val_0315,A famous singer did not reply to my fan letter. I want action against her. Is there any remedy?,0,NOT_VALID,celebrity_opinion
+val_0316,"Good morning. I ordered biryani at a restaurant in Mumbai last Monday. It was served as ordered and I paid, but it tasted bland to me. Please guide me.",0,NOT_VALID,food_taste
+val_0317,My friend Rahul forged my signature on property papers and sold my house in Hyderabad without my knowledge.,1,VALID,forgery
+val_0318,Please help. A famous singer did not reply to my fan letter. I want action against her. What can I do?,0,NOT_VALID,celebrity_opinion
+val_0319,"Please help. I feel that my flatmate Neha might cheat me someday in future, though he has done nothing yet. I want justice.",0,NOT_VALID,hypothetical
+val_0320,Good morning. A famous singer did not reply to my fan letter. I want action against her. Is there any remedy?,0,NOT_VALID,celebrity_opinion
+val_0321,"Sir, A famous singer did not reply to my fan letter. I want action against her. Is this a case?",0,NOT_VALID,celebrity_opinion
+val_0322,"Hello, My bank deducted a Rs 50 SMS charge that is listed in the account terms I signed. I just do not like paying it.",0,NOT_VALID,lawful_bank_charge
+val_0323,"I need advice. I ordered biryani at a restaurant in Ahmedabad on 22 June 2025. It was served as ordered and I paid, but it tasted bland to me.",0,NOT_VALID,food_taste
+val_0324,"Sir, The coffee at a cafe in Bengaluru was too sweet for my liking. They served exactly what I ordered. What can I do?",0,NOT_VALID,food_taste
+val_0325,"Sir, I got a fake KYC update link on 3 March 2025, entered my details and Rs 5,000 was transferred out of my account by unknown people in Vijayawada. Is this a case?",1,VALID,upi_fraud
+val_0326,"Hello, Since marriage my in-laws harass me for dowry. on 14 August 2025 they threw me out of the house for not bringing Rs 1,20,000. I want justice.",1,VALID,dowry_harassment
+val_0327,"I need advice. Since marriage my in-laws harass me for dowry. last month they threw me out of the house for not bringing Rs 12,500. Is this a case?",1,VALID,dowry_harassment
+val_0328,I need advice. A film star said in an interview that he prefers tea over coffee. I love coffee and feel offended. What can I do?,0,NOT_VALID,celebrity_opinion
+val_0329,"I need advice. What if my landlord increases the rent next year? Nothing has happened yet, I am just worried. What can I do?",0,NOT_VALID,hypothetical
+val_0330,"Madam, Since marriage my in-laws harass me for dowry. on 22 June 2025 they threw me out of the house for not bringing Rs 60,000. Is there any remedy?",1,VALID,dowry_harassment
+val_0331,"Please help. I feel that my flatmate Vikram might cheat me someday in future, though he has done nothing yet.",0,NOT_VALID,hypothetical
+val_0332,"Sir, My brother-in-law Priya threatened to kill me and my family last month if I do not sell him my land in Bengaluru. I want justice.",1,VALID,criminal_intimidation
+val_0333,Please help. A famous singer did not reply to my fan letter. I want action against her. Is this a case?,0,NOT_VALID,celebrity_opinion
+val_0334,"Hello, A film star said in an interview that he prefers tea over coffee. I love coffee and feel offended.",0,NOT_VALID,celebrity_opinion
+val_0335,"Sir, My friend Priya forged my signature on property papers and sold my house in Nagpur without my knowledge. Please guide me.",1,VALID,forgery
+val_0336,"I ordered biryani at a restaurant in Ahmedabad on 22 June 2025. It was served as ordered and I paid, but it tasted bland to me. I want justice.",0,NOT_VALID,food_taste
+val_0337,"Sir, The coffee at a cafe in Chennai was too sweet for my liking. They served exactly what I ordered. I want justice.",0,NOT_VALID,food_taste
+val_0338,"Sir, Loan recovery agents came to my house in Pune on 3 March 2025, abused my parents and threatened to harm us. What can I do?",1,VALID,criminal_intimidation
+val_0339,"Sir, Someone forged my signature to take a loan of Rs 60,000 in my name from a finance company in Nagpur. Should I go to court?",1,VALID,forgery
+val_0340,"Good morning. Since marriage my in-laws harass me for dowry. two weeks ago they threw me out of the house for not bringing Rs 25,000. Should I go to court?",1,VALID,dowry_harassment
+val_0341,My brother-in-law Farah threatened to kill me and my family two weeks ago if I do not sell him my land in Indore. Can I take legal action?,1,VALID,criminal_intimidation
+val_0342,"Please help. The gym in Patna did not refund my fee after I stopped going, and the membership form I signed clearly said no refunds after 30 days of use. Is there any remedy?",0,NOT_VALID,lawful_bank_charge
+val_0343,"Sir, A film star said in an interview that he prefers tea over coffee. I love coffee and feel offended. Is there any remedy?",0,NOT_VALID,celebrity_opinion
+val_0344,"Sir, The gym in Kolkata did not refund my fee after I stopped going, and the membership form I signed clearly said no refunds after 30 days of use. Is there any remedy?",0,NOT_VALID,lawful_bank_charge
+val_0345,"The gym in Pune did not refund my fee after I stopped going, and the membership form I signed clearly said no refunds after 30 days of use. Please guide me.",0,NOT_VALID,lawful_bank_charge
+val_0346,"Good morning. I ordered biryani at a restaurant in Indore three days ago. It was served as ordered and I paid, but it tasted bland to me. Should I go to court?",0,NOT_VALID,food_taste
+val_0347,"Sir, A famous singer did not reply to my fan letter. I want action against her. Can I take legal action?",0,NOT_VALID,celebrity_opinion
+val_0348,"Sir, What if my landlord increases the rent next year? Nothing has happened yet, I am just worried. Can I take legal action?",0,NOT_VALID,hypothetical
+val_0349,"Madam, I got a fake KYC update link on 14 August 2025, entered my details and Rs 75,000 was transferred out of my account by unknown people in Indore.",1,VALID,upi_fraud
+val_0350,I need advice. My cousin Rahul forged my signature on property papers and sold my house in Kochi without my knowledge. Can I take legal action?,1,VALID,forgery
+val_0351,Please help. My brother-in-law Anjali threatened to kill me and my family last Monday if I do not sell him my land in Hyderabad. Is there any remedy?,1,VALID,criminal_intimidation
+val_0352,The coffee at a cafe in Pune was too sweet for my liking. They served exactly what I ordered. Should I go to court?,0,NOT_VALID,food_taste
+val_0353,"Please help. I got a fake KYC update link last Monday, entered my details and Rs 12,500 was transferred out of my account by unknown people in Hyderabad. Is this a case?",1,VALID,upi_fraud
+val_0354,"Please help. A caller claiming to be a bank officer made me share an OTP on 3 March 2025 and Rs 60,000 vanished from my savings account. I live in Ahmedabad. What can I do?",1,VALID,upi_fraud
+val_0355,"Good morning. A caller claiming to be a bank officer made me share an OTP on 22 June 2025 and Rs 8,000 vanished from my savings account. I live in Ahmedabad. I want justice.",1,VALID,upi_fraud
+val_0356,"Madam, The gym in Jaipur did not refund my fee after I stopped going, and the membership form I signed clearly said no refunds after 30 days of use. Should I go to court?",0,NOT_VALID,lawful_bank_charge
+val_0357,"Please help. Since marriage my in-laws harass me for dowry. on 9 September 2025 they threw me out of the house for not bringing Rs 12,500. Is there any remedy?",1,VALID,dowry_harassment
+val_0358,"I need advice. My husband and in-laws in Bhopal keep demanding Rs 40,000 more as dowry and beat me when I refuse. Please guide me.",1,VALID,dowry_harassment
+val_0359,"Good morning. What if my landlord increases the rent next year? Nothing has happened yet, I am just worried. Is there any remedy?",0,NOT_VALID,hypothetical
+val_0360,I need advice. The coffee at a cafe in Kolkata was too sweet for my liking. They served exactly what I ordered. Please guide me.,0,NOT_VALID,food_taste
+val_0361,Good morning. My bank deducted a Rs 50 SMS charge that is listed in the account terms I signed. I just do not like paying it. Is there any remedy?,0,NOT_VALID,lawful_bank_charge
+val_0362,"Good morning. I got a fake KYC update link in January, entered my details and Rs 1,20,000 was transferred out of my account by unknown people in Bengaluru.",1,VALID,upi_fraud
+val_0363,"I need advice. Since marriage my in-laws harass me for dowry. on 22 June 2025 they threw me out of the house for not bringing Rs 3,00,000. What can I do?",1,VALID,dowry_harassment
+val_0364,My bank deducted a Rs 50 SMS charge that is listed in the account terms I signed. I just do not like paying it. Please guide me.,0,NOT_VALID,lawful_bank_charge
+val_0365,"I feel that my colleague Anjali might cheat me someday in future, though he has done nothing yet. Is this a case?",0,NOT_VALID,hypothetical
+val_0366,I need advice. My colleague Ramesh threatened to kill me and my family on 14 August 2025 if I do not sell him my land in Bhopal. Should I go to court?,1,VALID,criminal_intimidation
+val_0367,"Please help. I feel that my neighbour Meena might cheat me someday in future, though he has done nothing yet. Please guide me.",0,NOT_VALID,hypothetical
+val_0368,I need advice. My cousin Asha threatened to kill me and my family on 14 August 2025 if I do not sell him my land in Chennai. Please guide me.,1,VALID,criminal_intimidation
+val_0369,"A caller claiming to be a bank officer made me share an OTP on 3 March 2025 and Rs 75,000 vanished from my savings account. I live in Bengaluru. I want justice.",1,VALID,upi_fraud
+val_0370,"Hello, A famous singer did not reply to my fan letter. I want action against her. Is there any remedy?",0,NOT_VALID,celebrity_opinion
+val_0371,"Sir, Someone forged my signature to take a loan of Rs 8,000 in my name from a finance company in Chennai. Should I go to court?",1,VALID,forgery
+val_0372,"Madam, A famous singer did not reply to my fan letter. I want action against her. I want justice.",0,NOT_VALID,celebrity_opinion
+val_0373,"Madam, I feel that my brother-in-law Arjun might cheat me someday in future, though he has done nothing yet. Should I go to court?",0,NOT_VALID,hypothetical
+val_0374,"Hello, My neighbour Imran threatened to kill me and my family on 22 June 2025 if I do not sell him my land in Nagpur. Is this a case?",1,VALID,criminal_intimidation
+val_0375,"Please help. Someone forged my signature to take a loan of Rs 2,50,000 in my name from a finance company in Hyderabad. I want justice.",1,VALID,forgery
+val_0376,Good morning. A film star said in an interview that he prefers tea over coffee. I love coffee and feel offended. Is there any remedy?,0,NOT_VALID,celebrity_opinion
+val_0377,"Sir, Someone forged my signature to take a loan of Rs 12,500 in my name from a finance company in Patna. Is this a case?",1,VALID,forgery
+val_0378,"Madam, My cousin Ravi threatened to kill me and my family on 14 August 2025 if I do not sell him my land in Lucknow. Please guide me.",1,VALID,criminal_intimidation
+val_0379,"Good morning. I ordered biryani at a restaurant in Delhi last month. It was served as ordered and I paid, but it tasted bland to me. I want justice.",0,NOT_VALID,food_taste
+val_0380,"Hello, A film star said in an interview that he prefers tea over coffee. I love coffee and feel offended. Should I go to court?",0,NOT_VALID,celebrity_opinion
+val_0381,My bank deducted a Rs 50 SMS charge that is listed in the account terms I signed. I just do not like paying it.,0,NOT_VALID,lawful_bank_charge
+val_0382,"Madam, Since marriage my in-laws harass me for dowry. last month they threw me out of the house for not bringing Rs 8,000. Is there any remedy?",1,VALID,dowry_harassment
+val_0383,"Sir, I got a fake KYC update link in January, entered my details and Rs 5,000 was transferred out of my account by unknown people in Ahmedabad. Can I take legal action?",1,VALID,upi_fraud
+val_0384,"Madam, My husband and in-laws in Delhi keep demanding Rs 40,000 more as dowry and beat me when I refuse. I want justice.",1,VALID,dowry_harassment
+val_0385,"I need advice. What if my landlord increases the rent next year? Nothing has happened yet, I am just worried. Is there any remedy?",0,NOT_VALID,hypothetical
+val_0386,Please help. A famous singer did not reply to my fan letter. I want action against her. Is there any remedy?,0,NOT_VALID,celebrity_opinion
+val_0387,"Please help. I feel that my brother-in-law Rahul might cheat me someday in future, though he has done nothing yet. I want justice.",0,NOT_VALID,hypothetical
+val_0388,"Hello, My husband and in-laws in Jaipur keep demanding Rs 8,000 more as dowry and beat me when I refuse. Can I take legal action?",1,VALID,dowry_harassment
+val_0389,"I need advice. My husband and in-laws in Vijayawada keep demanding Rs 3,00,000 more as dowry and beat me when I refuse.",1,VALID,dowry_harassment
+val_0390,Please help. The coffee at a cafe in Pune was too sweet for my liking. They served exactly what I ordered. I want justice.,0,NOT_VALID,food_taste
+val_0391,"Madam, I ordered biryani at a restaurant in Patna on 22 June 2025. It was served as ordered and I paid, but it tasted bland to me. Please guide me.",0,NOT_VALID,food_taste
+val_0392,"Madam, I got a fake KYC update link on 3 March 2025, entered my details and Rs 40,000 was transferred out of my account by unknown people in Visakhapatnam. What can I do?",1,VALID,upi_fraud
+val_0393,"Madam, My husband and in-laws in Kolkata keep demanding Rs 12,500 more as dowry and beat me when I refuse. Is this a case?",1,VALID,dowry_harassment
+val_0394,The coffee at a cafe in Kolkata was too sweet for my liking. They served exactly what I ordered. Should I go to court?,0,NOT_VALID,food_taste
+val_0395,"Hello, My classmate Neha forged my signature on property papers and sold my house in Delhi without my knowledge. Can I take legal action?",1,VALID,forgery
+val_0396,"Please help. What if my landlord increases the rent next year? Nothing has happened yet, I am just worried.",0,NOT_VALID,hypothetical
+val_0397,My bank deducted a Rs 50 SMS charge that is listed in the account terms I signed. I just do not like paying it. I want justice.,0,NOT_VALID,lawful_bank_charge
+val_0398,"Sir, A caller claiming to be a bank officer made me share an OTP three days ago and Rs 5,000 vanished from my savings account. I live in Patna.",1,VALID,upi_fraud
+val_0399,"Please help. Someone forged my signature to take a loan of Rs 75,000 in my name from a finance company in Kolkata. Is this a case?",1,VALID,forgery
+val_0400,A famous singer did not reply to my fan letter. I want action against her. I want justice.,0,NOT_VALID,celebrity_opinion
+val_0401,"Please help. Since marriage my in-laws harass me for dowry. on 9 September 2025 they threw me out of the house for not bringing Rs 75,000. Is this a case?",1,VALID,dowry_harassment
+val_0402,"Hello, Someone forged my signature to take a loan of Rs 75,000 in my name from a finance company in Mumbai. I want justice.",1,VALID,forgery
+val_0403,"Please help. A caller claiming to be a bank officer made me share an OTP on 9 September 2025 and Rs 40,000 vanished from my savings account. I live in Guntur. Is there any remedy?",1,VALID,upi_fraud
+val_0404,I need advice. My flatmate Suresh threatened to kill me and my family in December last year if I do not sell him my land in Mumbai. Is this a case?,1,VALID,criminal_intimidation
+val_0405,"Sir, The gym in Lucknow did not refund my fee after I stopped going, and the membership form I signed clearly said no refunds after 30 days of use. I want justice.",0,NOT_VALID,lawful_bank_charge
+val_0406,"I need advice. A caller claiming to be a bank officer made me share an OTP three days ago and Rs 1,20,000 vanished from my savings account. I live in Pune. Is there any remedy?",1,VALID,upi_fraud
+val_0407,"Sir, I ordered biryani at a restaurant in Chennai on 14 August 2025. It was served as ordered and I paid, but it tasted bland to me. Please guide me.",0,NOT_VALID,food_taste
+val_0408,"Hello, A famous singer did not reply to my fan letter. I want action against her. What can I do?",0,NOT_VALID,celebrity_opinion
+val_0409,"Hello, The gym in Ahmedabad did not refund my fee after I stopped going, and the membership form I signed clearly said no refunds after 30 days of use. Is there any remedy?",0,NOT_VALID,lawful_bank_charge
+val_0410,"Madam, I ordered biryani at a restaurant in Lucknow three days ago. It was served as ordered and I paid, but it tasted bland to me. Is there any remedy?",0,NOT_VALID,food_taste
+val_0411,"Madam, Since marriage my in-laws harass me for dowry. on 9 September 2025 they threw me out of the house for not bringing Rs 75,000.",1,VALID,dowry_harassment
+val_0412,"Hello, Since marriage my in-laws harass me for dowry. last month they threw me out of the house for not bringing Rs 2,50,000. Is this a case?",1,VALID,dowry_harassment
+val_0413,"Good morning. Someone called me on 14 August 2025 pretending to be from my bank and took my OTP. Rs 25,000 was debited from my account in Bhopal without my consent. What can I do?",1,VALID,upi_fraud
+val_0414,"Good morning. My husband and in-laws in Lucknow keep demanding Rs 40,000 more as dowry and beat me when I refuse.",1,VALID,dowry_harassment
+val_0415,"Madam, My neighbour Naveen forged my signature on property papers and sold my house in Indore without my knowledge. Should I go to court?",1,VALID,forgery
+val_0416,"Sir, I feel that my cousin Meena might cheat me someday in future, though he has done nothing yet. I want justice.",0,NOT_VALID,hypothetical
+val_0417,"Madam, My classmate Rahul forged my signature on property papers and sold my house in Lucknow without my knowledge. Please guide me.",1,VALID,forgery
+val_0418,I need advice. My colleague Anjali forged my signature on property papers and sold my house in Kochi without my knowledge. I want justice.,1,VALID,forgery
+val_0419,"I ordered biryani at a restaurant in Delhi on 3 March 2025. It was served as ordered and I paid, but it tasted bland to me.",0,NOT_VALID,food_taste
+val_0420,"Hello, My flatmate Rahul forged my signature on property papers and sold my house in Lucknow without my knowledge. Can I take legal action?",1,VALID,forgery
+val_0421,"Hello, A film star said in an interview that he prefers tea over coffee. I love coffee and feel offended. Is this a case?",0,NOT_VALID,celebrity_opinion
+val_0422,"I need advice. Someone forged my signature to take a loan of Rs 1,20,000 in my name from a finance company in Jaipur. Please guide me.",1,VALID,forgery
+val_0423,Please help. A famous singer did not reply to my fan letter. I want action against her.,0,NOT_VALID,celebrity_opinion
+val_0424,"I need advice. My husband and in-laws in Hyderabad keep demanding Rs 40,000 more as dowry and beat me when I refuse. I want justice.",1,VALID,dowry_harassment
+val_0425,Please help. My brother-in-law Suresh forged my signature on property papers and sold my house in Lucknow without my knowledge. Is there any remedy?,1,VALID,forgery
+val_0426,"Someone forged my signature to take a loan of Rs 12,500 in my name from a finance company in Lucknow. Can I take legal action?",1,VALID,forgery
+val_0427,"Good morning. I ordered biryani at a restaurant in Visakhapatnam on 14 August 2025. It was served as ordered and I paid, but it tasted bland to me. What can I do?",0,NOT_VALID,food_taste
+val_0428,"I need advice. Someone called me last Monday pretending to be from my bank and took my OTP. Rs 40,000 was debited from my account in Chennai without my consent.",1,VALID,upi_fraud
+val_0429,"Madam, Someone called me on 9 September 2025 pretending to be from my bank and took my OTP. Rs 60,000 was debited from my account in Vijayawada without my consent. Please guide me.",1,VALID,upi_fraud
+val_0430,"Hello, My bank deducted a Rs 50 SMS charge that is listed in the account terms I signed. I just do not like paying it. What can I do?",0,NOT_VALID,lawful_bank_charge
+val_0431,Please help. My classmate Priya forged my signature on property papers and sold my house in Patna without my knowledge. Is this a case?,1,VALID,forgery
+val_0432,"Good morning. I ordered biryani at a restaurant in Lucknow in January. It was served as ordered and I paid, but it tasted bland to me. Can I take legal action?",0,NOT_VALID,food_taste
+val_0433,"Madam, What if my landlord increases the rent next year? Nothing has happened yet, I am just worried. Please guide me.",0,NOT_VALID,hypothetical
+val_0434,Good morning. The coffee at a cafe in Visakhapatnam was too sweet for my liking. They served exactly what I ordered. Please guide me.,0,NOT_VALID,food_taste
+val_0435,"Madam, My friend Deepa forged my signature on property papers and sold my house in Visakhapatnam without my knowledge. What can I do?",1,VALID,forgery
+val_0436,"Hello, The gym in Patna did not refund my fee after I stopped going, and the membership form I signed clearly said no refunds after 30 days of use. Should I go to court?",0,NOT_VALID,lawful_bank_charge
+val_0437,"I need advice. The gym in Pune did not refund my fee after I stopped going, and the membership form I signed clearly said no refunds after 30 days of use.",0,NOT_VALID,lawful_bank_charge
+val_0438,"Please help. Since marriage my in-laws harass me for dowry. on 3 March 2025 they threw me out of the house for not bringing Rs 25,000. Is there any remedy?",1,VALID,dowry_harassment
+val_0439,My friend Lakshmi forged my signature on property papers and sold my house in Bengaluru without my knowledge.,1,VALID,forgery
+val_0440,Please help. My neighbour Ravi threatened to kill me and my family two weeks ago if I do not sell him my land in Kochi. Is there any remedy?,1,VALID,criminal_intimidation
+val_0441,"Please help. I feel that my colleague Rahul might cheat me someday in future, though he has done nothing yet. What can I do?",0,NOT_VALID,hypothetical
+val_0442,"Hello, I ordered biryani at a restaurant in Patna last Monday. It was served as ordered and I paid, but it tasted bland to me. I want justice.",0,NOT_VALID,food_taste
+val_0443,Good morning. My flatmate Deepa forged my signature on property papers and sold my house in Guntur without my knowledge. Can I take legal action?,1,VALID,forgery
+val_0444,"I need advice. I feel that my friend Fatima might cheat me someday in future, though he has done nothing yet. Is there any remedy?",0,NOT_VALID,hypothetical
+val_0445,"Good morning. Someone called me on 14 August 2025 pretending to be from my bank and took my OTP. Rs 2,50,000 was debited from my account in Vijayawada without my consent.",1,VALID,upi_fraud
+val_0446,I need advice. My flatmate Karthik forged my signature on property papers and sold my house in Vijayawada without my knowledge. I want justice.,1,VALID,forgery
+val_0447,"Loan recovery agents came to my house in Bhopal on 22 June 2025, abused my parents and threatened to harm us.",1,VALID,criminal_intimidation
+val_0448,I need advice. My friend Anil forged my signature on property papers and sold my house in Nagpur without my knowledge. Can I take legal action?,1,VALID,forgery
+val_0449,"Hello, Since marriage my in-laws harass me for dowry. last Monday they threw me out of the house for not bringing Rs 25,000. Is this a case?",1,VALID,dowry_harassment
+val_0450,"I need advice. What if my landlord increases the rent next year? Nothing has happened yet, I am just worried.",0,NOT_VALID,hypothetical
+val_0451,"Sir, My husband and in-laws in Guntur keep demanding Rs 60,000 more as dowry and beat me when I refuse. What can I do?",1,VALID,dowry_harassment
+val_0452,"Sir, I ordered biryani at a restaurant in Pune in December last year. It was served as ordered and I paid, but it tasted bland to me. Please guide me.",0,NOT_VALID,food_taste
+val_0453,"Hello, The gym in Delhi did not refund my fee after I stopped going, and the membership form I signed clearly said no refunds after 30 days of use. What can I do?",0,NOT_VALID,lawful_bank_charge
+val_0454,"Madam, Loan recovery agents came to my house in Bhopal three days ago, abused my parents and threatened to harm us. What can I do?",1,VALID,criminal_intimidation
+val_0455,The coffee at a cafe in Kochi was too sweet for my liking. They served exactly what I ordered. What can I do?,0,NOT_VALID,food_taste
+val_0456,"Sir, Since marriage my in-laws harass me for dowry. last Monday they threw me out of the house for not bringing Rs 25,000. Please guide me.",1,VALID,dowry_harassment
+val_0457,"Madam, What if my landlord increases the rent next year? Nothing has happened yet, I am just worried. I want justice.",0,NOT_VALID,hypothetical
+val_0458,"Hello, Someone forged my signature to take a loan of Rs 60,000 in my name from a finance company in Chennai. I want justice.",1,VALID,forgery
+val_0459,"Hello, I got a fake KYC update link on 14 August 2025, entered my details and Rs 25,000 was transferred out of my account by unknown people in Mumbai. Is there any remedy?",1,VALID,upi_fraud
+val_0460,"Madam, Someone forged my signature to take a loan of Rs 25,000 in my name from a finance company in Vijayawada. Is there any remedy?",1,VALID,forgery
+val_0461,"Madam, I got a fake KYC update link two weeks ago, entered my details and Rs 12,500 was transferred out of my account by unknown people in Delhi. Please guide me.",1,VALID,upi_fraud
+val_0462,"Hello, A caller claiming to be a bank officer made me share an OTP on 9 September 2025 and Rs 40,000 vanished from my savings account. I live in Delhi. Is this a case?",1,VALID,upi_fraud
+val_0463,"Sir, A film star said in an interview that he prefers tea over coffee. I love coffee and feel offended. Please guide me.",0,NOT_VALID,celebrity_opinion
+val_0464,I need advice. My bank deducted a Rs 50 SMS charge that is listed in the account terms I signed. I just do not like paying it.,0,NOT_VALID,lawful_bank_charge
+val_0465,"Madam, What if my landlord increases the rent next year? Nothing has happened yet, I am just worried.",0,NOT_VALID,hypothetical
+val_0466,"I need advice. Since marriage my in-laws harass me for dowry. last Monday they threw me out of the house for not bringing Rs 3,00,000.",1,VALID,dowry_harassment
+val_0467,"Hello, My husband and in-laws in Lucknow keep demanding Rs 3,00,000 more as dowry and beat me when I refuse. Is there any remedy?",1,VALID,dowry_harassment
+val_0468,"Madam, My bank deducted a Rs 50 SMS charge that is listed in the account terms I signed. I just do not like paying it. Please guide me.",0,NOT_VALID,lawful_bank_charge
+val_0469,"Madam, I ordered biryani at a restaurant in Hyderabad on 22 June 2025. It was served as ordered and I paid, but it tasted bland to me.",0,NOT_VALID,food_taste
+val_0470,"Sir, I feel that my friend Karthik might cheat me someday in future, though he has done nothing yet. Can I take legal action?",0,NOT_VALID,hypothetical
+val_0471,"Please help. Loan recovery agents came to my house in Pune three days ago, abused my parents and threatened to harm us. I want justice.",1,VALID,criminal_intimidation
+val_0472,"Madam, I feel that my cousin Ramesh might cheat me someday in future, though he has done nothing yet. Is this a case?",0,NOT_VALID,hypothetical
+val_0473,"Madam, My classmate Kavya forged my signature on property papers and sold my house in Jaipur without my knowledge. Please guide me.",1,VALID,forgery
+val_0474,"I need advice. I got a fake KYC update link on 14 August 2025, entered my details and Rs 25,000 was transferred out of my account by unknown people in Jaipur.",1,VALID,upi_fraud
+val_0475,Good morning. My friend Neha threatened to kill me and my family on 14 August 2025 if I do not sell him my land in Nagpur. Should I go to court?,1,VALID,criminal_intimidation
+val_0476,"Madam, Loan recovery agents came to my house in Kochi on 9 September 2025, abused my parents and threatened to harm us. I want justice.",1,VALID,criminal_intimidation
+val_0477,"Hello, Someone forged my signature to take a loan of Rs 40,000 in my name from a finance company in Lucknow. Is this a case?",1,VALID,forgery
+val_0478,A film star said in an interview that he prefers tea over coffee. I love coffee and feel offended.,0,NOT_VALID,celebrity_opinion
+val_0479,Good morning. My bank deducted a Rs 50 SMS charge that is listed in the account terms I signed. I just do not like paying it. Please guide me.,0,NOT_VALID,lawful_bank_charge
+val_0480,My colleague Suresh forged my signature on property papers and sold my house in Bhopal without my knowledge. What can I do?,1,VALID,forgery
+val_0481,"Hello, Someone forged my signature to take a loan of Rs 75,000 in my name from a finance company in Mumbai. Can I take legal action?",1,VALID,forgery
+val_0482,"What if my landlord increases the rent next year? Nothing has happened yet, I am just worried. Please guide me.",0,NOT_VALID,hypothetical
+val_0483,"Please help. Since marriage my in-laws harass me for dowry. in January they threw me out of the house for not bringing Rs 1,20,000.",1,VALID,dowry_harassment
+val_0484,Please help. My bank deducted a Rs 50 SMS charge that is listed in the account terms I signed. I just do not like paying it. What can I do?,0,NOT_VALID,lawful_bank_charge
+val_0485,"Hello, A caller claiming to be a bank officer made me share an OTP on 3 March 2025 and Rs 40,000 vanished from my savings account. I live in Chennai. What can I do?",1,VALID,upi_fraud
+val_0486,"Please help. Someone forged my signature to take a loan of Rs 60,000 in my name from a finance company in Visakhapatnam. What can I do?",1,VALID,forgery
+val_0487,"Someone forged my signature to take a loan of Rs 60,000 in my name from a finance company in Mumbai. Is this a case?",1,VALID,forgery
+val_0488,I need advice. My bank deducted a Rs 50 SMS charge that is listed in the account terms I signed. I just do not like paying it. I want justice.,0,NOT_VALID,lawful_bank_charge
+val_0489,A film star said in an interview that he prefers tea over coffee. I love coffee and feel offended. I want justice.,0,NOT_VALID,celebrity_opinion
+val_0490,"Please help. The gym in Indore did not refund my fee after I stopped going, and the membership form I signed clearly said no refunds after 30 days of use. Is there any remedy?",0,NOT_VALID,lawful_bank_charge
+val_0491,"Madam, My classmate Joseph forged my signature on property papers and sold my house in Vijayawada without my knowledge. Can I take legal action?",1,VALID,forgery
+val_0492,"I need advice. Loan recovery agents came to my house in Kochi in December last year, abused my parents and threatened to harm us. Please guide me.",1,VALID,criminal_intimidation
+val_0493,"Sir, The gym in Visakhapatnam did not refund my fee after I stopped going, and the membership form I signed clearly said no refunds after 30 days of use. What can I do?",0,NOT_VALID,lawful_bank_charge
+val_0494,"Since marriage my in-laws harass me for dowry. two weeks ago they threw me out of the house for not bringing Rs 8,000. Can I take legal action?",1,VALID,dowry_harassment
+val_0495,"Hello, I feel that my friend Harish might cheat me someday in future, though he has done nothing yet.",0,NOT_VALID,hypothetical
+val_0496,My cousin Farah threatened to kill me and my family on 14 August 2025 if I do not sell him my land in Delhi. Can I take legal action?,1,VALID,criminal_intimidation
+val_0497,"Madam, I got a fake KYC update link in December last year, entered my details and Rs 75,000 was transferred out of my account by unknown people in Hyderabad. What can I do?",1,VALID,upi_fraud
+val_0498,"Good morning. Someone forged my signature to take a loan of Rs 12,500 in my name from a finance company in Indore. Please guide me.",1,VALID,forgery
+val_0499,"I need advice. Someone forged my signature to take a loan of Rs 40,000 in my name from a finance company in Hyderabad. Should I go to court?",1,VALID,forgery
+val_0500,Good morning. My flatmate Rahul forged my signature on property papers and sold my house in Guntur without my knowledge. Should I go to court?,1,VALID,forgery
+val_0501,I need advice. My friend Harish threatened to kill me and my family in January if I do not sell him my land in Indore. Is this a case?,1,VALID,criminal_intimidation
+val_0502,My flatmate Anil forged my signature on property papers and sold my house in Bhopal without my knowledge. Is there any remedy?,1,VALID,forgery
+val_0503,"Sir, Since marriage my in-laws harass me for dowry. on 22 June 2025 they threw me out of the house for not bringing Rs 5,000. What can I do?",1,VALID,dowry_harassment
+val_0504,"Sir, I feel that my flatmate Pooja might cheat me someday in future, though he has done nothing yet. Should I go to court?",0,NOT_VALID,hypothetical
+val_0505,My friend Meena threatened to kill me and my family last month if I do not sell him my land in Kolkata. Please guide me.,1,VALID,criminal_intimidation
+val_0506,"I feel that my neighbour Deepa might cheat me someday in future, though he has done nothing yet. Should I go to court?",0,NOT_VALID,hypothetical
+val_0507,"The gym in Vijayawada did not refund my fee after I stopped going, and the membership form I signed clearly said no refunds after 30 days of use. Should I go to court?",0,NOT_VALID,lawful_bank_charge
+val_0508,"A caller claiming to be a bank officer made me share an OTP three days ago and Rs 2,50,000 vanished from my savings account. I live in Kolkata. I want justice.",1,VALID,upi_fraud
+val_0509,"Madam, Someone called me in December last year pretending to be from my bank and took my OTP. Rs 1,20,000 was debited from my account in Guntur without my consent. Please guide me.",1,VALID,upi_fraud
+val_0510,"Sir, I ordered biryani at a restaurant in Bhopal last Monday. It was served as ordered and I paid, but it tasted bland to me. I want justice.",0,NOT_VALID,food_taste
+val_0511,"I feel that my cousin Arjun might cheat me someday in future, though he has done nothing yet. Should I go to court?",0,NOT_VALID,hypothetical
+val_0512,"Hello, Someone called me on 22 June 2025 pretending to be from my bank and took my OTP. Rs 5,000 was debited from my account in Indore without my consent. Is there any remedy?",1,VALID,upi_fraud
+val_0513,"Madam, Someone forged my signature to take a loan of Rs 12,500 in my name from a finance company in Bengaluru. What can I do?",1,VALID,forgery
+val_0514,"Hello, A famous singer did not reply to my fan letter. I want action against her. I want justice.",0,NOT_VALID,celebrity_opinion
+val_0515,"Sir, Someone forged my signature to take a loan of Rs 3,00,000 in my name from a finance company in Kolkata. Please guide me.",1,VALID,forgery
+val_0516,"Sir, My classmate Joseph forged my signature on property papers and sold my house in Chennai without my knowledge. Should I go to court?",1,VALID,forgery
+val_0517,"Hello, The coffee at a cafe in Delhi was too sweet for my liking. They served exactly what I ordered. I want justice.",0,NOT_VALID,food_taste
+val_0518,"Hello, My colleague Pooja threatened to kill me and my family two weeks ago if I do not sell him my land in Kochi. Is there any remedy?",1,VALID,criminal_intimidation
+val_0519,A famous singer did not reply to my fan letter. I want action against her. What can I do?,0,NOT_VALID,celebrity_opinion
+val_0520,"Madam, Someone forged my signature to take a loan of Rs 8,000 in my name from a finance company in Kochi. Is this a case?",1,VALID,forgery
+val_0521,"Sir, I feel that my flatmate Meena might cheat me someday in future, though he has done nothing yet. Is there any remedy?",0,NOT_VALID,hypothetical
+val_0522,"Hello, I feel that my friend Imran might cheat me someday in future, though he has done nothing yet. Is there any remedy?",0,NOT_VALID,hypothetical
+val_0523,"I need advice. I feel that my classmate Gopal might cheat me someday in future, though he has done nothing yet. Is this a case?",0,NOT_VALID,hypothetical
+val_0524,"I need advice. I feel that my cousin Sneha might cheat me someday in future, though he has done nothing yet. Is this a case?",0,NOT_VALID,hypothetical
+val_0525,"Good morning. Loan recovery agents came to my house in Pune on 22 June 2025, abused my parents and threatened to harm us. Is this a case?",1,VALID,criminal_intimidation
+val_0526,"I need advice. I feel that my friend Vikram might cheat me someday in future, though he has done nothing yet. I want justice.",0,NOT_VALID,hypothetical
+val_0527,"Please help. I feel that my flatmate Neha might cheat me someday in future, though he has done nothing yet. Is this a case?",0,NOT_VALID,hypothetical
+val_0528,"Please help. A caller claiming to be a bank officer made me share an OTP on 9 September 2025 and Rs 40,000 vanished from my savings account. I live in Hyderabad. Can I take legal action?",1,VALID,upi_fraud
+val_0529,"Madam, My classmate Rekha threatened to kill me and my family last Monday if I do not sell him my land in Lucknow. I want justice.",1,VALID,criminal_intimidation
+val_0530,"Good morning. Someone called me on 14 August 2025 pretending to be from my bank and took my OTP. Rs 2,50,000 was debited from my account in Bhopal without my consent. Please guide me.",1,VALID,upi_fraud
+val_0531,"Sir, My bank deducted a Rs 50 SMS charge that is listed in the account terms I signed. I just do not like paying it. Can I take legal action?",0,NOT_VALID,lawful_bank_charge
+val_0532,"Hello, A film star said in an interview that he prefers tea over coffee. I love coffee and feel offended. I want justice.",0,NOT_VALID,celebrity_opinion
+val_0533,"Good morning. I ordered biryani at a restaurant in Vijayawada on 9 September 2025. It was served as ordered and I paid, but it tasted bland to me.",0,NOT_VALID,food_taste
+val_0534,"My husband and in-laws in Jaipur keep demanding Rs 25,000 more as dowry and beat me when I refuse. Should I go to court?",1,VALID,dowry_harassment
+val_0535,"Sir, The gym in Kolkata did not refund my fee after I stopped going, and the membership form I signed clearly said no refunds after 30 days of use. Please guide me.",0,NOT_VALID,lawful_bank_charge
+val_0536,"Hello, Since marriage my in-laws harass me for dowry. three days ago they threw me out of the house for not bringing Rs 2,50,000. Should I go to court?",1,VALID,dowry_harassment
+val_0537,I need advice. My colleague Ravi threatened to kill me and my family last month if I do not sell him my land in Ahmedabad. Please guide me.,1,VALID,criminal_intimidation
+val_0538,"Madam, I got a fake KYC update link on 22 June 2025, entered my details and Rs 2,50,000 was transferred out of my account by unknown people in Kochi. Can I take legal action?",1,VALID,upi_fraud
+val_0539,"Hello, Since marriage my in-laws harass me for dowry. in January they threw me out of the house for not bringing Rs 40,000. Is there any remedy?",1,VALID,dowry_harassment
+val_0540,"Please help. I ordered biryani at a restaurant in Patna on 22 June 2025. It was served as ordered and I paid, but it tasted bland to me. Is there any remedy?",0,NOT_VALID,food_taste
+val_0541,"The gym in Indore did not refund my fee after I stopped going, and the membership form I signed clearly said no refunds after 30 days of use.",0,NOT_VALID,lawful_bank_charge
+val_0542,Please help. The coffee at a cafe in Guntur was too sweet for my liking. They served exactly what I ordered. I want justice.,0,NOT_VALID,food_taste
+val_0543,"Hello, Loan recovery agents came to my house in Kochi last Monday, abused my parents and threatened to harm us. Can I take legal action?",1,VALID,criminal_intimidation
+val_0544,"Good morning. I ordered biryani at a restaurant in Jaipur in January. It was served as ordered and I paid, but it tasted bland to me. I want justice.",0,NOT_VALID,food_taste
+val_0545,"Madam, Loan recovery agents came to my house in Bengaluru two weeks ago, abused my parents and threatened to harm us. I want justice.",1,VALID,criminal_intimidation
+val_0546,"I feel that my friend Rahul might cheat me someday in future, though he has done nothing yet. Is there any remedy?",0,NOT_VALID,hypothetical
+val_0547,Good morning. My brother-in-law Mohammed forged my signature on property papers and sold my house in Lucknow without my knowledge. Is this a case?,1,VALID,forgery
+val_0548,Good morning. A famous singer did not reply to my fan letter. I want action against her. Is this a case?,0,NOT_VALID,celebrity_opinion
+val_0549,"Please help. Since marriage my in-laws harass me for dowry. on 3 March 2025 they threw me out of the house for not bringing Rs 12,500. Should I go to court?",1,VALID,dowry_harassment
+val_0550,"Please help. Since marriage my in-laws harass me for dowry. on 9 September 2025 they threw me out of the house for not bringing Rs 8,000. Please guide me.",1,VALID,dowry_harassment
+val_0551,"Good morning. Someone forged my signature to take a loan of Rs 25,000 in my name from a finance company in Pune. Is this a case?",1,VALID,forgery
+val_0552,"Madam, My husband and in-laws in Bhopal keep demanding Rs 25,000 more as dowry and beat me when I refuse. Is there any remedy?",1,VALID,dowry_harassment
+val_0553,"Good morning. The gym in Ahmedabad did not refund my fee after I stopped going, and the membership form I signed clearly said no refunds after 30 days of use. Is there any remedy?",0,NOT_VALID,lawful_bank_charge
+val_0554,"Sir, My brother-in-law Arjun threatened to kill me and my family on 22 June 2025 if I do not sell him my land in Mumbai. Can I take legal action?",1,VALID,criminal_intimidation
+val_0555,"Good morning. Someone forged my signature to take a loan of Rs 5,000 in my name from a finance company in Guntur. Is this a case?",1,VALID,forgery
+val_0556,"Madam, My brother-in-law Lakshmi forged my signature on property papers and sold my house in Guntur without my knowledge. What can I do?",1,VALID,forgery
+val_0557,"I feel that my flatmate Gopal might cheat me someday in future, though he has done nothing yet. I want justice.",0,NOT_VALID,hypothetical
+val_0558,"Please help. I feel that my classmate Farah might cheat me someday in future, though he has done nothing yet. Should I go to court?",0,NOT_VALID,hypothetical
+val_0559,"Someone called me three days ago pretending to be from my bank and took my OTP. Rs 12,500 was debited from my account in Visakhapatnam without my consent. Can I take legal action?",1,VALID,upi_fraud
+val_0560,"Sir, My classmate Mohammed threatened to kill me and my family in December last year if I do not sell him my land in Visakhapatnam. Can I take legal action?",1,VALID,criminal_intimidation
+val_0561,"Hello, I feel that my flatmate Joseph might cheat me someday in future, though he has done nothing yet. What can I do?",0,NOT_VALID,hypothetical
+val_0562,"Madam, Loan recovery agents came to my house in Pune two weeks ago, abused my parents and threatened to harm us. Please guide me.",1,VALID,criminal_intimidation
+val_0563,"Please help. Someone called me three days ago pretending to be from my bank and took my OTP. Rs 8,000 was debited from my account in Indore without my consent. I want justice.",1,VALID,upi_fraud
+val_0564,Good morning. The coffee at a cafe in Visakhapatnam was too sweet for my liking. They served exactly what I ordered. I want justice.,0,NOT_VALID,food_taste
+val_0565,"Please help. I ordered biryani at a restaurant in Bhopal on 22 June 2025. It was served as ordered and I paid, but it tasted bland to me.",0,NOT_VALID,food_taste
+val_0566,"Sir, Someone called me last month pretending to be from my bank and took my OTP. Rs 60,000 was debited from my account in Visakhapatnam without my consent. Please guide me.",1,VALID,upi_fraud
+val_0567,"Please help. Since marriage my in-laws harass me for dowry. on 9 September 2025 they threw me out of the house for not bringing Rs 2,50,000. I want justice.",1,VALID,dowry_harassment
+val_0568,"Sir, The coffee at a cafe in Delhi was too sweet for my liking. They served exactly what I ordered. Can I take legal action?",0,NOT_VALID,food_taste
+val_0569,Good morning. A famous singer did not reply to my fan letter. I want action against her. Can I take legal action?,0,NOT_VALID,celebrity_opinion
+val_0570,I need advice. A film star said in an interview that he prefers tea over coffee. I love coffee and feel offended. I want justice.,0,NOT_VALID,celebrity_opinion
+val_0571,My brother-in-law Farah forged my signature on property papers and sold my house in Delhi without my knowledge.,1,VALID,forgery
+val_0572,"Hello, What if my landlord increases the rent next year? Nothing has happened yet, I am just worried. Should I go to court?",0,NOT_VALID,hypothetical
+val_0573,"Madam, A famous singer did not reply to my fan letter. I want action against her. Can I take legal action?",0,NOT_VALID,celebrity_opinion
+val_0574,"Please help. I feel that my cousin Neha might cheat me someday in future, though he has done nothing yet. Can I take legal action?",0,NOT_VALID,hypothetical
+val_0575,"Sir, Someone called me last Monday pretending to be from my bank and took my OTP. Rs 1,20,000 was debited from my account in Kochi without my consent. Please guide me.",1,VALID,upi_fraud
+val_0576,"Hello, My flatmate Deepa forged my signature on property papers and sold my house in Indore without my knowledge. Please guide me.",1,VALID,forgery
+val_0577,"Madam, Someone forged my signature to take a loan of Rs 40,000 in my name from a finance company in Patna. I want justice.",1,VALID,forgery
+val_0578,Please help. My bank deducted a Rs 50 SMS charge that is listed in the account terms I signed. I just do not like paying it. Should I go to court?,0,NOT_VALID,lawful_bank_charge
+val_0579,The coffee at a cafe in Indore was too sweet for my liking. They served exactly what I ordered.,0,NOT_VALID,food_taste
+val_0580,"Hello, What if my landlord increases the rent next year? Nothing has happened yet, I am just worried. I want justice.",0,NOT_VALID,hypothetical
+val_0581,"Hello, My bank deducted a Rs 50 SMS charge that is listed in the account terms I signed. I just do not like paying it. Please guide me.",0,NOT_VALID,lawful_bank_charge
+val_0582,The coffee at a cafe in Lucknow was too sweet for my liking. They served exactly what I ordered. I want justice.,0,NOT_VALID,food_taste
+val_0583,"Good morning. Someone forged my signature to take a loan of Rs 8,000 in my name from a finance company in Guntur. I want justice.",1,VALID,forgery
+val_0584,"Please help. A caller claiming to be a bank officer made me share an OTP two weeks ago and Rs 8,000 vanished from my savings account. I live in Mumbai. I want justice.",1,VALID,upi_fraud
+val_0585,"Madam, My bank deducted a Rs 50 SMS charge that is listed in the account terms I signed. I just do not like paying it. Should I go to court?",0,NOT_VALID,lawful_bank_charge
+val_0586,"I need advice. I got a fake KYC update link on 22 June 2025, entered my details and Rs 40,000 was transferred out of my account by unknown people in Chennai. Is this a case?",1,VALID,upi_fraud
+val_0587,"Hello, Someone called me on 9 September 2025 pretending to be from my bank and took my OTP. Rs 75,000 was debited from my account in Hyderabad without my consent. What can I do?",1,VALID,upi_fraud
+val_0588,"Please help. My husband and in-laws in Mumbai keep demanding Rs 8,000 more as dowry and beat me when I refuse. Can I take legal action?",1,VALID,dowry_harassment
+val_0589,"I need advice. The gym in Mumbai did not refund my fee after I stopped going, and the membership form I signed clearly said no refunds after 30 days of use. Should I go to court?",0,NOT_VALID,lawful_bank_charge
+val_0590,"Hello, My brother-in-law Sanjay threatened to kill me and my family last month if I do not sell him my land in Lucknow. Should I go to court?",1,VALID,criminal_intimidation
+val_0591,I need advice. My colleague Ramesh forged my signature on property papers and sold my house in Kochi without my knowledge. Is there any remedy?,1,VALID,forgery
+val_0592,A film star said in an interview that he prefers tea over coffee. I love coffee and feel offended. Is there any remedy?,0,NOT_VALID,celebrity_opinion
+val_0593,I need advice. A famous singer did not reply to my fan letter. I want action against her. I want justice.,0,NOT_VALID,celebrity_opinion
+val_0594,Good morning. A film star said in an interview that he prefers tea over coffee. I love coffee and feel offended. I want justice.,0,NOT_VALID,celebrity_opinion
+val_0595,Good morning. A famous singer did not reply to my fan letter. I want action against her. Should I go to court?,0,NOT_VALID,celebrity_opinion
+val_0596,Good morning. My friend Joseph threatened to kill me and my family on 3 March 2025 if I do not sell him my land in Nagpur. What can I do?,1,VALID,criminal_intimidation
+val_0597,Good morning. A film star said in an interview that he prefers tea over coffee. I love coffee and feel offended.,0,NOT_VALID,celebrity_opinion
+val_0598,A famous singer did not reply to my fan letter. I want action against her. Should I go to court?,0,NOT_VALID,celebrity_opinion
+val_0599,I need advice. The coffee at a cafe in Ahmedabad was too sweet for my liking. They served exactly what I ordered. Is there any remedy?,0,NOT_VALID,food_taste
+val_0600,"I need advice. My husband and in-laws in Patna keep demanding Rs 5,000 more as dowry and beat me when I refuse. What can I do?",1,VALID,dowry_harassment
+val_0601,Good morning. My classmate Meena forged my signature on property papers and sold my house in Pune without my knowledge. What can I do?,1,VALID,forgery
+val_0602,"Please help. Since marriage my in-laws harass me for dowry. last Monday they threw me out of the house for not bringing Rs 25,000. Please guide me.",1,VALID,dowry_harassment
+val_0603,Good morning. A film star said in an interview that he prefers tea over coffee. I love coffee and feel offended. What can I do?,0,NOT_VALID,celebrity_opinion
+val_0604,"Please help. I ordered biryani at a restaurant in Hyderabad two weeks ago. It was served as ordered and I paid, but it tasted bland to me. Can I take legal action?",0,NOT_VALID,food_taste
+val_0605,"Since marriage my in-laws harass me for dowry. on 9 September 2025 they threw me out of the house for not bringing Rs 3,00,000. I want justice.",1,VALID,dowry_harassment
+val_0606,Good morning. My bank deducted a Rs 50 SMS charge that is listed in the account terms I signed. I just do not like paying it.,0,NOT_VALID,lawful_bank_charge
+val_0607,Please help. A film star said in an interview that he prefers tea over coffee. I love coffee and feel offended. Is this a case?,0,NOT_VALID,celebrity_opinion
+val_0608,"Sir, My flatmate Priya forged my signature on property papers and sold my house in Visakhapatnam without my knowledge. Please guide me.",1,VALID,forgery
+val_0609,"Sir, The gym in Hyderabad did not refund my fee after I stopped going, and the membership form I signed clearly said no refunds after 30 days of use. Can I take legal action?",0,NOT_VALID,lawful_bank_charge
+val_0610,I need advice. My cousin Pooja forged my signature on property papers and sold my house in Kochi without my knowledge. What can I do?,1,VALID,forgery
+val_0611,"Madam, I ordered biryani at a restaurant in Bhopal on 3 March 2025. It was served as ordered and I paid, but it tasted bland to me.",0,NOT_VALID,food_taste
+val_0612,"My husband and in-laws in Indore keep demanding Rs 8,000 more as dowry and beat me when I refuse. Can I take legal action?",1,VALID,dowry_harassment
+val_0613,"Madam, A film star said in an interview that he prefers tea over coffee. I love coffee and feel offended. Please guide me.",0,NOT_VALID,celebrity_opinion
+val_0614,"Madam, The gym in Delhi did not refund my fee after I stopped going, and the membership form I signed clearly said no refunds after 30 days of use. Please guide me.",0,NOT_VALID,lawful_bank_charge
+val_0615,Please help. My colleague Gopal threatened to kill me and my family in December last year if I do not sell him my land in Kochi.,1,VALID,criminal_intimidation
+val_0616,"Hello, My brother-in-law Imran threatened to kill me and my family on 22 June 2025 if I do not sell him my land in Indore. What can I do?",1,VALID,criminal_intimidation
+val_0617,Good morning. My brother-in-law Fatima threatened to kill me and my family last month if I do not sell him my land in Vijayawada.,1,VALID,criminal_intimidation
+val_0618,"Madam, The coffee at a cafe in Patna was too sweet for my liking. They served exactly what I ordered. I want justice.",0,NOT_VALID,food_taste
+val_0619,I need advice. My friend Arjun threatened to kill me and my family in December last year if I do not sell him my land in Hyderabad. Can I take legal action?,1,VALID,criminal_intimidation
+val_0620,"Madam, What if my landlord increases the rent next year? Nothing has happened yet, I am just worried. Is this a case?",0,NOT_VALID,hypothetical
+val_0621,"Madam, I feel that my friend Harish might cheat me someday in future, though he has done nothing yet. Is this a case?",0,NOT_VALID,hypothetical
+val_0622,"Please help. Someone called me last Monday pretending to be from my bank and took my OTP. Rs 40,000 was debited from my account in Pune without my consent.",1,VALID,upi_fraud
+val_0623,"I need advice. I feel that my brother-in-law Joseph might cheat me someday in future, though he has done nothing yet. Can I take legal action?",0,NOT_VALID,hypothetical
+val_0624,"Good morning. Loan recovery agents came to my house in Chennai on 3 March 2025, abused my parents and threatened to harm us. Please guide me.",1,VALID,criminal_intimidation
+val_0625,I need advice. The coffee at a cafe in Vijayawada was too sweet for my liking. They served exactly what I ordered. Should I go to court?,0,NOT_VALID,food_taste
+val_0626,I need advice. The coffee at a cafe in Patna was too sweet for my liking. They served exactly what I ordered. Should I go to court?,0,NOT_VALID,food_taste
+val_0627,"Hello, The coffee at a cafe in Indore was too sweet for my liking. They served exactly what I ordered. Is there any remedy?",0,NOT_VALID,food_taste
+val_0628,A film star said in an interview that he prefers tea over coffee. I love coffee and feel offended. Can I take legal action?,0,NOT_VALID,celebrity_opinion
+val_0629,"Madam, The coffee at a cafe in Patna was too sweet for my liking. They served exactly what I ordered.",0,NOT_VALID,food_taste
+val_0630,"Sir, Someone forged my signature to take a loan of Rs 2,50,000 in my name from a finance company in Jaipur. Is this a case?",1,VALID,forgery
+val_0631,"Good morning. The gym in Hyderabad did not refund my fee after I stopped going, and the membership form I signed clearly said no refunds after 30 days of use.",0,NOT_VALID,lawful_bank_charge
+val_0632,"I need advice. I ordered biryani at a restaurant in Vijayawada in January. It was served as ordered and I paid, but it tasted bland to me. I want justice.",0,NOT_VALID,food_taste
+val_0633,"Madam, I feel that my classmate Naveen might cheat me someday in future, though he has done nothing yet. I want justice.",0,NOT_VALID,hypothetical
+val_0634,"Good morning. I got a fake KYC update link two weeks ago, entered my details and Rs 3,00,000 was transferred out of my account by unknown people in Patna.",1,VALID,upi_fraud
+val_0635,"Hello, The coffee at a cafe in Nagpur was too sweet for my liking. They served exactly what I ordered. I want justice.",0,NOT_VALID,food_taste
+val_0636,"Sir, Someone forged my signature to take a loan of Rs 1,20,000 in my name from a finance company in Delhi. Should I go to court?",1,VALID,forgery
+val_0637,"Hello, I feel that my neighbour Sunita might cheat me someday in future, though he has done nothing yet.",0,NOT_VALID,hypothetical
+val_0638,"I need advice. Since marriage my in-laws harass me for dowry. last Monday they threw me out of the house for not bringing Rs 40,000. Is this a case?",1,VALID,dowry_harassment
+val_0639,My colleague Sneha threatened to kill me and my family on 3 March 2025 if I do not sell him my land in Hyderabad. Is there any remedy?,1,VALID,criminal_intimidation
+val_0640,Good morning. My colleague Harish threatened to kill me and my family in December last year if I do not sell him my land in Nagpur. Should I go to court?,1,VALID,criminal_intimidation
+val_0641,"I need advice. My husband and in-laws in Bhopal keep demanding Rs 5,000 more as dowry and beat me when I refuse. I want justice.",1,VALID,dowry_harassment
+val_0642,"Madam, I ordered biryani at a restaurant in Hyderabad three days ago. It was served as ordered and I paid, but it tasted bland to me. I want justice.",0,NOT_VALID,food_taste
+val_0643,"Madam, I got a fake KYC update link on 9 September 2025, entered my details and Rs 60,000 was transferred out of my account by unknown people in Lucknow. Should I go to court?",1,VALID,upi_fraud
+val_0644,"Good morning. I feel that my friend Fatima might cheat me someday in future, though he has done nothing yet.",0,NOT_VALID,hypothetical
+val_0645,"I need advice. What if my landlord increases the rent next year? Nothing has happened yet, I am just worried. Please guide me.",0,NOT_VALID,hypothetical
+val_0646,"Hello, Someone called me three days ago pretending to be from my bank and took my OTP. Rs 2,50,000 was debited from my account in Chennai without my consent. Is this a case?",1,VALID,upi_fraud
+val_0647,"Sir, My bank deducted a Rs 50 SMS charge that is listed in the account terms I signed. I just do not like paying it. Is this a case?",0,NOT_VALID,lawful_bank_charge
+val_0648,Please help. A film star said in an interview that he prefers tea over coffee. I love coffee and feel offended. Should I go to court?,0,NOT_VALID,celebrity_opinion
+val_0649,Good morning. A famous singer did not reply to my fan letter. I want action against her. Please guide me.,0,NOT_VALID,celebrity_opinion
+val_0650,Good morning. My flatmate Suresh threatened to kill me and my family two weeks ago if I do not sell him my land in Delhi. Should I go to court?,1,VALID,criminal_intimidation
+val_0651,"I need advice. Someone forged my signature to take a loan of Rs 3,00,000 in my name from a finance company in Kochi.",1,VALID,forgery
+val_0652,"Hello, I feel that my cousin Gopal might cheat me someday in future, though he has done nothing yet. Should I go to court?",0,NOT_VALID,hypothetical
+val_0653,Please help. The coffee at a cafe in Nagpur was too sweet for my liking. They served exactly what I ordered. Please guide me.,0,NOT_VALID,food_taste
+val_0654,"Madam, Someone forged my signature to take a loan of Rs 12,500 in my name from a finance company in Kochi. Please guide me.",1,VALID,forgery
+val_0655,"Please help. I feel that my neighbour Priya might cheat me someday in future, though he has done nothing yet. Is there any remedy?",0,NOT_VALID,hypothetical
+val_0656,"Sir, My cousin Lakshmi threatened to kill me and my family last month if I do not sell him my land in Pune. Is there any remedy?",1,VALID,criminal_intimidation
+val_0657,My friend Meena threatened to kill me and my family three days ago if I do not sell him my land in Ahmedabad. What can I do?,1,VALID,criminal_intimidation
+val_0658,My friend Ravi forged my signature on property papers and sold my house in Kolkata without my knowledge. Is this a case?,1,VALID,forgery
+val_0659,"Please help. Someone forged my signature to take a loan of Rs 12,500 in my name from a finance company in Lucknow. Should I go to court?",1,VALID,forgery
+val_0660,"My husband and in-laws in Kochi keep demanding Rs 25,000 more as dowry and beat me when I refuse. Please guide me.",1,VALID,dowry_harassment
+val_0661,"Good morning. What if my landlord increases the rent next year? Nothing has happened yet, I am just worried. Is this a case?",0,NOT_VALID,hypothetical
+val_0662,"Good morning. I feel that my neighbour Imran might cheat me someday in future, though he has done nothing yet. What can I do?",0,NOT_VALID,hypothetical
+val_0663,"Good morning. What if my landlord increases the rent next year? Nothing has happened yet, I am just worried. Should I go to court?",0,NOT_VALID,hypothetical
+val_0664,"Since marriage my in-laws harass me for dowry. in December last year they threw me out of the house for not bringing Rs 1,20,000. I want justice.",1,VALID,dowry_harassment
+val_0665,"Please help. The gym in Ahmedabad did not refund my fee after I stopped going, and the membership form I signed clearly said no refunds after 30 days of use.",0,NOT_VALID,lawful_bank_charge
+val_0666,"Sir, Since marriage my in-laws harass me for dowry. on 3 March 2025 they threw me out of the house for not bringing Rs 8,000. Is there any remedy?",1,VALID,dowry_harassment
+val_0667,Good morning. The coffee at a cafe in Vijayawada was too sweet for my liking. They served exactly what I ordered.,0,NOT_VALID,food_taste
+val_0668,I need advice. My classmate Mohammed forged my signature on property papers and sold my house in Nagpur without my knowledge. Please guide me.,1,VALID,forgery
+val_0669,"Madam, I ordered biryani at a restaurant in Bhopal on 14 August 2025. It was served as ordered and I paid, but it tasted bland to me. Is there any remedy?",0,NOT_VALID,food_taste
+val_0670,"Hello, Someone called me two weeks ago pretending to be from my bank and took my OTP. Rs 75,000 was debited from my account in Kochi without my consent. Is this a case?",1,VALID,upi_fraud
+val_0671,"Sir, A caller claiming to be a bank officer made me share an OTP last month and Rs 8,000 vanished from my savings account. I live in Delhi. Is this a case?",1,VALID,upi_fraud
+val_0672,Good morning. My cousin Harish threatened to kill me and my family three days ago if I do not sell him my land in Kochi. Is this a case?,1,VALID,criminal_intimidation
+val_0673,"Hello, I ordered biryani at a restaurant in Delhi three days ago. It was served as ordered and I paid, but it tasted bland to me. Is this a case?",0,NOT_VALID,food_taste
+val_0674,I need advice. A film star said in an interview that he prefers tea over coffee. I love coffee and feel offended. Is this a case?,0,NOT_VALID,celebrity_opinion
+val_0675,Good morning. The coffee at a cafe in Kochi was too sweet for my liking. They served exactly what I ordered. Is there any remedy?,0,NOT_VALID,food_taste
+val_0676,"Good morning. Loan recovery agents came to my house in Pune in December last year, abused my parents and threatened to harm us. Should I go to court?",1,VALID,criminal_intimidation
+val_0677,"Sir, I feel that my brother-in-law Meena might cheat me someday in future, though he has done nothing yet. Should I go to court?",0,NOT_VALID,hypothetical
+val_0678,"What if my landlord increases the rent next year? Nothing has happened yet, I am just worried. Should I go to court?",0,NOT_VALID,hypothetical
+val_0679,"Hello, I feel that my cousin Kavya might cheat me someday in future, though he has done nothing yet. I want justice.",0,NOT_VALID,hypothetical
+val_0680,"Madam, My cousin Pooja threatened to kill me and my family three days ago if I do not sell him my land in Bhopal. I want justice.",1,VALID,criminal_intimidation
+val_0681,"Good morning. The gym in Ahmedabad did not refund my fee after I stopped going, and the membership form I signed clearly said no refunds after 30 days of use. Can I take legal action?",0,NOT_VALID,lawful_bank_charge
+val_0682,Good morning. My flatmate Ramesh forged my signature on property papers and sold my house in Kolkata without my knowledge. I want justice.,1,VALID,forgery
+val_0683,"Please help. I got a fake KYC update link on 14 August 2025, entered my details and Rs 8,000 was transferred out of my account by unknown people in Delhi. Is there any remedy?",1,VALID,upi_fraud
+val_0684,Please help. My friend Ravi forged my signature on property papers and sold my house in Hyderabad without my knowledge. Should I go to court?,1,VALID,forgery
+val_0685,"Good morning. My husband and in-laws in Chennai keep demanding Rs 8,000 more as dowry and beat me when I refuse. Please guide me.",1,VALID,dowry_harassment
+val_0686,"Madam, Loan recovery agents came to my house in Jaipur on 9 September 2025, abused my parents and threatened to harm us.",1,VALID,criminal_intimidation
+val_0687,"Since marriage my in-laws harass me for dowry. last month they threw me out of the house for not bringing Rs 1,20,000.",1,VALID,dowry_harassment
+val_0688,I need advice. The coffee at a cafe in Ahmedabad was too sweet for my liking. They served exactly what I ordered. Is this a case?,0,NOT_VALID,food_taste
+val_0689,My bank deducted a Rs 50 SMS charge that is listed in the account terms I signed. I just do not like paying it. Is this a case?,0,NOT_VALID,lawful_bank_charge
+val_0690,"Madam, My husband and in-laws in Mumbai keep demanding Rs 5,000 more as dowry and beat me when I refuse. Should I go to court?",1,VALID,dowry_harassment
+val_0691,"Good morning. I ordered biryani at a restaurant in Vijayawada two weeks ago. It was served as ordered and I paid, but it tasted bland to me. Please guide me.",0,NOT_VALID,food_taste
+val_0692,A famous singer did not reply to my fan letter. I want action against her. Is this a case?,0,NOT_VALID,celebrity_opinion
+val_0693,"I ordered biryani at a restaurant in Chennai in December last year. It was served as ordered and I paid, but it tasted bland to me. I want justice.",0,NOT_VALID,food_taste
+val_0694,Please help. The coffee at a cafe in Kolkata was too sweet for my liking. They served exactly what I ordered.,0,NOT_VALID,food_taste
+val_0695,"Madam, Someone forged my signature to take a loan of Rs 1,20,000 in my name from a finance company in Vijayawada. Is this a case?",1,VALID,forgery
+val_0696,Please help. A film star said in an interview that he prefers tea over coffee. I love coffee and feel offended. Is there any remedy?,0,NOT_VALID,celebrity_opinion
+val_0697,I need advice. My flatmate Pooja threatened to kill me and my family in December last year if I do not sell him my land in Patna. Please guide me.,1,VALID,criminal_intimidation
+val_0698,"Hello, A film star said in an interview that he prefers tea over coffee. I love coffee and feel offended. Can I take legal action?",0,NOT_VALID,celebrity_opinion
+val_0699,"Please help. Someone called me three days ago pretending to be from my bank and took my OTP. Rs 2,50,000 was debited from my account in Mumbai without my consent. Is this a case?",1,VALID,upi_fraud
+val_0700,I need advice. A film star said in an interview that he prefers tea over coffee. I love coffee and feel offended.,0,NOT_VALID,celebrity_opinion
+val_0701,"Sir, A film star said in an interview that he prefers tea over coffee. I love coffee and feel offended. Is this a case?",0,NOT_VALID,celebrity_opinion
+val_0702,I need advice. My cousin Imran threatened to kill me and my family on 9 September 2025 if I do not sell him my land in Vijayawada.,1,VALID,criminal_intimidation
+val_0703,"Good morning. My husband and in-laws in Bhopal keep demanding Rs 3,00,000 more as dowry and beat me when I refuse. Is this a case?",1,VALID,dowry_harassment
+val_0704,"I ordered biryani at a restaurant in Lucknow on 22 June 2025. It was served as ordered and I paid, but it tasted bland to me. I want justice.",0,NOT_VALID,food_taste
+val_0705,"Sir, I got a fake KYC update link on 3 March 2025, entered my details and Rs 12,500 was transferred out of my account by unknown people in Chennai. Is there any remedy?",1,VALID,upi_fraud
+val_0706,"Madam, I feel that my classmate Asha might cheat me someday in future, though he has done nothing yet.",0,NOT_VALID,hypothetical
+val_0707,"Madam, My neighbour Sanjay threatened to kill me and my family two weeks ago if I do not sell him my land in Kochi.",1,VALID,criminal_intimidation
+val_0708,Please help. The coffee at a cafe in Bengaluru was too sweet for my liking. They served exactly what I ordered.,0,NOT_VALID,food_taste
+val_0709,"Good morning. I feel that my neighbour Mohammed might cheat me someday in future, though he has done nothing yet.",0,NOT_VALID,hypothetical
+val_0710,"I need advice. I got a fake KYC update link two weeks ago, entered my details and Rs 5,000 was transferred out of my account by unknown people in Visakhapatnam. Should I go to court?",1,VALID,upi_fraud
+val_0711,"Good morning. Someone forged my signature to take a loan of Rs 12,500 in my name from a finance company in Kolkata. Is there any remedy?",1,VALID,forgery
+val_0712,"Good morning. The gym in Lucknow did not refund my fee after I stopped going, and the membership form I signed clearly said no refunds after 30 days of use. What can I do?",0,NOT_VALID,lawful_bank_charge
+val_0713,"Madam, Loan recovery agents came to my house in Chennai on 14 August 2025, abused my parents and threatened to harm us. What can I do?",1,VALID,criminal_intimidation
+val_0714,"I need advice. Loan recovery agents came to my house in Indore on 3 March 2025, abused my parents and threatened to harm us. Can I take legal action?",1,VALID,criminal_intimidation
+val_0715,"Hello, My husband and in-laws in Chennai keep demanding Rs 40,000 more as dowry and beat me when I refuse. I want justice.",1,VALID,dowry_harassment
+val_0716,"I need advice. What if my landlord increases the rent next year? Nothing has happened yet, I am just worried. Can I take legal action?",0,NOT_VALID,hypothetical
+val_0717,"Madam, The coffee at a cafe in Guntur was too sweet for my liking. They served exactly what I ordered. Is this a case?",0,NOT_VALID,food_taste
+val_0718,"Hello, My brother-in-law Harish forged my signature on property papers and sold my house in Kochi without my knowledge. Should I go to court?",1,VALID,forgery
+val_0719,"Madam, I feel that my flatmate Anjali might cheat me someday in future, though he has done nothing yet.",0,NOT_VALID,hypothetical
+val_0720,"Hello, Someone called me last month pretending to be from my bank and took my OTP. Rs 2,50,000 was debited from my account in Pune without my consent. Is there any remedy?",1,VALID,upi_fraud
+val_0721,"Madam, The gym in Pune did not refund my fee after I stopped going, and the membership form I signed clearly said no refunds after 30 days of use. Please guide me.",0,NOT_VALID,lawful_bank_charge
+val_0722,"Hello, My husband and in-laws in Lucknow keep demanding Rs 25,000 more as dowry and beat me when I refuse. Can I take legal action?",1,VALID,dowry_harassment
+val_0723,"Hello, I feel that my classmate Anil might cheat me someday in future, though he has done nothing yet. Is there any remedy?",0,NOT_VALID,hypothetical
+val_0724,"Good morning. What if my landlord increases the rent next year? Nothing has happened yet, I am just worried. What can I do?",0,NOT_VALID,hypothetical
+val_0725,"Please help. What if my landlord increases the rent next year? Nothing has happened yet, I am just worried. Is there any remedy?",0,NOT_VALID,hypothetical
+val_0726,"Sir, The gym in Visakhapatnam did not refund my fee after I stopped going, and the membership form I signed clearly said no refunds after 30 days of use.",0,NOT_VALID,lawful_bank_charge
+val_0727,"I need advice. Someone forged my signature to take a loan of Rs 40,000 in my name from a finance company in Indore. Is this a case?",1,VALID,forgery
+val_0728,Please help. My bank deducted a Rs 50 SMS charge that is listed in the account terms I signed. I just do not like paying it. Is this a case?,0,NOT_VALID,lawful_bank_charge
+val_0729,"Hello, What if my landlord increases the rent next year? Nothing has happened yet, I am just worried. Can I take legal action?",0,NOT_VALID,hypothetical
+val_0730,I need advice. A famous singer did not reply to my fan letter. I want action against her. Is this a case?,0,NOT_VALID,celebrity_opinion
+val_0731,"Hello, Since marriage my in-laws harass me for dowry. on 22 June 2025 they threw me out of the house for not bringing Rs 5,000. Can I take legal action?",1,VALID,dowry_harassment
+val_0732,"Good morning. I got a fake KYC update link three days ago, entered my details and Rs 1,20,000 was transferred out of my account by unknown people in Pune. I want justice.",1,VALID,upi_fraud
+val_0733,"Please help. I ordered biryani at a restaurant in Indore in January. It was served as ordered and I paid, but it tasted bland to me. I want justice.",0,NOT_VALID,food_taste
+val_0734,Please help. The coffee at a cafe in Patna was too sweet for my liking. They served exactly what I ordered. Is there any remedy?,0,NOT_VALID,food_taste
+val_0735,"Sir, Loan recovery agents came to my house in Nagpur two weeks ago, abused my parents and threatened to harm us.",1,VALID,criminal_intimidation
+val_0736,"Hello, The gym in Bengaluru did not refund my fee after I stopped going, and the membership form I signed clearly said no refunds after 30 days of use. Should I go to court?",0,NOT_VALID,lawful_bank_charge
+val_0737,"Sir, I got a fake KYC update link in December last year, entered my details and Rs 2,50,000 was transferred out of my account by unknown people in Hyderabad. Please guide me.",1,VALID,upi_fraud
+val_0738,"Hello, A famous singer did not reply to my fan letter. I want action against her. Should I go to court?",0,NOT_VALID,celebrity_opinion
+val_0739,"Hello, Someone called me on 3 March 2025 pretending to be from my bank and took my OTP. Rs 2,50,000 was debited from my account in Nagpur without my consent.",1,VALID,upi_fraud
+val_0740,"I need advice. My husband and in-laws in Nagpur keep demanding Rs 1,20,000 more as dowry and beat me when I refuse.",1,VALID,dowry_harassment
+val_0741,Please help. My classmate Kavya threatened to kill me and my family on 3 March 2025 if I do not sell him my land in Mumbai. Is this a case?,1,VALID,criminal_intimidation
+val_0742,"Hello, I ordered biryani at a restaurant in Jaipur on 14 August 2025. It was served as ordered and I paid, but it tasted bland to me. What can I do?",0,NOT_VALID,food_taste
+val_0743,"Madam, The coffee at a cafe in Kolkata was too sweet for my liking. They served exactly what I ordered. I want justice.",0,NOT_VALID,food_taste
+val_0744,"Good morning. I ordered biryani at a restaurant in Mumbai three days ago. It was served as ordered and I paid, but it tasted bland to me. Is this a case?",0,NOT_VALID,food_taste
+val_0745,"Hello, The gym in Patna did not refund my fee after I stopped going, and the membership form I signed clearly said no refunds after 30 days of use. Is there any remedy?",0,NOT_VALID,lawful_bank_charge
+val_0746,"Good morning. I ordered biryani at a restaurant in Patna last Monday. It was served as ordered and I paid, but it tasted bland to me.",0,NOT_VALID,food_taste
+val_0747,"Sir, Someone forged my signature to take a loan of Rs 12,500 in my name from a finance company in Delhi. I want justice.",1,VALID,forgery
+val_0748,"Hello, Someone forged my signature to take a loan of Rs 2,50,000 in my name from a finance company in Guntur. Can I take legal action?",1,VALID,forgery
+val_0749,I need advice. A famous singer did not reply to my fan letter. I want action against her. What can I do?,0,NOT_VALID,celebrity_opinion
+val_0750,"Madam, The gym in Jaipur did not refund my fee after I stopped going, and the membership form I signed clearly said no refunds after 30 days of use. I want justice.",0,NOT_VALID,lawful_bank_charge
+val_0751,"Madam, A famous singer did not reply to my fan letter. I want action against her. Should I go to court?",0,NOT_VALID,celebrity_opinion
+val_0752,I need advice. A film star said in an interview that he prefers tea over coffee. I love coffee and feel offended. Should I go to court?,0,NOT_VALID,celebrity_opinion
+val_0753,"Please help. I got a fake KYC update link on 9 September 2025, entered my details and Rs 5,000 was transferred out of my account by unknown people in Visakhapatnam.",1,VALID,upi_fraud
+val_0754,"Loan recovery agents came to my house in Indore in December last year, abused my parents and threatened to harm us. Can I take legal action?",1,VALID,criminal_intimidation
+val_0755,"Madam, A film star said in an interview that he prefers tea over coffee. I love coffee and feel offended. I want justice.",0,NOT_VALID,celebrity_opinion
+val_0756,Good morning. A film star said in an interview that he prefers tea over coffee. I love coffee and feel offended. Is this a case?,0,NOT_VALID,celebrity_opinion
+val_0757,"Sir, My flatmate Vikram threatened to kill me and my family on 14 August 2025 if I do not sell him my land in Kolkata. I want justice.",1,VALID,criminal_intimidation
+val_0758,"I need advice. Loan recovery agents came to my house in Hyderabad on 3 March 2025, abused my parents and threatened to harm us. Can I take legal action?",1,VALID,criminal_intimidation
+val_0759,"I ordered biryani at a restaurant in Nagpur on 9 September 2025. It was served as ordered and I paid, but it tasted bland to me. What can I do?",0,NOT_VALID,food_taste
+val_0760,"I feel that my cousin Joseph might cheat me someday in future, though he has done nothing yet. Should I go to court?",0,NOT_VALID,hypothetical
+val_0761,"Good morning. Loan recovery agents came to my house in Jaipur on 14 August 2025, abused my parents and threatened to harm us. Is this a case?",1,VALID,criminal_intimidation
+val_0762,"Hello, Since marriage my in-laws harass me for dowry. three days ago they threw me out of the house for not bringing Rs 3,00,000. Can I take legal action?",1,VALID,dowry_harassment
+val_0763,"Sir, A caller claiming to be a bank officer made me share an OTP in January and Rs 25,000 vanished from my savings account. I live in Kolkata. Should I go to court?",1,VALID,upi_fraud
+val_0764,"Please help. I ordered biryani at a restaurant in Lucknow three days ago. It was served as ordered and I paid, but it tasted bland to me.",0,NOT_VALID,food_taste
+val_0765,"Madam, A film star said in an interview that he prefers tea over coffee. I love coffee and feel offended. Is there any remedy?",0,NOT_VALID,celebrity_opinion
+val_0766,I need advice. The coffee at a cafe in Mumbai was too sweet for my liking. They served exactly what I ordered. Can I take legal action?,0,NOT_VALID,food_taste
+val_0767,"Hello, What if my landlord increases the rent next year? Nothing has happened yet, I am just worried. Please guide me.",0,NOT_VALID,hypothetical
+val_0768,"Hello, The gym in Indore did not refund my fee after I stopped going, and the membership form I signed clearly said no refunds after 30 days of use. What can I do?",0,NOT_VALID,lawful_bank_charge
+val_0769,"Hello, I feel that my flatmate Karthik might cheat me someday in future, though he has done nothing yet. Please guide me.",0,NOT_VALID,hypothetical
+val_0770,"Good morning. I feel that my brother-in-law Joseph might cheat me someday in future, though he has done nothing yet. Is there any remedy?",0,NOT_VALID,hypothetical
+val_0771,"Good morning. My husband and in-laws in Ahmedabad keep demanding Rs 1,20,000 more as dowry and beat me when I refuse. I want justice.",1,VALID,dowry_harassment
+val_0772,"Sir, I ordered biryani at a restaurant in Visakhapatnam on 3 March 2025. It was served as ordered and I paid, but it tasted bland to me. Can I take legal action?",0,NOT_VALID,food_taste
+val_0773,"Sir, Someone forged my signature to take a loan of Rs 3,00,000 in my name from a finance company in Pune. Please guide me.",1,VALID,forgery
+val_0774,"I need advice. Someone called me on 14 August 2025 pretending to be from my bank and took my OTP. Rs 25,000 was debited from my account in Bengaluru without my consent. Can I take legal action?",1,VALID,upi_fraud
+val_0775,"Madam, I ordered biryani at a restaurant in Lucknow in December last year. It was served as ordered and I paid, but it tasted bland to me. Can I take legal action?",0,NOT_VALID,food_taste
+val_0776,"Madam, My brother-in-law Fatima forged my signature on property papers and sold my house in Delhi without my knowledge. Is this a case?",1,VALID,forgery
+val_0777,"Good morning. The gym in Nagpur did not refund my fee after I stopped going, and the membership form I signed clearly said no refunds after 30 days of use. What can I do?",0,NOT_VALID,lawful_bank_charge
+val_0778,Good morning. The coffee at a cafe in Guntur was too sweet for my liking. They served exactly what I ordered.,0,NOT_VALID,food_taste
+val_0779,"Hello, I got a fake KYC update link two weeks ago, entered my details and Rs 60,000 was transferred out of my account by unknown people in Guntur. I want justice.",1,VALID,upi_fraud
+val_0780,"I ordered biryani at a restaurant in Kolkata last Monday. It was served as ordered and I paid, but it tasted bland to me. Can I take legal action?",0,NOT_VALID,food_taste
+val_0781,"Please help. The gym in Jaipur did not refund my fee after I stopped going, and the membership form I signed clearly said no refunds after 30 days of use. Can I take legal action?",0,NOT_VALID,lawful_bank_charge
+val_0782,"The gym in Ahmedabad did not refund my fee after I stopped going, and the membership form I signed clearly said no refunds after 30 days of use. Should I go to court?",0,NOT_VALID,lawful_bank_charge
+val_0783,"Sir, I feel that my neighbour Ramesh might cheat me someday in future, though he has done nothing yet. Can I take legal action?",0,NOT_VALID,hypothetical
+val_0784,"Madam, Loan recovery agents came to my house in Lucknow in January, abused my parents and threatened to harm us. I want justice.",1,VALID,criminal_intimidation
+val_0785,"Sir, The gym in Hyderabad did not refund my fee after I stopped going, and the membership form I signed clearly said no refunds after 30 days of use.",0,NOT_VALID,lawful_bank_charge
+val_0786,"Madam, Loan recovery agents came to my house in Chennai in January, abused my parents and threatened to harm us.",1,VALID,criminal_intimidation
+val_0787,"I need advice. I ordered biryani at a restaurant in Patna two weeks ago. It was served as ordered and I paid, but it tasted bland to me. What can I do?",0,NOT_VALID,food_taste
+val_0788,"Hello, What if my landlord increases the rent next year? Nothing has happened yet, I am just worried. What can I do?",0,NOT_VALID,hypothetical
+val_0789,"Madam, Someone forged my signature to take a loan of Rs 2,50,000 in my name from a finance company in Kochi. Is there any remedy?",1,VALID,forgery
+val_0790,"Please help. Loan recovery agents came to my house in Ahmedabad in December last year, abused my parents and threatened to harm us. I want justice.",1,VALID,criminal_intimidation
+val_0791,"Hello, My flatmate Harish forged my signature on property papers and sold my house in Patna without my knowledge. Is this a case?",1,VALID,forgery
+val_0792,Good morning. My flatmate Pooja threatened to kill me and my family on 3 March 2025 if I do not sell him my land in Ahmedabad. Is there any remedy?,1,VALID,criminal_intimidation
+val_0793,My neighbour Lakshmi forged my signature on property papers and sold my house in Indore without my knowledge. I want justice.,1,VALID,forgery
+val_0794,"Madam, What if my landlord increases the rent next year? Nothing has happened yet, I am just worried. What can I do?",0,NOT_VALID,hypothetical
+val_0795,"I feel that my neighbour Joseph might cheat me someday in future, though he has done nothing yet. What can I do?",0,NOT_VALID,hypothetical
+val_0796,"Sir, Since marriage my in-laws harass me for dowry. in January they threw me out of the house for not bringing Rs 60,000. Is there any remedy?",1,VALID,dowry_harassment
+val_0797,"Madam, A caller claiming to be a bank officer made me share an OTP last Monday and Rs 12,500 vanished from my savings account. I live in Kochi. Should I go to court?",1,VALID,upi_fraud
+val_0798,"Madam, Loan recovery agents came to my house in Bengaluru in December last year, abused my parents and threatened to harm us. I want justice.",1,VALID,criminal_intimidation
+val_0799,"Madam, A caller claiming to be a bank officer made me share an OTP last month and Rs 75,000 vanished from my savings account. I live in Jaipur. Can I take legal action?",1,VALID,upi_fraud
+val_0800,"Madam, A film star said in an interview that he prefers tea over coffee. I love coffee and feel offended. Is this a case?",0,NOT_VALID,celebrity_opinion
+val_0801,Please help. My cousin Karthik forged my signature on property papers and sold my house in Chennai without my knowledge. Is there any remedy?,1,VALID,forgery
+val_0802,"Madam, A film star said in an interview that he prefers tea over coffee. I love coffee and feel offended. What can I do?",0,NOT_VALID,celebrity_opinion
+val_0803,Good morning. My friend Ramesh forged my signature on property papers and sold my house in Lucknow without my knowledge. Should I go to court?,1,VALID,forgery
+val_0804,"Sir, Since marriage my in-laws harass me for dowry. last Monday they threw me out of the house for not bringing Rs 8,000. Please guide me.",1,VALID,dowry_harassment
+val_0805,"Madam, The coffee at a cafe in Nagpur was too sweet for my liking. They served exactly what I ordered. I want justice.",0,NOT_VALID,food_taste
+val_0806,"I need advice. I feel that my colleague Neha might cheat me someday in future, though he has done nothing yet. Should I go to court?",0,NOT_VALID,hypothetical
+val_0807,"Hello, Since marriage my in-laws harass me for dowry. on 3 March 2025 they threw me out of the house for not bringing Rs 5,000.",1,VALID,dowry_harassment
+val_0808,"Madam, My colleague Ramesh forged my signature on property papers and sold my house in Patna without my knowledge. Is this a case?",1,VALID,forgery
+val_0809,I need advice. The coffee at a cafe in Pune was too sweet for my liking. They served exactly what I ordered. Is there any remedy?,0,NOT_VALID,food_taste
+val_0810,"Sir, What if my landlord increases the rent next year? Nothing has happened yet, I am just worried. Is this a case?",0,NOT_VALID,hypothetical
+val_0811,"Madam, My neighbour Rekha threatened to kill me and my family two weeks ago if I do not sell him my land in Indore. I want justice.",1,VALID,criminal_intimidation
+val_0812,"I need advice. A caller claiming to be a bank officer made me share an OTP two weeks ago and Rs 40,000 vanished from my savings account. I live in Visakhapatnam. Is this a case?",1,VALID,upi_fraud
+val_0813,"Please help. What if my landlord increases the rent next year? Nothing has happened yet, I am just worried. I want justice.",0,NOT_VALID,hypothetical
+val_0814,"Hello, The gym in Indore did not refund my fee after I stopped going, and the membership form I signed clearly said no refunds after 30 days of use. Can I take legal action?",0,NOT_VALID,lawful_bank_charge
+val_0815,"I need advice. The gym in Chennai did not refund my fee after I stopped going, and the membership form I signed clearly said no refunds after 30 days of use. Can I take legal action?",0,NOT_VALID,lawful_bank_charge
+val_0816,I need advice. My brother-in-law Ramesh forged my signature on property papers and sold my house in Delhi without my knowledge.,1,VALID,forgery
+val_0817,"Good morning. I ordered biryani at a restaurant in Kolkata on 14 August 2025. It was served as ordered and I paid, but it tasted bland to me. Please guide me.",0,NOT_VALID,food_taste
+val_0818,"Please help. What if my landlord increases the rent next year? Nothing has happened yet, I am just worried. What can I do?",0,NOT_VALID,hypothetical
+val_0819,"Madam, My bank deducted a Rs 50 SMS charge that is listed in the account terms I signed. I just do not like paying it.",0,NOT_VALID,lawful_bank_charge
+val_0820,A film star said in an interview that he prefers tea over coffee. I love coffee and feel offended. What can I do?,0,NOT_VALID,celebrity_opinion
+val_0821,"Please help. The gym in Patna did not refund my fee after I stopped going, and the membership form I signed clearly said no refunds after 30 days of use. Should I go to court?",0,NOT_VALID,lawful_bank_charge
+val_0822,I need advice. My bank deducted a Rs 50 SMS charge that is listed in the account terms I signed. I just do not like paying it. Please guide me.,0,NOT_VALID,lawful_bank_charge
+val_0823,"I need advice. Since marriage my in-laws harass me for dowry. two weeks ago they threw me out of the house for not bringing Rs 40,000. Can I take legal action?",1,VALID,dowry_harassment
+val_0824,"Good morning. Loan recovery agents came to my house in Bhopal last month, abused my parents and threatened to harm us. Is this a case?",1,VALID,criminal_intimidation
+val_0825,"Please help. My husband and in-laws in Indore keep demanding Rs 25,000 more as dowry and beat me when I refuse.",1,VALID,dowry_harassment
+val_0826,"I need advice. Since marriage my in-laws harass me for dowry. last Monday they threw me out of the house for not bringing Rs 40,000.",1,VALID,dowry_harassment
+val_0827,"I need advice. The gym in Delhi did not refund my fee after I stopped going, and the membership form I signed clearly said no refunds after 30 days of use. Should I go to court?",0,NOT_VALID,lawful_bank_charge
+val_0828,"Good morning. Someone called me on 3 March 2025 pretending to be from my bank and took my OTP. Rs 2,50,000 was debited from my account in Pune without my consent. What can I do?",1,VALID,upi_fraud
+val_0829,"Good morning. I feel that my colleague Karthik might cheat me someday in future, though he has done nothing yet. Should I go to court?",0,NOT_VALID,hypothetical
+val_0830,Please help. The coffee at a cafe in Patna was too sweet for my liking. They served exactly what I ordered. Should I go to court?,0,NOT_VALID,food_taste
+val_0831,"Sir, My husband and in-laws in Chennai keep demanding Rs 25,000 more as dowry and beat me when I refuse. What can I do?",1,VALID,dowry_harassment
+val_0832,"Please help. What if my landlord increases the rent next year? Nothing has happened yet, I am just worried. Is this a case?",0,NOT_VALID,hypothetical
+val_0833,"Hello, I got a fake KYC update link three days ago, entered my details and Rs 60,000 was transferred out of my account by unknown people in Bhopal. Should I go to court?",1,VALID,upi_fraud
+val_0834,"Sir, The gym in Nagpur did not refund my fee after I stopped going, and the membership form I signed clearly said no refunds after 30 days of use. Can I take legal action?",0,NOT_VALID,lawful_bank_charge
+val_0835,"Madam, Someone forged my signature to take a loan of Rs 12,500 in my name from a finance company in Bhopal. I want justice.",1,VALID,forgery
+val_0836,"Loan recovery agents came to my house in Patna on 22 June 2025, abused my parents and threatened to harm us. What can I do?",1,VALID,criminal_intimidation
+val_0837,"Please help. Loan recovery agents came to my house in Kolkata in December last year, abused my parents and threatened to harm us.",1,VALID,criminal_intimidation
+val_0838,"Sir, The coffee at a cafe in Ahmedabad was too sweet for my liking. They served exactly what I ordered. Can I take legal action?",0,NOT_VALID,food_taste
+val_0839,"Madam, Loan recovery agents came to my house in Bengaluru in January, abused my parents and threatened to harm us. Is there any remedy?",1,VALID,criminal_intimidation
+val_0840,"Madam, The gym in Hyderabad did not refund my fee after I stopped going, and the membership form I signed clearly said no refunds after 30 days of use. Can I take legal action?",0,NOT_VALID,lawful_bank_charge
+val_0841,"Please help. The gym in Jaipur did not refund my fee after I stopped going, and the membership form I signed clearly said no refunds after 30 days of use. What can I do?",0,NOT_VALID,lawful_bank_charge
+val_0842,"Hello, My friend Naveen forged my signature on property papers and sold my house in Bhopal without my knowledge.",1,VALID,forgery
+val_0843,I need advice. My bank deducted a Rs 50 SMS charge that is listed in the account terms I signed. I just do not like paying it. Is there any remedy?,0,NOT_VALID,lawful_bank_charge
+val_0844,"I got a fake KYC update link in December last year, entered my details and Rs 8,000 was transferred out of my account by unknown people in Bhopal. Should I go to court?",1,VALID,upi_fraud
+val_0845,"Hello, The gym in Chennai did not refund my fee after I stopped going, and the membership form I signed clearly said no refunds after 30 days of use. Can I take legal action?",0,NOT_VALID,lawful_bank_charge
+val_0846,"Please help. The gym in Visakhapatnam did not refund my fee after I stopped going, and the membership form I signed clearly said no refunds after 30 days of use. What can I do?",0,NOT_VALID,lawful_bank_charge
+val_0847,"Hello, My husband and in-laws in Mumbai keep demanding Rs 1,20,000 more as dowry and beat me when I refuse. Can I take legal action?",1,VALID,dowry_harassment
+val_0848,"Hello, I got a fake KYC update link last month, entered my details and Rs 60,000 was transferred out of my account by unknown people in Chennai. Should I go to court?",1,VALID,upi_fraud
+val_0849,"I need advice. My husband and in-laws in Lucknow keep demanding Rs 1,20,000 more as dowry and beat me when I refuse. What can I do?",1,VALID,dowry_harassment
+val_0850,"Hello, I got a fake KYC update link last Monday, entered my details and Rs 75,000 was transferred out of my account by unknown people in Nagpur.",1,VALID,upi_fraud
+val_0851,Good morning. A film star said in an interview that he prefers tea over coffee. I love coffee and feel offended. Please guide me.,0,NOT_VALID,celebrity_opinion
+val_0852,"Since marriage my in-laws harass me for dowry. in January they threw me out of the house for not bringing Rs 25,000. What can I do?",1,VALID,dowry_harassment
+val_0853,I need advice. My bank deducted a Rs 50 SMS charge that is listed in the account terms I signed. I just do not like paying it. Should I go to court?,0,NOT_VALID,lawful_bank_charge
+val_0854,"Sir, Since marriage my in-laws harass me for dowry. two weeks ago they threw me out of the house for not bringing Rs 5,000.",1,VALID,dowry_harassment
+val_0855,"Good morning. I ordered biryani at a restaurant in Ahmedabad on 14 August 2025. It was served as ordered and I paid, but it tasted bland to me. Can I take legal action?",0,NOT_VALID,food_taste
+val_0856,Please help. My bank deducted a Rs 50 SMS charge that is listed in the account terms I signed. I just do not like paying it. Can I take legal action?,0,NOT_VALID,lawful_bank_charge
+val_0857,"Good morning. A caller claiming to be a bank officer made me share an OTP in January and Rs 8,000 vanished from my savings account. I live in Bengaluru. Is this a case?",1,VALID,upi_fraud
+val_0858,"I need advice. A caller claiming to be a bank officer made me share an OTP two weeks ago and Rs 1,20,000 vanished from my savings account. I live in Ahmedabad. Can I take legal action?",1,VALID,upi_fraud
+val_0859,"Madam, The gym in Guntur did not refund my fee after I stopped going, and the membership form I signed clearly said no refunds after 30 days of use. Please guide me.",0,NOT_VALID,lawful_bank_charge
+val_0860,"Sir, Someone forged my signature to take a loan of Rs 12,500 in my name from a finance company in Chennai. Is this a case?",1,VALID,forgery
+val_0861,"Good morning. I ordered biryani at a restaurant in Guntur two weeks ago. It was served as ordered and I paid, but it tasted bland to me. What can I do?",0,NOT_VALID,food_taste
+val_0862,I need advice. A film star said in an interview that he prefers tea over coffee. I love coffee and feel offended. Is there any remedy?,0,NOT_VALID,celebrity_opinion
+val_0863,"Good morning. I ordered biryani at a restaurant in Vijayawada on 14 August 2025. It was served as ordered and I paid, but it tasted bland to me. Should I go to court?",0,NOT_VALID,food_taste
+val_0864,"Good morning. I ordered biryani at a restaurant in Patna two weeks ago. It was served as ordered and I paid, but it tasted bland to me. Please guide me.",0,NOT_VALID,food_taste
+val_0865,"I feel that my flatmate Farah might cheat me someday in future, though he has done nothing yet. What can I do?",0,NOT_VALID,hypothetical
+val_0866,"Madam, I got a fake KYC update link last Monday, entered my details and Rs 25,000 was transferred out of my account by unknown people in Jaipur. Please guide me.",1,VALID,upi_fraud
+val_0867,"Madam, The gym in Mumbai did not refund my fee after I stopped going, and the membership form I signed clearly said no refunds after 30 days of use. Please guide me.",0,NOT_VALID,lawful_bank_charge
+val_0868,"Sir, I feel that my flatmate Asha might cheat me someday in future, though he has done nothing yet. I want justice.",0,NOT_VALID,hypothetical
+val_0869,"I need advice. Loan recovery agents came to my house in Pune last Monday, abused my parents and threatened to harm us. Should I go to court?",1,VALID,criminal_intimidation
+val_0870,"I need advice. I feel that my friend Joseph might cheat me someday in future, though he has done nothing yet. Is there any remedy?",0,NOT_VALID,hypothetical
+val_0871,"I need advice. Loan recovery agents came to my house in Kochi on 3 March 2025, abused my parents and threatened to harm us. Can I take legal action?",1,VALID,criminal_intimidation
+val_0872,"Madam, Since marriage my in-laws harass me for dowry. last Monday they threw me out of the house for not bringing Rs 25,000. Please guide me.",1,VALID,dowry_harassment
+val_0873,"Sir, My friend Ramesh forged my signature on property papers and sold my house in Kochi without my knowledge. Is there any remedy?",1,VALID,forgery
+val_0874,"Good morning. My husband and in-laws in Mumbai keep demanding Rs 2,50,000 more as dowry and beat me when I refuse. Should I go to court?",1,VALID,dowry_harassment
+val_0875,"Sir, My bank deducted a Rs 50 SMS charge that is listed in the account terms I signed. I just do not like paying it. What can I do?",0,NOT_VALID,lawful_bank_charge
+val_0876,Good morning. My classmate Karthik threatened to kill me and my family on 9 September 2025 if I do not sell him my land in Delhi. Can I take legal action?,1,VALID,criminal_intimidation
+val_0877,"Hello, A famous singer did not reply to my fan letter. I want action against her. Please guide me.",0,NOT_VALID,celebrity_opinion
+val_0878,Please help. A film star said in an interview that he prefers tea over coffee. I love coffee and feel offended. What can I do?,0,NOT_VALID,celebrity_opinion
+val_0879,"Hello, My colleague Farah threatened to kill me and my family on 14 August 2025 if I do not sell him my land in Visakhapatnam. Should I go to court?",1,VALID,criminal_intimidation
+val_0880,"Hello, A caller claiming to be a bank officer made me share an OTP two weeks ago and Rs 5,000 vanished from my savings account. I live in Vijayawada.",1,VALID,upi_fraud
+val_0881,"Good morning. A caller claiming to be a bank officer made me share an OTP in December last year and Rs 25,000 vanished from my savings account. I live in Kolkata. Should I go to court?",1,VALID,upi_fraud
+val_0882,"I need advice. Loan recovery agents came to my house in Bhopal on 9 September 2025, abused my parents and threatened to harm us. Please guide me.",1,VALID,criminal_intimidation
+val_0883,I need advice. My brother-in-law Vikram forged my signature on property papers and sold my house in Kochi without my knowledge. I want justice.,1,VALID,forgery
+val_0884,"Hello, A famous singer did not reply to my fan letter. I want action against her. Can I take legal action?",0,NOT_VALID,celebrity_opinion
+val_0885,"Since marriage my in-laws harass me for dowry. on 9 September 2025 they threw me out of the house for not bringing Rs 3,00,000.",1,VALID,dowry_harassment
+val_0886,Please help. A famous singer did not reply to my fan letter. I want action against her. I want justice.,0,NOT_VALID,celebrity_opinion
+val_0887,"Hello, I ordered biryani at a restaurant in Jaipur in December last year. It was served as ordered and I paid, but it tasted bland to me. Please guide me.",0,NOT_VALID,food_taste
+val_0888,"Hello, A caller claiming to be a bank officer made me share an OTP last Monday and Rs 60,000 vanished from my savings account. I live in Bengaluru. I want justice.",1,VALID,upi_fraud
+val_0889,"Sir, A caller claiming to be a bank officer made me share an OTP on 22 June 2025 and Rs 1,20,000 vanished from my savings account. I live in Indore. Is there any remedy?",1,VALID,upi_fraud
+val_0890,"Hello, The coffee at a cafe in Hyderabad was too sweet for my liking. They served exactly what I ordered. Is there any remedy?",0,NOT_VALID,food_taste
+val_0891,"Madam, The coffee at a cafe in Kochi was too sweet for my liking. They served exactly what I ordered. Is this a case?",0,NOT_VALID,food_taste
+val_0892,"Hello, A film star said in an interview that he prefers tea over coffee. I love coffee and feel offended. Please guide me.",0,NOT_VALID,celebrity_opinion
+val_0893,"Madam, I ordered biryani at a restaurant in Jaipur three days ago. It was served as ordered and I paid, but it tasted bland to me. Is there any remedy?",0,NOT_VALID,food_taste
+val_0894,"Good morning. Someone forged my signature to take a loan of Rs 1,20,000 in my name from a finance company in Mumbai. Should I go to court?",1,VALID,forgery
+val_0895,"A caller claiming to be a bank officer made me share an OTP on 22 June 2025 and Rs 8,000 vanished from my savings account. I live in Mumbai.",1,VALID,upi_fraud
+val_0896,"What if my landlord increases the rent next year? Nothing has happened yet, I am just worried. Can I take legal action?",0,NOT_VALID,hypothetical
+val_0897,"Madam, Since marriage my in-laws harass me for dowry. on 14 August 2025 they threw me out of the house for not bringing Rs 40,000. What can I do?",1,VALID,dowry_harassment
+val_0898,"Madam, My bank deducted a Rs 50 SMS charge that is listed in the account terms I signed. I just do not like paying it. Can I take legal action?",0,NOT_VALID,lawful_bank_charge
+val_0899,"Please help. What if my landlord increases the rent next year? Nothing has happened yet, I am just worried. Should I go to court?",0,NOT_VALID,hypothetical
+val_0900,Please help. My bank deducted a Rs 50 SMS charge that is listed in the account terms I signed. I just do not like paying it.,0,NOT_VALID,lawful_bank_charge
+val_0901,Good morning. My cousin Rahul forged my signature on property papers and sold my house in Mumbai without my knowledge. Should I go to court?,1,VALID,forgery
+val_0902,"Madam, My brother-in-law Sunita threatened to kill me and my family on 22 June 2025 if I do not sell him my land in Delhi. Please guide me.",1,VALID,criminal_intimidation
+val_0903,"Someone forged my signature to take a loan of Rs 12,500 in my name from a finance company in Lucknow. I want justice.",1,VALID,forgery
+val_0904,"Since marriage my in-laws harass me for dowry. two weeks ago they threw me out of the house for not bringing Rs 2,50,000. Is there any remedy?",1,VALID,dowry_harassment
+val_0905,"Sir, A famous singer did not reply to my fan letter. I want action against her. What can I do?",0,NOT_VALID,celebrity_opinion
+val_0906,"I need advice. I got a fake KYC update link two weeks ago, entered my details and Rs 60,000 was transferred out of my account by unknown people in Patna. Is this a case?",1,VALID,upi_fraud
+val_0907,A film star said in an interview that he prefers tea over coffee. I love coffee and feel offended. Is this a case?,0,NOT_VALID,celebrity_opinion
+val_0908,"I need advice. I got a fake KYC update link on 14 August 2025, entered my details and Rs 3,00,000 was transferred out of my account by unknown people in Lucknow.",1,VALID,upi_fraud
+val_0909,Please help. My bank deducted a Rs 50 SMS charge that is listed in the account terms I signed. I just do not like paying it. Please guide me.,0,NOT_VALID,lawful_bank_charge
+val_0910,Good morning. A famous singer did not reply to my fan letter. I want action against her. I want justice.,0,NOT_VALID,celebrity_opinion
+val_0911,"Madam, The coffee at a cafe in Visakhapatnam was too sweet for my liking. They served exactly what I ordered. I want justice.",0,NOT_VALID,food_taste
+val_0912,"Sir, Loan recovery agents came to my house in Vijayawada on 22 June 2025, abused my parents and threatened to harm us. Can I take legal action?",1,VALID,criminal_intimidation
+val_0913,"I got a fake KYC update link on 9 September 2025, entered my details and Rs 5,000 was transferred out of my account by unknown people in Jaipur. What can I do?",1,VALID,upi_fraud
+val_0914,"Sir, The gym in Vijayawada did not refund my fee after I stopped going, and the membership form I signed clearly said no refunds after 30 days of use. Is this a case?",0,NOT_VALID,lawful_bank_charge
+val_0915,"Sir, My friend Karthik forged my signature on property papers and sold my house in Nagpur without my knowledge. I want justice.",1,VALID,forgery
+val_0916,"A caller claiming to be a bank officer made me share an OTP two weeks ago and Rs 12,500 vanished from my savings account. I live in Kolkata. Can I take legal action?",1,VALID,upi_fraud
+val_0917,"Sir, My husband and in-laws in Chennai keep demanding Rs 2,50,000 more as dowry and beat me when I refuse. Can I take legal action?",1,VALID,dowry_harassment
+val_0918,Please help. A film star said in an interview that he prefers tea over coffee. I love coffee and feel offended.,0,NOT_VALID,celebrity_opinion
+val_0919,"Good morning. What if my landlord increases the rent next year? Nothing has happened yet, I am just worried. I want justice.",0,NOT_VALID,hypothetical
+val_0920,I need advice. A film star said in an interview that he prefers tea over coffee. I love coffee and feel offended. Can I take legal action?,0,NOT_VALID,celebrity_opinion
+val_0921,Please help. A film star said in an interview that he prefers tea over coffee. I love coffee and feel offended. Please guide me.,0,NOT_VALID,celebrity_opinion
+val_0922,Good morning. A film star said in an interview that he prefers tea over coffee. I love coffee and feel offended. Should I go to court?,0,NOT_VALID,celebrity_opinion
+val_0923,"Hello, My bank deducted a Rs 50 SMS charge that is listed in the account terms I signed. I just do not like paying it. Should I go to court?",0,NOT_VALID,lawful_bank_charge
+val_0924,"Hello, Since marriage my in-laws harass me for dowry. last month they threw me out of the house for not bringing Rs 12,500. Is there any remedy?",1,VALID,dowry_harassment
+val_0925,"Sir, Someone called me two weeks ago pretending to be from my bank and took my OTP. Rs 25,000 was debited from my account in Kolkata without my consent. Is this a case?",1,VALID,upi_fraud
+val_0926,"Madam, What if my landlord increases the rent next year? Nothing has happened yet, I am just worried. Can I take legal action?",0,NOT_VALID,hypothetical
+val_0927,"Hello, Someone forged my signature to take a loan of Rs 60,000 in my name from a finance company in Kolkata.",1,VALID,forgery
+val_0928,Good morning. My neighbour Deepa threatened to kill me and my family in January if I do not sell him my land in Kolkata. Please guide me.,1,VALID,criminal_intimidation
+val_0929,"I need advice. The gym in Mumbai did not refund my fee after I stopped going, and the membership form I signed clearly said no refunds after 30 days of use. What can I do?",0,NOT_VALID,lawful_bank_charge
+val_0930,"I ordered biryani at a restaurant in Kochi in January. It was served as ordered and I paid, but it tasted bland to me. I want justice.",0,NOT_VALID,food_taste
+val_0931,"Hello, A famous singer did not reply to my fan letter. I want action against her.",0,NOT_VALID,celebrity_opinion
+val_0932,A famous singer did not reply to my fan letter. I want action against her.,0,NOT_VALID,celebrity_opinion
+val_0933,A famous singer did not reply to my fan letter. I want action against her. Can I take legal action?,0,NOT_VALID,celebrity_opinion
+val_0934,"Sir, I feel that my flatmate Fatima might cheat me someday in future, though he has done nothing yet. Is there any remedy?",0,NOT_VALID,hypothetical
+val_0935,"Good morning. I got a fake KYC update link in December last year, entered my details and Rs 3,00,000 was transferred out of my account by unknown people in Nagpur. Is this a case?",1,VALID,upi_fraud
+val_0936,"Madam, I feel that my colleague Joseph might cheat me someday in future, though he has done nothing yet. Can I take legal action?",0,NOT_VALID,hypothetical
+val_0937,The coffee at a cafe in Bhopal was too sweet for my liking. They served exactly what I ordered. Can I take legal action?,0,NOT_VALID,food_taste
+val_0938,"Hello, Loan recovery agents came to my house in Lucknow on 9 September 2025, abused my parents and threatened to harm us. Should I go to court?",1,VALID,criminal_intimidation
+val_0939,"Sir, My colleague Sanjay threatened to kill me and my family two weeks ago if I do not sell him my land in Guntur.",1,VALID,criminal_intimidation
+val_0940,"Please help. My husband and in-laws in Ahmedabad keep demanding Rs 8,000 more as dowry and beat me when I refuse. Please guide me.",1,VALID,dowry_harassment
+val_0941,"Please help. I got a fake KYC update link on 9 September 2025, entered my details and Rs 2,50,000 was transferred out of my account by unknown people in Vijayawada. Please guide me.",1,VALID,upi_fraud
+val_0942,I need advice. My classmate Sanjay threatened to kill me and my family two weeks ago if I do not sell him my land in Pune. Should I go to court?,1,VALID,criminal_intimidation
+val_0943,"Please help. Since marriage my in-laws harass me for dowry. in December last year they threw me out of the house for not bringing Rs 5,000.",1,VALID,dowry_harassment
+val_0944,"Madam, My bank deducted a Rs 50 SMS charge that is listed in the account terms I signed. I just do not like paying it. Is there any remedy?",0,NOT_VALID,lawful_bank_charge
+val_0945,"Madam, The gym in Lucknow did not refund my fee after I stopped going, and the membership form I signed clearly said no refunds after 30 days of use. What can I do?",0,NOT_VALID,lawful_bank_charge
+val_0946,"Sir, Someone forged my signature to take a loan of Rs 25,000 in my name from a finance company in Lucknow.",1,VALID,forgery
+val_0947,"The gym in Vijayawada did not refund my fee after I stopped going, and the membership form I signed clearly said no refunds after 30 days of use.",0,NOT_VALID,lawful_bank_charge
+val_0948,"I need advice. I feel that my friend Deepa might cheat me someday in future, though he has done nothing yet. Please guide me.",0,NOT_VALID,hypothetical
+val_0949,"Please help. My husband and in-laws in Vijayawada keep demanding Rs 2,50,000 more as dowry and beat me when I refuse. Can I take legal action?",1,VALID,dowry_harassment
+val_0950,"Please help. Someone forged my signature to take a loan of Rs 25,000 in my name from a finance company in Jaipur. Is there any remedy?",1,VALID,forgery
+val_0951,"Hello, Someone forged my signature to take a loan of Rs 25,000 in my name from a finance company in Patna. What can I do?",1,VALID,forgery
+val_0952,"Madam, I feel that my brother-in-law Sneha might cheat me someday in future, though he has done nothing yet. Can I take legal action?",0,NOT_VALID,hypothetical
+val_0953,"Hello, Someone called me on 14 August 2025 pretending to be from my bank and took my OTP. Rs 12,500 was debited from my account in Visakhapatnam without my consent. Please guide me.",1,VALID,upi_fraud
+val_0954,Good morning. My cousin Imran threatened to kill me and my family in January if I do not sell him my land in Pune. Can I take legal action?,1,VALID,criminal_intimidation
+val_0955,"Sir, My flatmate Deepa threatened to kill me and my family on 14 August 2025 if I do not sell him my land in Kolkata. What can I do?",1,VALID,criminal_intimidation
+val_0956,My bank deducted a Rs 50 SMS charge that is listed in the account terms I signed. I just do not like paying it. Should I go to court?,0,NOT_VALID,lawful_bank_charge
+val_0957,My brother-in-law Anjali threatened to kill me and my family on 9 September 2025 if I do not sell him my land in Lucknow. Can I take legal action?,1,VALID,criminal_intimidation
+val_0958,"Sir, My bank deducted a Rs 50 SMS charge that is listed in the account terms I signed. I just do not like paying it. Is there any remedy?",0,NOT_VALID,lawful_bank_charge
+val_0959,"Hello, My husband and in-laws in Indore keep demanding Rs 40,000 more as dowry and beat me when I refuse. Should I go to court?",1,VALID,dowry_harassment
+val_0960,"Sir, My husband and in-laws in Visakhapatnam keep demanding Rs 8,000 more as dowry and beat me when I refuse. Can I take legal action?",1,VALID,dowry_harassment
+val_0961,"Sir, I got a fake KYC update link on 14 August 2025, entered my details and Rs 8,000 was transferred out of my account by unknown people in Bhopal. Can I take legal action?",1,VALID,upi_fraud
+val_0962,"Sir, A famous singer did not reply to my fan letter. I want action against her.",0,NOT_VALID,celebrity_opinion
+val_0963,"Please help. I feel that my cousin Ramesh might cheat me someday in future, though he has done nothing yet. I want justice.",0,NOT_VALID,hypothetical
+val_0964,"Madam, I ordered biryani at a restaurant in Bengaluru in December last year. It was served as ordered and I paid, but it tasted bland to me.",0,NOT_VALID,food_taste
+val_0965,"I need advice. I feel that my colleague Harish might cheat me someday in future, though he has done nothing yet. Please guide me.",0,NOT_VALID,hypothetical
+val_0966,"Sir, My bank deducted a Rs 50 SMS charge that is listed in the account terms I signed. I just do not like paying it. Please guide me.",0,NOT_VALID,lawful_bank_charge
+val_0967,"Hello, Since marriage my in-laws harass me for dowry. last Monday they threw me out of the house for not bringing Rs 75,000.",1,VALID,dowry_harassment
+val_0968,"Sir, A film star said in an interview that he prefers tea over coffee. I love coffee and feel offended. Should I go to court?",0,NOT_VALID,celebrity_opinion
+val_0969,"Please help. The gym in Chennai did not refund my fee after I stopped going, and the membership form I signed clearly said no refunds after 30 days of use. Should I go to court?",0,NOT_VALID,lawful_bank_charge
+val_0970,"Good morning. Since marriage my in-laws harass me for dowry. on 3 March 2025 they threw me out of the house for not bringing Rs 2,50,000.",1,VALID,dowry_harassment
+val_0971,I need advice. My cousin Imran threatened to kill me and my family three days ago if I do not sell him my land in Pune. I want justice.,1,VALID,criminal_intimidation
+val_0972,"Madam, Someone forged my signature to take a loan of Rs 75,000 in my name from a finance company in Nagpur. I want justice.",1,VALID,forgery
+val_0973,"Good morning. The gym in Lucknow did not refund my fee after I stopped going, and the membership form I signed clearly said no refunds after 30 days of use. Is there any remedy?",0,NOT_VALID,lawful_bank_charge
+val_0974,"Good morning. The gym in Delhi did not refund my fee after I stopped going, and the membership form I signed clearly said no refunds after 30 days of use. Can I take legal action?",0,NOT_VALID,lawful_bank_charge
+val_0975,I need advice. A film star said in an interview that he prefers tea over coffee. I love coffee and feel offended. Please guide me.,0,NOT_VALID,celebrity_opinion
+val_0976,"I feel that my neighbour Neha might cheat me someday in future, though he has done nothing yet. I want justice.",0,NOT_VALID,hypothetical
+val_0977,"Madam, Loan recovery agents came to my house in Lucknow on 9 September 2025, abused my parents and threatened to harm us. Please guide me.",1,VALID,criminal_intimidation
+val_0978,"Hello, Since marriage my in-laws harass me for dowry. last month they threw me out of the house for not bringing Rs 5,000. Is this a case?",1,VALID,dowry_harassment
+val_0979,"Good morning. The gym in Patna did not refund my fee after I stopped going, and the membership form I signed clearly said no refunds after 30 days of use. Is this a case?",0,NOT_VALID,lawful_bank_charge
+val_0980,"What if my landlord increases the rent next year? Nothing has happened yet, I am just worried. Is there any remedy?",0,NOT_VALID,hypothetical
+val_0981,I need advice. My bank deducted a Rs 50 SMS charge that is listed in the account terms I signed. I just do not like paying it. Can I take legal action?,0,NOT_VALID,lawful_bank_charge
+val_0982,"Hello, My neighbour Arjun forged my signature on property papers and sold my house in Ahmedabad without my knowledge. Is there any remedy?",1,VALID,forgery
+val_0983,"Good morning. The gym in Mumbai did not refund my fee after I stopped going, and the membership form I signed clearly said no refunds after 30 days of use. Is this a case?",0,NOT_VALID,lawful_bank_charge
+val_0984,"Hello, The gym in Nagpur did not refund my fee after I stopped going, and the membership form I signed clearly said no refunds after 30 days of use. Can I take legal action?",0,NOT_VALID,lawful_bank_charge
+val_0985,Good morning. My flatmate Sanjay threatened to kill me and my family three days ago if I do not sell him my land in Chennai. Is there any remedy?,1,VALID,criminal_intimidation
+val_0986,"Hello, I got a fake KYC update link on 9 September 2025, entered my details and Rs 25,000 was transferred out of my account by unknown people in Bhopal. Please guide me.",1,VALID,upi_fraud
+val_0987,"Hello, A caller claiming to be a bank officer made me share an OTP on 3 March 2025 and Rs 5,000 vanished from my savings account. I live in Kochi. Is this a case?",1,VALID,upi_fraud
+val_0988,"Sir, My brother-in-law Sunita forged my signature on property papers and sold my house in Chennai without my knowledge. Can I take legal action?",1,VALID,forgery
+val_0989,"Please help. The gym in Bengaluru did not refund my fee after I stopped going, and the membership form I signed clearly said no refunds after 30 days of use. Is this a case?",0,NOT_VALID,lawful_bank_charge
+val_0990,The coffee at a cafe in Visakhapatnam was too sweet for my liking. They served exactly what I ordered. Can I take legal action?,0,NOT_VALID,food_taste
+val_0991,"Sir, Since marriage my in-laws harass me for dowry. on 14 August 2025 they threw me out of the house for not bringing Rs 3,00,000. Is this a case?",1,VALID,dowry_harassment
+val_0992,"Please help. I feel that my colleague Anjali might cheat me someday in future, though he has done nothing yet. Can I take legal action?",0,NOT_VALID,hypothetical
+val_0993,I need advice. The coffee at a cafe in Bhopal was too sweet for my liking. They served exactly what I ordered.,0,NOT_VALID,food_taste
