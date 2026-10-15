@@ -88,6 +88,8 @@ PAGE_CSS = """
 [data-testid="stSidebar"]{background:#2b1d1a}
 [data-testid="stSidebar"] *{color:#f3e9e3!important}
 [data-testid="stSidebar"] a{color:#f0a48f!important}
+[data-testid="stSidebar"] code{background:transparent!important;color:#f0a48f!important;padding:0!important;
+                              font-size:13.5px;border:none!important}   /* model names: no white box on dark sidebar */
 [data-testid="stMainBlockContainer"]{max-width:1180px;padding-top:2.0rem}
 h1,h2,h3,h4{font-family:'Poppins',sans-serif;letter-spacing:-.01em;color:var(--ink)}
 .brand{display:flex;align-items:center;gap:16px;padding:22px 26px;margin-bottom:18px;border-radius:18px;
