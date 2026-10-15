@@ -41,6 +41,7 @@ import time
 from datetime import date
 
 import streamlit as st
+import streamlit.components.v1 as components  # tiny HTML/JS snippet used only for smooth auto-scroll
 import torch
 from docx import Document
 from docx.shared import Pt
@@ -78,32 +79,44 @@ EXAMPLE_NARRATIVES = {
 
 PAGE_CSS = """
 <style>
-:root{--ink:#14263b;--muted:#5d6b7c;--line:#e3e7ec;--accent:#1f5f8b;--deep:#163f5e;--gold:#b98a2f;
-      --ok:#1d7a4f;--okbg:#eef8f2;--warn:#9a5b00;--warnbg:#fff6e8;--paper:#ffffff;--canvas:#f6f7f9}
-.stApp{background:var(--canvas);color:var(--ink)}
+/* ---- Karavadi & Associates inspired theme: deep walnut, terracotta red, warm ivory ---- */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;600;700&family=Source+Sans+3:wght@400;600&display=swap');
+:root{--ink:#2b1d1a;--muted:#6d5d57;--line:#e8ddd6;--accent:#b5452f;--deep:#2b1d1a;--gold:#c0503a;
+      --ok:#2f6b4f;--okbg:#f1f7f2;--warn:#a5462f;--warnbg:#fbf1ec;--paper:#ffffff;--canvas:#faf7f4}
+.stApp{background:var(--canvas);color:var(--ink);font-family:'Source Sans 3',sans-serif}
 [data-testid="stHeader"]{background:transparent}
-[data-testid="stMainBlockContainer"]{max-width:1180px;padding-top:2.2rem}
-h1,h2,h3{letter-spacing:-.02em;color:var(--ink)}
-.brand{display:flex;align-items:center;gap:14px;padding-bottom:10px;border-bottom:1px solid var(--line);margin-bottom:18px}
-.brand-mark{width:46px;height:46px;border-radius:12px;background:var(--deep);color:#fff;display:flex;
-            align-items:center;justify-content:center;font-size:24px}
-.brand-name{font-size:30px;font-weight:760;color:var(--ink);line-height:1.05}
-.brand-name span{color:var(--gold)}
-.brand-sub{font-size:14px;color:var(--muted);margin-top:4px}
-.steps{display:flex;gap:10px;margin:4px 0 16px 0;flex-wrap:wrap}
-.step{padding:6px 12px;border-radius:999px;border:1px solid var(--line);background:#fff;font-size:13px;color:var(--muted)}
-.step.on{background:var(--deep);border-color:var(--deep);color:#fff}
+[data-testid="stSidebar"]{background:#2b1d1a}
+[data-testid="stSidebar"] *{color:#f3e9e3!important}
+[data-testid="stSidebar"] a{color:#f0a48f!important}
+[data-testid="stMainBlockContainer"]{max-width:1180px;padding-top:2.0rem}
+h1,h2,h3,h4{font-family:'Poppins',sans-serif;letter-spacing:-.01em;color:var(--ink)}
+.brand{display:flex;align-items:center;gap:16px;padding:22px 26px;margin-bottom:18px;border-radius:18px;
+       background:linear-gradient(120deg,#2b1d1a 0%,#4a2a22 60%,#7a3424 100%);box-shadow:0 10px 30px #2b1d1a33}
+.brand-mark{width:54px;height:54px;border-radius:14px;background:#c0503a;color:#fff;display:flex;
+            align-items:center;justify-content:center;font-size:28px;box-shadow:0 4px 14px #0004}
+.brand-name{font-family:'Poppins',sans-serif;font-size:32px;font-weight:700;color:#fff;line-height:1.05}
+.brand-name span{color:#f0a48f}
+.brand-sub{font-size:14.5px;color:#eadbd3;margin-top:6px}
+.steps{display:flex;gap:10px;margin:4px 0 18px 0;flex-wrap:wrap}
+.step{padding:7px 14px;border-radius:999px;border:1px solid var(--line);background:#fff;font-size:13.5px;color:var(--muted)}
+.step.on{background:var(--accent);border-color:var(--accent);color:#fff;box-shadow:0 3px 10px #b5452f40}
 .card{background:var(--paper);border:1px solid var(--line);border-radius:16px;padding:18px 20px;margin:8px 0 14px 0}
-.verdict-ok{background:var(--okbg);border:1px solid #bfe3cf;border-left:6px solid var(--ok);border-radius:14px;padding:16px 18px}
-.verdict-no{background:var(--warnbg);border:1px solid #f1d7ad;border-left:6px solid var(--warn);border-radius:14px;padding:16px 18px}
-.verdict-title{font-size:20px;font-weight:720;margin-bottom:4px}
-.meter{height:8px;background:#e8ecf1;border-radius:6px;overflow:hidden;margin-top:10px}
-.meter>div{height:8px;border-radius:6px}
-.small{font-size:13px;color:var(--muted)}
-.chip{display:inline-block;padding:3px 10px;margin:3px 4px 3px 0;border-radius:999px;background:#eef3f8;
-      border:1px solid #d6e2ee;font-size:13px;color:var(--deep)}
-button[kind="primary"]{background:var(--deep)!important;border-color:var(--deep)!important}
-button[kind="primary"]:hover{background:var(--accent)!important;border-color:var(--accent)!important}
+.verdict-ok{background:var(--okbg);border:1px solid #cfe3d6;border-left:7px solid var(--ok);border-radius:16px;
+            padding:18px 20px;box-shadow:0 6px 18px #2f6b4f1a}
+.verdict-no{background:var(--warnbg);border:1px solid #f0d3c7;border-left:7px solid var(--warn);border-radius:16px;
+            padding:18px 20px;box-shadow:0 6px 18px #a5462f1a}
+.verdict-title{font-family:'Poppins',sans-serif;font-size:21px;font-weight:700;margin-bottom:6px}
+.meter{height:9px;background:#efe6e0;border-radius:6px;overflow:hidden;margin-top:12px}
+.meter>div{height:9px;border-radius:6px}
+.small{font-size:13px;color:var(--muted);margin-top:6px}
+.chip{display:inline-block;padding:4px 11px;margin:3px 5px 3px 0;border-radius:999px;background:#fbefe9;
+      border:1px solid #efcfc2;font-size:13px;color:#7a3424}
+textarea{border-radius:12px!important;border-color:var(--line)!important;font-size:16px!important}
+button[kind="primary"]{background:var(--accent)!important;border-color:var(--accent)!important;border-radius:10px!important;
+                       font-weight:600!important}
+button[kind="primary"]:hover{background:#2b1d1a!important;border-color:#2b1d1a!important}
+button[kind="secondary"]{border-radius:10px!important;border-color:#d9c6bc!important}
+[data-testid="stDownloadButton"] button{border-radius:10px!important}
 </style>
 """
 
@@ -135,6 +148,18 @@ def show_steps(active_step):
     chips = "".join(f'<span class="step{" on" if index + 1 <= active_step else ""}">{label}</span>'
                     for index, label in enumerate(labels))
     st.markdown(f'<div class="steps">{chips}</div>', unsafe_allow_html=True)
+
+
+def auto_scroll(anchor_id):
+    """Smoothly scroll the page to an HTML anchor so the newest result is on screen without manual scrolling."""
+    LOGGER.info(f"UI auto-scroll to #{anchor_id}")
+    components.html(
+        f"""<script>
+        const target = window.parent.document.getElementById("{anchor_id}");
+        if (target) {{ setTimeout(() => target.scrollIntoView({{behavior: "smooth", block: "start"}}), 250); }}
+        </script>""",
+        height=0,
+    )
 
 
 # ---- 2 Models ----
@@ -182,6 +207,7 @@ def run_validity_check(narrative):
     st.session_state.update(decision=decision, valid_score=valid_score, classify_seconds=seconds,
                             checked_text=narrative)
     st.session_state.pop("draft_text", None)
+    st.session_state["scroll_to"] = "verdict-anchor"         # show the verdict without manual scrolling
     LOGGER.info(f"TIMING classify={seconds:.2f}s decision={decision} score={valid_score:.3f}")
 
 
@@ -225,6 +251,7 @@ def stream_draft(narrative):
 # ---- 4 Word export ----
 def build_docx_bytes(draft_text):
     """Create an editable Word document from the CURRENT (possibly edited) draft text."""
+    LOGGER.info(f"Building Word export ({core.count_words(text=draft_text)} words)")
     document = Document()
     style = document.styles["Normal"]
     style.font.name = "Times New Roman"
@@ -280,6 +307,7 @@ def get_narrative_input():
 
 def start_new_query():
     """Clear the narrative and every result so the user can start again."""
+    LOGGER.info("New query: clearing narrative, verdict and draft")
     reset_results()
     st.session_state["narrative"] = ""
     st.session_state["example_name"] = "Choose an example..."
@@ -292,14 +320,15 @@ def show_verdict():
     valid_score = st.session_state["valid_score"]
     seconds = st.session_state["classify_seconds"]
     if decision == core.VALID_LABEL:
-        css_class, title, colour = "verdict-ok", "✅ Legally valid dispute / issue in India", "#1d7a4f"
+        css_class, title, colour = "verdict-ok", "✅ Legally valid dispute / issue in India", "#2f6b4f"
         text = "The fine-tuned model recognises an actionable legal grievance. A preliminary complaint can be drafted."
     else:
-        css_class, title, colour = "verdict-no", "⚠️ Not a legally valid dispute / issue in India", "#9a5b00"
+        css_class, title, colour = "verdict-no", "⚠️ Not a legally valid dispute / issue in India", "#a5462f"
         text = ("The model did not recognise a legal wrong that Indian law would act on (for example a personal, "
                 "social or matter-of-taste grievance, a lawful act, an unenforceable claim such as a bet, or an "
                 "event with no Indian connection). No complaint is drafted. You may rephrase with more facts or "
                 "start a new query.")
+    st.markdown('<div id="verdict-anchor"></div>', unsafe_allow_html=True)   # target for auto-scroll
     st.markdown(
         f"""<div class="{css_class}"><div class="verdict-title">{title}</div><div>{text}</div>
         <div class="meter"><div style="width:{valid_score * 100:.0f}%;background:{colour}"></div></div>
@@ -311,13 +340,15 @@ def show_verdict():
 
 def show_draft_section(narrative):
     """OUTPUT 2 (VALID only): generate, edit, check missing fields and download the complaint."""
+    st.markdown('<div id="draft-anchor"></div>', unsafe_allow_html=True)     # target for auto-scroll
     st.markdown("#### Preliminary complaint draft")
     if "draft_text" not in st.session_state:
         if st.button("Generate complaint draft", type="primary"):
             complaint_text, seconds = stream_draft(narrative=narrative)
             if complaint_text:
                 st.session_state.update(draft_text=complaint_text, draft_seconds=seconds,
-                                        draft_editor=complaint_text)
+                                        draft_editor=complaint_text, scroll_to="draft-anchor")
+                LOGGER.info(f"Draft stored in session ({core.count_words(text=complaint_text)} words)")
                 st.rerun()
         st.caption("Drafting runs on a CPU and usually takes 30-90 seconds.")
         return
@@ -341,23 +372,35 @@ def show_draft_section(narrative):
 # MAIN PART
 # ==============================
 def main():
-    """INPUT -> PROCESS -> OUTPUT."""
+    """INPUT -> PROCESS -> OUTPUT (course structure). Streamlit re-runs this function after every user action."""
+    # ---- Step 1: page set-up (theme, header, sidebar, progress chips) ----
     apply_page_style()
     show_header()
     show_sidebar()
     active_step = 3 if st.session_state.get("draft_text") else 2 if st.session_state.get("decision") else 1
     show_steps(active_step=active_step)
+    LOGGER.info(f"Page render | step={active_step} | decision={st.session_state.get('decision')}")
 
-    narrative, check_clicked = get_narrative_input()          # INPUT
+    # ---- Step 2: INPUT - narrative text box, example picker and buttons ----
+    narrative, check_clicked = get_narrative_input()
+
+    # ---- Step 3: PROCESS - Pipeline 1 (fine-tuned validity classifier) when the user presses Check validity ----
     if check_clicked:
-        run_validity_check(narrative=narrative)               # PROCESS (Pipeline 1)
+        LOGGER.info(f"Check validity pressed ({core.count_words(text=narrative)} words)")
+        run_validity_check(narrative=narrative)
 
-    if st.session_state.get("decision"):                      # OUTPUT
+    # ---- Step 4: OUTPUT - verdict card; VALID -> Pipeline 2 drafting section, NOT_VALID -> new-query option ----
+    if st.session_state.get("decision"):
         show_verdict()
         if st.session_state["decision"] == core.VALID_LABEL:
-            show_draft_section(narrative=st.session_state["checked_text"])   # PROCESS + OUTPUT (Pipeline 2)
+            show_draft_section(narrative=st.session_state["checked_text"])
         else:
             st.button("Start a new query", on_click=start_new_query, type="primary", key="new_query_invalid")
+
+    # ---- Step 5: one-time smooth auto-scroll to the newest output (verdict or finished draft) ----
+    scroll_target = st.session_state.pop("scroll_to", None)
+    if scroll_target:
+        auto_scroll(anchor_id=scroll_target)
 
 
 if __name__ == "__main__":

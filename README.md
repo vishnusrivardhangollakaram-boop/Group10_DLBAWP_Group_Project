@@ -13,7 +13,7 @@ The user describes a problem in plain English. The app then:
 | Pipeline | Model | Candidates compared |
 |---|---|---|
 | 1 · validity (fine-tuned) | [`VishnuGollakaram/legalcheck-india-validity`](https://huggingface.co/VishnuGollakaram/legalcheck-india-validity) | distilbert-base-uncased, bert-base-uncased, law-ai/InLegalBERT |
-| 2 · drafting (pre-trained) | `Qwen/Qwen2.5-0.5B-Instruct` | Qwen2.5-0.5B-Instruct, Qwen3-0.6B, SmolLM2-360M-Instruct |
+| 2 · drafting (pre-trained) | `Qwen/Qwen3-0.6B` (thinking disabled) | Qwen2.5-0.5B-Instruct, Qwen3-0.6B, SmolLM2-360M-Instruct |
 
 ## Files
 

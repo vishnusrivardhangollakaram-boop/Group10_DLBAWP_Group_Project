@@ -1,9 +1,10 @@
+# Streamlit theme matched to the Karavadi & Associates palette (walnut, terracotta, ivory)
 [theme]
 base = "light"
-primaryColor = "#163f5e"
-backgroundColor = "#f6f7f9"
+primaryColor = "#b5452f"
+backgroundColor = "#faf7f4"
 secondaryBackgroundColor = "#ffffff"
-textColor = "#14263b"
+textColor = "#2b1d1a"
 
 [server]
 maxUploadSize = 5
